@@ -2,7 +2,7 @@
   "name": "justd20",
   "title": "Just D20",
   "description": "The Just D20 system for FoundryVTT!",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "9",
   "author": "RWK",
@@ -21,8 +21,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
-  "url": "https://github.com/QuantumBob/JustD20/tree/master/just-d20",
-  "manifest": "",
-  "download": "https://github.com/QuantumBob/JustD20/archive/refs/tags/v0.0.2.zip",
+  "url": "https://github.com/QuantumBob/JustD20",
+  "manifest": "https://github.com/QuantumBob/JustD20/releases/download/v0.0.3/system.json",
+  "download": "https://github.com/QuantumBob/JustD20/releases/download/v0.0.3/JustD20.zip",
   "license": "LICENSE.txt"
 }
