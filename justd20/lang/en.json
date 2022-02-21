@@ -1,22 +1,22 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "JUSTD20.AbilityStr": "Strength",
+  "JUSTD20.AbilityCon": "Constitution",
+  "JUSTD20.AbilityDex": "Dexterity",
+  "JUSTD20.AbilityInt": "Intelligence",
+  "JUSTD20.AbilityWis": "Wisdom",
+  "JUSTD20.AbilityCha": "Charisma",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "JUSTD20.AbilityStrAbbr": "str",
+  "JUSTD20.AbilityConAbbr": "con",
+  "JUSTD20.AbilityDexAbbr": "dex",
+  "JUSTD20.AbilityIntAbbr": "int",
+  "JUSTD20.AbilityWisAbbr": "wis",
+  "JUSTD20.AbilityChaAbbr": "cha",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
+  "JUSTD20.EffectCreate": "Create Effect",
+  "JUSTD20.EffectToggle": "Toggle Effect",
+  "JUSTD20.EffectEdit": "Edit Effect",
+  "JUSTD20.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.Add": "Add"
+  "JUSTD20.Add": "Add"
 }

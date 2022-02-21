@@ -33,6 +33,7 @@
             "value": "",
             "public": ""
           }
+        }
         },
         "traits": {
           "size": "med",
@@ -59,33 +60,60 @@
           "ep": 0,
           "sp": 0,
           "cp": 0
-        }
-      },
-      "major":{
-        "stats": {
-          "strength": {
-            "value": 0
+        },
+        "abilities": {
+          "str": {
+            "value": 0,
+            "proficient": 0,
+            "bonuses": {
+              "check": "",
+              "save": ""
+            }
           },
-          "dexterity": {
-            "value": 0
+          "dex": {
+            "value": 0,
+            "proficient": 0,
+            "bonuses": {
+              "check": "",
+              "save": ""
+            }
           },
-          "constitution": {
-            "value": 0
+          "con": {
+            "value": 0,
+            "proficient": 0,
+            "bonuses": {
+              "check": "",
+              "save": ""
+            }
           },
-          "intelligence": {
-            "value": 0
+          "int": {
+            "value": 0,
+            "proficient": 0,
+            "bonuses": {
+              "check": "",
+              "save": ""
+            }
           },
-          "wisdom": {
-            "value": 0
+          "wis": {
+            "value": 0,
+            "proficient": 0,
+            "bonuses": {
+              "check": "",
+              "save": ""
+            }
           },
-          "charisma": {
-            "value": 0
+          "cha": {
+            "value": 0,
+            "proficient": 0,
+            "bonuses": {
+              "check": "",
+              "save": ""
+            }
           }
-        }
-      },
-      "minor":{
+        },
+        "minor":{
 
-      }
+        }
     },
     "character": {
       "templates": ["base", "major"],

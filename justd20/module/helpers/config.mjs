@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const JUSTD20 = {};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+JUSTD20.abilities = {
+  "str": "JUSTD20.AbilityStr",
+  "dex": "JUSTD20.AbilityDex",
+  "con": "JUSTD20.AbilityCon",
+  "int": "JUSTD20.AbilityInt",
+  "wis": "JUSTD20.AbilityWis",
+  "cha": "JUSTD20.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+JUSTD20.abilityAbbreviations = {
+  "str": "JUSTD20.AbilityStrAbbr",
+  "dex": "JUSTD20.AbilityDexAbbr",
+  "con": "JUSTD20.AbilityConAbbr",
+  "int": "JUSTD20.AbilityIntAbbr",
+  "wis": "JUSTD20.AbilityWisAbbr",
+  "cha": "JUSTD20.AbilityChaAbbr"
 };
