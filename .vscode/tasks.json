@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "start_foundry",
-            "command": "F:\\RPG\\Foundry\\Foundry Virtual Tabletop\\Foundry Dev From VSC.bat",
+            "command": "C:\\Foundry Virtual Tabletop\\Foundry Dev From VSC.bat",
             "type": "process",
             "isBackground": true,
 
