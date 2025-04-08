@@ -1,0 +1,67 @@
+{
+  "id": "boilerplatesimpled20",
+  "title": "Boilerplate Simple D20",
+  "description": "The Simple D20 system for FoundryVTT generated with the Boilerplate package",
+  "authors": [
+    {
+      "name": "rwk"
+    }
+  ],
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/boilerplatesimpled20/assets/anvil-impact.png",
+      "thumbnail": "systems/boilerplatesimpled20/assets/anvil-impact.png"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "11.315"
+  },
+  "esmodules": ["module/boilerplatesimpled20.mjs"],
+  "styles": ["css/boilerplatesimpled20.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+        "Actor": {
+            "character": {
+                "htmlFields": [
+                  "biography.history",
+                  "biography.married",
+                  "description.looks"
+              ]
+            },
+            "npc": { 
+              "htmlFields": [
+                "biography.history",
+                "biography.married",
+                "description.looks"
+              ]
+            },
+            "minor_npc": {}
+        },
+        "Item": {
+            "weapon": {},
+            "spell": {}
+        }
+  },
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "background": "systems/boilerplatesimpled20/assets/Medieval-house-North-Cray-small.jpg",
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "hitpoints",
+  "secondaryTokenAttribute": "armorclass"
+}

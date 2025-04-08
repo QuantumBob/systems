@@ -1,0 +1,8 @@
+{
+  "Actor": {
+    "types": ["Player Character", "NonPlayer Character"]
+  },
+  "Item": {
+    "types": ["item", "feature", "spell"]
+  }
+}

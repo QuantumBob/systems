@@ -1,0 +1,30 @@
+{
+    "id": "simpled20",
+    "title": "Simple D20",
+    "description": "A simple rule system that allows you to play a d20 style rpg without having to be burndened with a specific brand.",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": 12,
+        "verified": 12
+    },
+    "authors": [{
+        "name": "rwk"
+    }],
+    "esmodules": [
+        "modules/simpled20.js"
+    ],
+    "sytles": [
+        "styles/simpled20.css"
+    ],
+    "scripts": [
+        "scripts/helper.js"
+    ],
+    "packs":[{
+        "name": "items",
+        "label": "simpled20 Items",
+        "type": "Item"
+    }],
+    "primaryTokenAttribute": "attributes.hp",
+    "secondaryTokenAttribute": "attributes.ac",
+    "initiative": "@attributes.dex"
+}

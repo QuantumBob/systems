@@ -1,0 +1,4875 @@
+{
+"DOCUMENT.SIMPLED20": {
+  "Activity": "Activity",
+  "Advancement": "Advancement",
+  "Warning": {
+    "SelectType": "{name} type must be selected for creation."
+  }
+},
+
+"TYPES.Actor.character": "Player Character",
+"TYPES.Actor.characterPl": "Player Characters",
+"TYPES.Actor.npc": "Non-Player Character",
+"TYPES.Actor.npcPl": "Non-Player Characters",
+"TYPES.Actor.vehicle": "Vehicle",
+"TYPES.Actor.vehiclePl": "Vehicles",
+"TYPES.Actor.group": "Group",
+"TYPES.Actor.groupPl": "Groups",
+
+"TYPES.ActiveEffect.enchantment": "Enchantment",
+"TYPES.ActiveEffect.enchantmentPl": "Enchantments",
+
+"TYPES.ChatMessage": {
+  "rest": "Rest Message",
+  "turn": "Combat Turn Message"
+},
+
+"TYPES.Item.background": "Background",
+"TYPES.Item.backgroundPl": "Backgrounds",
+"TYPES.Item.container": "Container",
+"TYPES.Item.containerPl": "Containers",
+"TYPES.Item.class": "Class",
+"TYPES.Item.classPl": "Classes",
+"TYPES.Item.consumable": "Consumable",
+"TYPES.Item.consumablePl": "Consumables",
+"TYPES.Item.equipment": "Equipment",
+"TYPES.Item.equipmentPl": "Equipment",
+"TYPES.Item.facility": "Facility",
+"TYPES.Item.facilityPl": "Facilities",
+"TYPES.Item.feat": "Feature",
+"TYPES.Item.featurePl": "Features",
+"TYPES.Item.loot": "Loot",
+"TYPES.Item.lootPl": "Loot",
+"TYPES.Item.race": "Species",
+"TYPES.Item.racePl": "Species",
+"TYPES.Item.raceLegacy": "Race",
+"TYPES.Item.raceLegacyPl": "Races",
+"TYPES.Item.spell": "Spell",
+"TYPES.Item.spellPl": "Spells",
+"TYPES.Item.subclass": "Subclass",
+"TYPES.Item.subclassPl": "Subclasses",
+"TYPES.Item.tool": "Tool",
+"TYPES.Item.toolPl": "Tools",
+"TYPES.Item.weapon": "Weapon",
+"TYPES.Item.weaponPl": "Weapons",
+
+"SIMPLED20.title": "Simple D20",
+"SIMPLED20.AbbreviationCR": "CR",
+"SIMPLED20.AbbreviationConc": "Conc.",
+"SIMPLED20.AbbreviationDC": "DC",
+"SIMPLED20.AbbreviationKg": "kg",
+"SIMPLED20.AbbreviationLR": "LR",
+"SIMPLED20.AbbreviationLevel": "Lvl",
+"SIMPLED20.AbbreviationLbs": "lbs.",
+"SIMPLED20.AbbreviationSR": "SR",
+
+"SIMPLED20.ABILITY": {
+  "Configure": {
+    "Title": "Configure {ability}"
+  },
+  "SECTIONS": {
+    "Bonuses": {
+      "Label": "{ability} Bonuses",
+      "Hint": "These bonuses apply to checks & saves made with {ability}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks & saves made with any ability."
+    },
+    "Score": "{ability} Score"
+  }
+},
+
+"SIMPLED20.Ability": "Ability",
+"SIMPLED20.Abilities": "Abilities",
+"SIMPLED20.AbilityStr": "Strength",
+"SIMPLED20.AbilityStrAbbr": "str",
+"SIMPLED20.AbilityCon": "Constitution",
+"SIMPLED20.AbilityConAbbr": "con",
+"SIMPLED20.AbilityDex": "Dexterity",
+"SIMPLED20.AbilityDexAbbr": "dex",
+"SIMPLED20.AbilityInt": "Intelligence",
+"SIMPLED20.AbilityIntAbbr": "int",
+"SIMPLED20.AbilityWis": "Wisdom",
+"SIMPLED20.AbilityWisAbbr": "wis",
+"SIMPLED20.AbilityCha": "Charisma",
+"SIMPLED20.AbilityChaAbbr": "cha",
+"SIMPLED20.AbilityHon": "Honor",
+"SIMPLED20.AbilityHonAbbr": "hon",
+"SIMPLED20.AbilitySan": "Sanity",
+"SIMPLED20.AbilitySanAbbr": "san",
+"SIMPLED20.AbilityScore": "Ability Score",
+"SIMPLED20.AbilityScoreShort": "Score",
+"SIMPLED20.AbilityScorePl": "Ability Scores",
+"SIMPLED20.AbilityScoreL": "{ability} Score",
+"SIMPLED20.AbilityScoreMax": "Maximum Ability Score",
+"SIMPLED20.AbilityScoreMaxShort": "Maximum",
+"SIMPLED20.AbilityModifier": "Ability Modifier",
+"SIMPLED20.AbilityModifierShort": "Mod",
+"SIMPLED20.AbilityPromptText": "What type of {ability} check?",
+"SIMPLED20.AbilityPromptTitle": "{ability} Ability Check",
+"SIMPLED20.AbilityUseChargesLabel": "{value} Charges",
+"SIMPLED20.AbilityUseConsumableLabel": "{max} per {per}",
+"SIMPLED20.AbilityUseCast": "Cast Spell",
+"SIMPLED20.AbilityUseUse": "Use Ability",
+"SIMPLED20.AbilityUseConfig": "Usage Configuration",
+"SIMPLED20.AbilityBonuses": "Ability Bonuses",
+"SIMPLED20.AbilityConfigure": "Configure {ability}",
+"SIMPLED20.AbilityConfigureTitle": "Configure {ability} Saving Throws and Checks",
+"SIMPLED20.AbilitySaveConfigure": "{ability} Saving Throws",
+"SIMPLED20.AbilityCheckConfigure": "{ability} Ability Checks",
+"SIMPLED20.AbilityCheckConfigurationHint": "Configure check bonuses.",
+"SIMPLED20.AbilityConfigurationHint": "Configure ability saving throw proficiency, saving throw bonuses, and check bonuses.",
+"SIMPLED20.AbilityCheckBonus": "Check Bonus",
+"SIMPLED20.AbilityCheckGlobalBonusHint": "This bonus applies to all ability checks made by this actor.",
+"SIMPLED20.Action": "Action",
+"SIMPLED20.ActionAbbr": "A",
+"SIMPLED20.ActionPl": "Actions",
+"SIMPLED20.ActionAbil": "Ability Check",
+"SIMPLED20.ActionEnch": "Enchant",
+"SIMPLED20.ActionHeal": "Heal",
+"SIMPLED20.ActionMSAK": "Melee Spell Attack",
+"SIMPLED20.ActionMWAK": "Melee Weapon Attack",
+"SIMPLED20.ActionOther": "Other",
+"SIMPLED20.ActionRSAK": "Ranged Spell Attack",
+"SIMPLED20.ActionRWAK": "Ranged Weapon Attack",
+"SIMPLED20.ActionSave": "Saving Throw",
+"SIMPLED20.ActionSumm": "Summon",
+"SIMPLED20.ActionUtil": "Utility",
+"SIMPLED20.ActionWarningNoItem": "The requested item {item} no longer exists on Actor {name}",
+"SIMPLED20.ActionWarningNoToken": "You must have one or more controlled Tokens in order to use this option.",
+
+"SIMPLED20.ACTIVATION": {
+  "FIELDS": {
+    "activation": {
+      "label": "Activation",
+      "condition": {
+        "label": "Activation Condition",
+        "hint": "Condition required to activate this activity."
+      },
+      "override": {
+        "label": "Override Activation",
+        "hint": "Use these activation values instead of the item's when using this activity."
+      },
+      "type": {
+        "label": "Activation Cost",
+        "hint": "Activation type (e.g. action, legendary action, minutes)."
+      },
+      "value": {
+        "label": "Activation Value",
+        "hint": "Scalar value associated with the activation."
+      }
+    }
+  },
+  "Category": {
+    "Combat": "Combat",
+    "Monster": "Monster",
+    "Rest": "Rest",
+    "Standard": "Standard",
+    "Time": "Time",
+    "Vehicle": "Vehicle"
+  },
+  "Type": {
+    "Encounter": {
+      "Label": "Start of Encounter"
+    },
+    "Legendary": {
+      "Counted": {
+        "one": "{number} legendary action",
+        "other": "{number} legendary actions"
+      }
+    },
+    "LongRest": {
+      "Label": "End of a Long Rest"
+    },
+    "ShortRest": {
+      "Label": "End of a Short Rest"
+    },
+    "TurnEnd": {
+      "Label": "End of Turn"
+    },
+    "TurnStart": {
+      "Label": "Start of Turn"
+    }
+  },
+  "Warning": {
+    "NoActions": "No {type} are available, but activating this requires at least {required}.",
+    "NotEnoughActions": "Not enough {type} to activate, {required} required but only {available} available."
+  }
+},
+
+"SIMPLED20.ACTIVEEFFECT": {
+  "FIELDS": {
+    "statuses": {
+      "label": "Status Conditions",
+      "hint": "While affected by this Active Effect, the target will be treated as having these additional status conditions."
+    }
+  }
+},
+
+"SIMPLED20.ACTIVITY": {
+  "Action": {
+    "Create": "Create Activity",
+    "Delete": "Delete Activity"
+  },
+  "Title": {
+    "one": "Activity",
+    "other": "Activities"
+  },
+  "FIELDS": {
+    "description": {
+      "label": "Description",
+      "chatFlavor": {
+        "label": "Chat Flavor",
+        "hint": "Additional text displayed in the activation chat message."
+      }
+    },
+    "effects": {
+      "label": "Applied Effects"
+    },
+    "img": {
+      "label": "Icon"
+    },
+    "name": {
+      "label": "Name"
+    }
+  },
+  "SECTIONS": {
+    "Activation": "Activation",
+    "Behavior": "Behavior",
+    "Effect": "Effect",
+    "Identity": "Identity",
+    "Time": "Time"
+  },
+  "Warning": {
+    "UsageNotAllowed": "Using this activity isn't currently possible."
+  }
+},
+
+"SIMPLED20.ActorWarningInvalidItem": "{itemType} items cannot be added to a {actorType}.",
+"SIMPLED20.ActorWarningSingleton": "Only a single {itemType} can be added to a {actorType}.",
+"SIMPLED20.ActiveEffectOverrideWarning": "This value is being modified by an Active Effect and cannot be edited. Disable the effect to edit it.",
+"SIMPLED20.Add": "Add",
+"SIMPLED20.AdditionalControls": "Additional Controls",
+"SIMPLED20.AdditionalSettings": "Additional Settings",
+"SIMPLED20.AddEmbeddedItemPromptHint": "Do you want to add these items to your character sheet?",
+"SIMPLED20.Advanced": "Advanced",
+
+"SIMPLED20.ADVANCEMENT": {
+  "AbilityScoreImprovement": {
+    "Action": {
+      "Select": "Select Feat"
+    },
+    "CapDisplay": {
+      "one": "Max {points} point per score",
+      "other": "Max {points} points per score"
+    },
+    "Details": "Improvement Details",
+    "Feat": {
+      "ASIName": "Ability Score Improvement Feat",
+      "Hint": "Drop a feat here to choose one instead of an ability score improvement."
+    },
+    "FIELDS": {
+      "cap": {
+        "label": "Point Cap",
+        "hint": "Maximum number of points a player can assign to a single score."
+      },
+      "locked": {
+        "label": "Locked",
+        "hint": "Ability cannot be improved.",
+        "locked": "Ability cannot be improved.",
+        "unlocked": "Ability may be improved."
+      },
+      "fixed": {
+        "label": "Fixed Improvement",
+        "hint": "Abilities that are improved by a fixed amount and cannot be manually improved during the process."
+      },
+      "points": {
+        "label": "Points",
+        "hint": "Number of points that can be assigned to any unlocked ability score.",
+        "decrease": "Decrease Points",
+        "increase": "Increase Points"
+      }
+    },
+    "Hint": "Allow the player to increase one or more ability scores or take an optional feat.",
+    "Journal": {
+      "DescriptionLegacy": "<p>When you reach {firstLevelOrdinal} level, and again at {otherLevelsOrdinal} level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above {maxAbilityScore} using this feature.</p><p>Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>",
+      "DescriptionModern": "<p>You gain the Ability Score Improvement feat or another feat of your choice for which you qualify. You gain this feature again at {class} levels {otherLevels}.</p>",
+      "Name": "Ability Score Improvement"
+    },
+    "LockedHint": "Scores cannot be modified with a feat selected.",
+    "PointsRemaining": {
+      "one": "{points} Point Remaining",
+      "other": "{points} Points Remaining"
+    },
+    "Title": "Ability Score Improvement",
+    "Warning": {
+      "Level": "Must be at least level {level} to take this feat.",
+      "Type": "Only features with the \"feat\" type can be selected."
+    }
+  },
+  "Action": {
+    "Create": "Create Advancement",
+    "Delete": "Delete Advancement",
+    "Duplicate": "Duplicate Advancement",
+    "Edit": "Edit Advancement",
+    "View": "View Advancement"
+  },
+  "Config": {
+    "AnyLevel": "Any",
+    "Details": "Advancement Details"
+  },
+  "HitPoints": {
+    "Action": {
+      "Roll": "Roll {die}"
+    },
+    "Average": "Average",
+    "Hint": "Track the player's hit points for each level in the class.",
+    "MaxAtFirstLevel": "Max at 1st Level: <strong>{max}</strong>",
+    "Roll": "Roll {class} Hit Points",
+    "Starting": "Hit Points at 1st Level",
+    "TakeAverage": "Take Average",
+    "Title": "Hit Points",
+    "Warning": {
+      "Empty": "Hit points must be rolled or the average value must be taken.",
+      "Invalid": "Hit points must be a valid whole number."
+    }
+  },
+  "ItemChoice": {
+    "Choose": "choose {count}",
+    "Chosen": "Chosen: {current} of {max}",
+    "Details": "Choice Details",
+    "DropHint": "Drop Items here to add them to the list that can be chosen with this advancement.",
+    "FIELDS": {
+      "allowDrops": {
+        "hint": "Allow players to be able to drop their own choices into this advancement.",
+        "label": "Allow Drops"
+      },
+      "choices": {
+        "hint": "Specify how many choices are allowed at each level.",
+        "label": "Choices",
+        "FIELDS": {
+          "count": {
+            "label": "Count"
+          },
+          "replacement": {
+            "label": "Allow Replacement"
+          }
+        }
+      },
+      "pool": {
+        "label": "Item Options"
+      },
+      "restriction": {
+        "level": {
+          "Available": "Any Available Level",
+          "hint": "Only allow choices from spells of this level.",
+          "label": "Spell Level"
+        },
+        "subtype": {
+          "label": "Subtype"
+        },
+        "type": {
+          "label": "Type"
+        }
+      },
+      "type": {
+        "Any": "Anything",
+        "hint": "Restrict what Item types can be chosen.",
+        "label": "Item Type"
+      }
+    },
+    "Hint": "Present the player with a choice of items (such as equipment, features, or spells) that they can choose for their character at one or more levels.",
+    "Replacement": {
+      "None": "No Replacement",
+      "Title": "replace"
+    },
+    "Title": "Choose Items",
+    "Warning": {
+      "FeatureLevel": "Must be at least level {level} to take this feature.",
+      "InvalidType": "Only {type} items can be selected for this choice.",
+      "NoOriginal": "Previously selected choice no longer available for replacement.",
+      "PreviouslyChosen": "This item has already been chosen at a previous level.",
+      "SpellLevelAvailable": "Only {level} or lower spells can be chosen for this advancement.",
+      "SpellLevelSpecific": "Only {level} spells can be chosen for this advancement."
+    }
+  },
+  "ItemGrant": {
+    "Details": "Grant Details",
+    "DropHint": "Drop Items here to add them to the list granted by this advancement.",
+    "FIELDS": {
+      "items": {
+        "label": "Items"
+      },
+      "optional": {
+        "label": "Optional",
+        "hint": "If the whole advancement is marked optional, players may opt out of any of the following items, otherwise all non-optional items are granted."
+      }
+    },
+    "Hint": "Grant the character items (such as equipment, features, or spells) when they reach a certain level.",
+    "Title": "Grant Items",
+    "Warning": {
+      "Container": "Container contents will not be added with containers.",
+      "Duplicate": "That item already exists on this advancement.",
+      "Recursive": "You cannot grant an item in its own advancement."
+    }
+  },
+  "Manager": {
+    "Action": {
+      "Complete": "Complete",
+      "NextStep": "Next",
+      "PreviousStep": "Previous",
+      "Restart": "Restart"
+    },
+    "ClosePrompt": {
+      "Action": {
+        "Continue": "Continue",
+        "Stop": "Stop Advancement"
+      },
+      "Message": "<p>If the advancement process is cancelled, choices made so far will be discarded and no changes will be made to the actor.</p>",
+      "Title": "Stop Advancement"
+    },
+    "RestartPrompt": {
+      "Message": "Are you sure you wish to undo all choices so far?",
+      "Title": "Restart Advancement Choices"
+    },
+    "Steps": "Step {current} of {total}",
+    "Title": {
+      "Default": "Advancement",
+      "LevelIncreased": "Level Up Character",
+      "LevelNewClass": "Add Class",
+      "ModifyChoices": "Modify Choices"
+    }
+  },
+  "ScaleValue": {
+    "Action": {
+      "CopyFormula": "Copy Formula"
+    },
+    "Details": "Scale Value Details",
+    "FIELDS": {
+      "distance": {
+        "units": {
+          "label": "Distance Units"
+        }
+      },
+      "identifier": {
+        "label": "Identifier"
+      },
+      "scale": {
+        "label": "Scale"
+      },
+      "type": {
+        "label": "Scale Type"
+      }
+    },
+    "Hint": "A single value that changes as a class increases in level that is made available in roll formulas (such as a Monk's martial arts die).",
+    "Title": "Scale Value",
+    "Type": {
+      "CR": {
+        "FIELDS": {
+          "value": {
+            "label": "CR"
+          }
+        },
+        "Hint": "Use this for representing creature challenge ratings for features like Wild Shape",
+        "Label": "Challenge Rating"
+      },
+      "Dice": {
+        "FIELDS": {
+          "faces": {
+            "label": "Faces"
+          },
+          "number": {
+            "label": "Number"
+          }
+        },
+        "Hint": "Use this for dice values like bardic inspiration, sneak attack, or superiority dice.",
+        "Identifier": "This scale value for the current level will be available in a formula using:<br><copyable-text>@scale.{class}.{identifier}</copyable-text> - whole formula (<code>4d6</code>)<br><copyable-text>@scale.{class}.{identifier}.die</copyable-text> - whole die (<code>d6</code>)<br><copyable-text>@scale.{class}.{identifier}.number</copyable-text> - number of dice (<code>4</code>)<br><copyable-text>@scale.{class}.{identifier}.faces</copyable-text> - number of faces (<code>6</code>)",
+        "Label": "Dice"
+      },
+      "Distance": {
+        "Hint": "Use this for numerical values that represent a distance, such as unarmored movement speed, or aura of protection radius.",
+        "Label": "Distance"
+      },
+      "Number": {
+        "Hint": "Use this for purely numerical values like rage damage bonus or number of uses per day.",
+        "Label": "Numeric"
+      },
+      "String": {
+        "FIELDS": {
+          "value": {
+            "label": "Value"
+          }
+        },
+        "Hint": "Use this if you are unsure of the type of the scale values, or if the type does not matter.",
+        "Identifier": "This scale value for the current level will be available in a formula using:<br><copyable-text>@scale.{class}.{identifier}</copyable-text>",
+        "Label": "Anything"
+      }
+    }
+  },
+  "Size": {
+    "DefaultHint": {
+      "Multiple": "Choose your size from either {sizes}.",
+      "Single": "Your size is {size}."
+    },
+    "FIELDS": {
+      "sizes": {
+        "label": "Sizes"
+      }
+    },
+    "Hint": "Set a character's size.",
+    "Title": "Size"
+  },
+  "SPELLCONFIG": {
+    "FIELDS": {
+      "spell": {
+        "label": "Spell Details",
+        "ability": {
+          "label": "Ability"
+        },
+        "preparation": {
+          "label": "Preparation Mode"
+        },
+        "uses": {
+          "max": {
+            "label": "Uses"
+          },
+          "per": {
+            "label": "Period"
+          },
+          "requireSlot": {
+            "label": "Require Slot",
+            "hint": "Require a spell slot to be spent when using the limited uses. If not checked then the uses will be additional free uses that don't consume a slot."
+          }
+        }
+      }
+    },
+    "FreeCasting": "Free Casting"
+  },
+  "Subclass": {
+    "Action": {
+      "Select": "Select Subclass"
+    },
+    "Hint": "Specify what level this class receives its subclass.",
+    "Title": "Subclass",
+    "Warning": {
+      "InvalidType": "Only subclasses may be selected."
+    }
+  },
+  "Trait": {
+    "Action": {
+      "AddChoice": "Add Choice",
+      "RemoveChoice": "Remove Choice"
+    },
+    "ChoicesRemaining": "Select {count} more {type}",
+    "Details": "Trait Details",
+    "FIELDS": {
+      "allowReplacements": {
+        "hint": "If a trait is already set on the actor, allow the player to choose from any other trait as a replacement.",
+        "label": "Allow Replacements"
+      },
+      "choices": {
+        "hint": "The following traits will be presented as a choice to the player.",
+        "label": "Choices",
+        "FIELDS": {
+          "count": {
+            "label": "Count"
+          },
+          "pool": {
+            "label": "Traits"
+          }
+        }
+      },
+      "grants": {
+        "hint": "The following traits will be granted to the character as long as they don't already possess that trait.",
+        "label": "Guaranteed"
+      },
+      "mode": {
+        "label": "Mode"
+      }
+    },
+    "Hint": "Grant a character certain traits or give them an option to select traits (such as proficiencies, skills, languages).",
+    "Mode": {
+      "Default": {
+        "Hint": "Gain a trait or proficiency.",
+        "Label": "Default"
+      },
+      "Expertise": {
+        "Hint": "Gain expertise in a trait in which you already have proficiency.",
+        "Label": "Expertise"
+      },
+      "Force": {
+        "Hint": "Gain expertise in a trait regardless of your previous proficiency level.",
+        "Label": "Forced Expertise"
+      },
+      "Mastery": {
+        "Hint": "Gain mastery with a weapon in which you already have proficiency.",
+        "Label": "Mastery"
+      },
+      "Upgrade": {
+        "Hint": "Gain proficiency in a trait unless you already have it, otherwise gain expertise.",
+        "Label": "Upgrade"
+      }
+    },
+    "TraitType": "Trait Type",
+    "Title": "Traits"
+  }
+},
+
+"SIMPLED20.AdvancementChoices": "choices",
+"SIMPLED20.AdvancementClassRestriction": "Class Restriction",
+"SIMPLED20.AdvancementClassRestrictionNone": "All Classes",
+"SIMPLED20.AdvancementClassRestrictionPrimary": "Original Class Only",
+"SIMPLED20.AdvancementClassRestrictionSecondary": "Multiclass Only",
+"SIMPLED20.AdvancementConfigurationActionDisable": "Disable Configuration",
+"SIMPLED20.AdvancementConfigurationActionEnable": "Enable Configuration",
+"SIMPLED20.AdvancementConfigurationModeDisabled": "Configuration Disabled",
+"SIMPLED20.AdvancementConfigurationModeEnabled": "Configuration Enabled",
+"SIMPLED20.AdvancementConfigureTitle": "Configure {item} Advancement",
+"SIMPLED20.AdvancementConfigureAllowDrops": "Allow Drops",
+"SIMPLED20.AdvancementConfigureAllowDropsHint": "Should players be able to drop their own choices into this advancement?",
+"SIMPLED20.AdvancementConfigureDropAreaHint": "Drop Items here to add them to the pool from which a player can choose.",
+"SIMPLED20.AdvancementConfiguredComplete": "Fully Configured",
+"SIMPLED20.AdvancementConfiguredIncomplete": "Not Configured",
+"SIMPLED20.AdvancementCustomIcon": "Custom Icon",
+"SIMPLED20.AdvancementCustomTitle": "Custom Title",
+"SIMPLED20.AdvancementDeleteConfirmationLabel": "Remove advancement changes",
+"SIMPLED20.AdvancementDeleteConfirmationMessage": "Deleting this item will also delete all advancement choices made for it. These changes will be removed from your character as long as the checkbox below is checked.",
+"SIMPLED20.AdvancementDeleteConfirmationTitle": "Confirm Deletion",
+"SIMPLED20.AdvancementFlowDropAreaHint": "Drop an Item here to choose it.",
+"SIMPLED20.AdvancementHint": "Hint",
+"SIMPLED20.AdvancementItemTypeInvalidWarning": "{type} items cannot be added with this advancement type.",
+"SIMPLED20.AdvancementLevelHeader": "Level {level}",
+"SIMPLED20.AdvancementLevelAnyHeader": "Any Level",
+"SIMPLED20.AdvancementLevelNoneHeader": "No Level",
+"SIMPLED20.AdvancementLevelDownConfirmationMessage": "Leveling this class down will also undo all advancement choices made for it. These changes will be removed from your character as long as the checkbox below is checked.",
+"SIMPLED20.AdvancementLevelDownConfirmationTitle": "Confirm Leveling Down",
+"SIMPLED20.AdvancementMigrationConfirm": "Apply Migrations",
+"SIMPLED20.AdvancementMigrationHint": "Select which of the following advancements will be added to {name}.",
+"SIMPLED20.AdvancementMigrationTitle": "Migrate Advancement",
+"SIMPLED20.AdvancementModifyChoices": "Modify Choices",
+"SIMPLED20.AdvancementSaveButton": "Save Advancement",
+"SIMPLED20.AdvancementSelectionCreateButton": "Create Advancement",
+"SIMPLED20.AdvancementSelectionTitle": "Select Advancement Type",
+"SIMPLED20.AdvancementTitle": "Advancement",
+"SIMPLED20.Advantage": "Advantage",
+"SIMPLED20.AdvantageMode": "Advantage Mode",
+"SIMPLED20.Age": "Age",
+"SIMPLED20.Alignment": "Alignment",
+"SIMPLED20.AlignmentCE": "Chaotic Evil",
+"SIMPLED20.AlignmentCG": "Chaotic Good",
+"SIMPLED20.AlignmentCN": "Chaotic Neutral",
+"SIMPLED20.AlignmentLE": "Lawful Evil",
+"SIMPLED20.AlignmentLG": "Lawful Good",
+"SIMPLED20.AlignmentLN": "Lawful Neutral",
+"SIMPLED20.AlignmentNE": "Neutral Evil",
+"SIMPLED20.AlignmentNG": "Neutral Good",
+"SIMPLED20.AlignmentTN": "True Neutral",
+"SIMPLED20.Amount": "Amount",
+"SIMPLED20.Appearance": "Appearance",
+"SIMPLED20.Apply": "Apply",
+"SIMPLED20.Attunement": "Attunement",
+"SIMPLED20.AttunementMax": "Maximum Attuned Items",
+"SIMPLED20.AttunementNone": "Attunement Not Required",
+"SIMPLED20.AttunementOptional": "Optional Attunement",
+"SIMPLED20.AttunementRequired": "Attunement Required",
+"SIMPLED20.AttunementAttuned": "Attuned",
+"SIMPLED20.AttunementOverride": "Override attunement",
+"SIMPLED20.Attuned": "Attuned",
+"SIMPLED20.AreaOfEffect": {
+  "Label": "Area of Effect",
+  "Size": {
+    "Label": "Size",
+    "Height": "Height",
+    "Length": "Length",
+    "Radius": "Radius",
+    "Thickness": "Thickness",
+    "Width": "Width"
+  }
+},
+"SIMPLED20.Armor": "Armor",
+"SIMPLED20.ArmorClass": "Armor Class",
+"SIMPLED20.ArmorClassEquipment": "Equipped Armor",
+"SIMPLED20.ArmorClassFlat": "Flat",
+"SIMPLED20.ArmorClassUnarmored": "Unarmored",
+"SIMPLED20.ArmorClassNatural": "Natural Armor",
+"SIMPLED20.ArmorClassMage": "Mage Armor",
+"SIMPLED20.ArmorClassMotionless": "Armor Class while Motionless",
+"SIMPLED20.ArmorClassDraconic": "Draconic Resilience",
+"SIMPLED20.ArmorClassUnarmoredMonk": "Unarmored Defense (Monk)",
+"SIMPLED20.ArmorClassUnarmoredBarbarian": "Unarmored Defense (Barbarian)",
+"SIMPLED20.ArmorClassUnarmoredBard": "Unarmored Defense (Bard)",
+"SIMPLED20.ArmorClassCustom": "Custom Formula",
+"SIMPLED20.ArmorConfig": "Configure Armor",
+"SIMPLED20.ArmorConfigHint": "Fill in the above box to override automatically calculated armor class.",
+"SIMPLED20.ArmorClassCalculation": "Calculation",
+"SIMPLED20.ArmorClassFormula": "Formula",
+"SIMPLED20.ArmorHeavyProficiency": "Heavy",
+"SIMPLED20.ArmorLightProficiency": "Light",
+"SIMPLED20.ArmorMediumProficiency": "Medium",
+"SIMPLED20.ArmorValue": "Armor Value",
+"SIMPLED20.AC": "AC",
+
+"SIMPLED20.ATTACK": {
+  "Title": {
+    "one": "Attack",
+    "other": "Attacks"
+  },
+  "FIELDS": {
+    "attack": {
+      "label": "Attack Details",
+      "ability": {
+        "label": "Attack Ability",
+        "hint": "Ability used for make the attack and determine damage. Available using @mod in formulas."
+      },
+      "bonus": {
+        "label": "To Hit Bonus",
+        "hint": "Bonus added to the to hit roll for the attack."
+      },
+      "critical": {
+        "threshold": {
+          "label": "Critical Threshold",
+          "hint": "Minimum value on the D20 needed to roll a critical hit."
+        }
+      },
+      "flat": {
+        "label": "Flat To Hit",
+        "hint": "Ignore the ability modifier, proficiency, and any other bonuses from the actor and only use the bonus defined by the activity when calculating to hit."
+      },
+      "type": {
+        "label": "Attack Type",
+        "value": {
+          "label": "Attack Type",
+          "hint": "Is this a melee or ranged attack?"
+        },
+        "classification": {
+          "label": "Attack Classification",
+          "hint": "Is this an unarmed, weapon, or spell attack?"
+        }
+      }
+    },
+    "damage": {
+      "label": "Attack Damage",
+      "critical": {
+        "bonus": {
+          "label": "Extra Critical Damage",
+          "hint": "Extra damage applied when a critical is rolled. Added to the base damage or first damage part."
+        }
+      },
+      "includeBase": {
+        "label": "Include Base Damage",
+        "hint": "Include the item's base damage with any additional damage parts."
+      },
+      "parts": {
+        "label": "Damage Parts",
+        "hint": "Individual damage parts to include with the roll."
+      }
+    }
+  },
+  "Attack": {
+    "mwak": "Melee Attack",
+    "rwak": "Ranged Attack"
+  },
+  "Classification": {
+    "Spell": "Spell",
+    "Unarmed": "Unarmed",
+    "Weapon": "Weapon"
+  },
+  "Formatted": {
+    "2014": "{type} {classification} Attack",
+    "2024": "{type} Attack Roll"
+  },
+  "Mode": {
+    "Label": "Attack Mode",
+    "Offhand": "Offhand",
+    "OneHanded": "One-Handed",
+    "Ranged": "Ranged",
+    "Thrown": "Thrown",
+    "ThrownOffhand": "Offhand Throw",
+    "TwoHanded": "Two-Handed"
+  },
+  "Type": {
+    "Melee": "Melee",
+    "Ranged": "Ranged"
+  },
+  "Warning": {
+    "NoQuantity": "Attempting to attack with a weapon with a quantity of zero."
+  },
+  "Weapon": {
+    "Melee": "Melee Weapon",
+    "Ranged": "Ranged Weapon"
+  }
+},
+
+"SIMPLED20.Attack": "Attack",
+"SIMPLED20.AttackPl": "Attacks",
+"SIMPLED20.AttackRoll": "Attack Roll",
+"SIMPLED20.Attributes": "Attributes",
+"SIMPLED20.AttrConcentration": {
+  "Limit": "Limit"
+},
+"SIMPLED20.Automatic": "Automatic",
+"SIMPLED20.AutomaticValue": "Automatic ({value})",
+"SIMPLED20.Award": {
+  "Title": "Distribute Award",
+  "Action": "Award",
+  "Distribution": {
+    "Split": "Split",
+    "Each": "Each"
+  },
+  "Message": "{name} has been awarded {award}.",
+  "NoDestinations": "No Destinations Available",
+  "NoPrimaryParty": "No primary party set, displaying characters assigned to players instead.",
+  "NotGMError": "The /award command is only available to GMs.",
+  "UnrecognizedWarning": "Unable to parse {commands}. The /award command should be used with XP & currencies values such as '/award 10gp 50xp'."
+},
+"SIMPLED20.Background": "Background",
+"SIMPLED20.BackgroundAdd": "Add Background",
+"SIMPLED20.BackgroundName": "Background Name",
+
+"SIMPLED20.Bastion": {
+  "Action": {
+    "BastionTurn": "Advance Bastion Turn"
+  },
+  "Attack": {
+    "Automatic": "Resolve Automatically",
+    "Formula": "Attack Formula",
+    "NoActorWarning": "No character selected as target of the attack. Either select a token, or open their character sheet.",
+    "Resolve": "Resolve Attack",
+    "Result": {
+      "Damaged": "{link} damaged in the attack.",
+      "Deaths": {
+        "one": "<strong>{deaths}</strong> defender was slain in an attack on their bastion!",
+        "other": "<strong>{deaths}</strong> defenders were slain in an attack on their bastion!"
+      },
+      "NoDeaths": "Fended off an attack on their bastion with no casualties!",
+      "Undefended": "Undefended bastion attacked!"
+    },
+    "Title": "Bastion Attack"
+  },
+  "Button": {
+    "Label": "Show Bastion Turn Button",
+    "Hint": "Display a button for advancing bastion turns in the main game interface."
+  },
+  "Configuration": {
+    "Name": "Bastions",
+    "Label": "Configure Bastions",
+    "Hint": "Various configuration options for the Bastion system as presented in the DMG 2024."
+  },
+  "Confirm": "Advance one bastion turn?",
+  "Duration": {
+    "Label": "Bastion Turn Duration (days)"
+  },
+  "Enabled": {
+    "Label": "Enable Bastion Functionality",
+    "Hint": "When enabled, player characters will have access to a new Bastion tab on their character sheets when reaching level 5, and will be able to build facilities and issue orders to them."
+  },
+  "Gold": {
+    "Claim": "Claim Income",
+    "Claimed": "claimed",
+    "Unclaimed": "unclaimed"
+  },
+  "Label": "Bastion",
+  "Summary": {
+    "Gold": "{value} ({claimed})",
+    "NoOrders": "No orders issued to special facilities this turn.",
+    "Order": "{link} completed the <strong>{order}</strong> order."
+  }
+},
+
+"SIMPLED20.Biography": "Biography",
+"SIMPLED20.BiographyPublic": "Public Biography",
+"SIMPLED20.BiopgrahyPublicEdit": "Edit Public Biography",
+"SIMPLED20.Bonds": "Bonds",
+"SIMPLED20.Bonus": "Bonus",
+"SIMPLED20.BonusAction": "Bonus Action",
+"SIMPLED20.BonusActionAbbr": "BA",
+"SIMPLED20.BonusAttack": "Attack Bonus",
+"SIMPLED20.BonusDamage": "Damage Bonus",
+"SIMPLED20.BonusSaveForm": "Update Bonuses",
+"SIMPLED20.BonusTitle": "Configure Actor Bonuses",
+
+"SIMPLED20.BONUSES": {
+  "FIELDS": {
+    "bonuses": {
+      "label": "Global Bonuses",
+      "hint": "Global bonuses as formulas which are added to certain rolls.",
+      "abilities": {
+        "label": "Global Ability Bonuses",
+        "check": {
+          "label": "Global Ability Check Bonus"
+        },
+        "save": {
+          "label": "Global Saving Throw Bonus"
+        },
+        "skill": {
+          "label": "Global Skill Check Bonus"
+        }
+      },
+      "msak": {
+        "label": "Melee Spell Bonuses",
+        "attack": {
+          "label": "Melee Spell Attack Bonus"
+        },
+        "damage": {
+          "label": "Melee Spell Damage Bonus"
+        }
+      },
+      "mwak": {
+        "label": "Melee Weapon Bonuses",
+        "attack": {
+          "label": "Melee Weapon Attack Bonus"
+        },
+        "damage": {
+          "label": "Melee Weapon Damage Bonus"
+        }
+      },
+      "rsak": {
+        "label": "Ranged Spell Bonuses",
+        "attack": {
+          "label": "Ranged Spell Attack Bonus"
+        },
+        "damage": {
+          "label": "Ranged Spell Damage Bonus"
+        }
+      },
+      "rwak": {
+        "label": "Ranged Weapon Bonuses",
+        "attack": {
+          "label": "Ranged Weapon Attack Bonus"
+        },
+        "damage": {
+          "label": "Ranged Weapon Damage Bonus"
+        }
+      },
+      "spell": {
+        "label": "Global Spell Bonuses",
+        "dc": {
+          "label": "Global Spell DC Bonus"
+        }
+      }
+    }
+  }
+},
+
+"SIMPLED20.CAST": {
+  "Title": "Cast",
+  "FIELDS": {
+    "spell": {
+      "label": "Casting Details",
+      "ability": {
+        "label": "Casting Ability",
+        "hint": "Ability to override the creature's normal spellcasting ability."
+      },
+      "challenge": {
+        "attack": {
+          "label": "Attack Bonus",
+          "hint": "Flat to hit bonus in place of the spell's normal attack bonus."
+        },
+        "save": {
+          "label": "Save DC",
+          "hint": "Flat DC to use in place of the spell's normal save DC."
+        },
+        "override": {
+          "label": "Override Values",
+          "hint": "Override the spell's normal attack bonus & DC when casting."
+        }
+      },
+      "level": {
+        "label": "Casting Level",
+        "hint": "Base level to cast the spell, if different than the spell's level."
+      },
+      "properties": {
+        "label": "Ignored Properties",
+        "hint": "Spell components & tags to ignore while casting."
+      },
+      "spellbook": {
+        "label": "Display in Spellbook",
+        "hint": "Display spell in the Spells tab of the character sheet."
+      },
+      "uuid": {
+        "label": "Spell to Cast"
+      }
+    }
+  },
+  "SECTIONS": {
+    "Spell": "Spell",
+    "Spellbook": "Additional Spells"
+  },
+  "Action": {
+    "RemoveSpell": "Remove Spell"
+  },
+  "Enchantment": {
+    "Name": "Spell Changes"
+  }
+},
+
+"SIMPLED20.Casting": "Casting",
+"SIMPLED20.Conditions": "Conditions",
+
+"SIMPLED20.CONTAINER": {
+  "Details": "Container Details",
+  "FIELDS": {
+    "capacity": {
+      "label": "Capacity",
+      "count": {
+        "label": "Item Count"
+      },
+      "volume": {
+        "label": "Volume Capacity",
+        "units": {
+          "label": "Volume Units"
+        },
+        "value": {
+          "label": "Maximum Volume"
+        }
+      },
+      "weight": {
+        "label": "Weight Capacity",
+        "units": {
+          "label": "Weight Units"
+        },
+        "value": {
+          "label": "Maximum Weight"
+        }
+      }
+    },
+    "properties": {
+      "label": "Container Properties"
+    }
+  }
+},
+
+"SIMPLED20.Controls": {
+  "Hint": "Enable various hints throughout the UI for certain mouse and keyboard controls.",
+  "LeftClick": "Left Click",
+  "LockHint": "Middle-click to lock",
+  "MiddleClick": "Middle Click",
+  "Name": "Enable Control Hints",
+  "Activity": {
+    "FastForwardHint": "<kbd>Shift</kbd> + <left-click> the item to skip this dialog"
+  }
+},
+"SIMPLED20.ChallengeRating": "Challenge Rating",
+"SIMPLED20.Charged": "Charged",
+"SIMPLED20.Charges": "Charges",
+"SIMPLED20.ChatContextDamage": "Apply Damage",
+"SIMPLED20.ChatContextHealing": "Apply Healing",
+"SIMPLED20.ChatContextTempHP": "Apply Temporary HP",
+"SIMPLED20.ChatContextDoubleDamage": "Apply Double Damage",
+"SIMPLED20.ChatContextHalfDamage": "Apply Half Damage",
+"SIMPLED20.ChatContextSelectHit": "Select Hit Targets",
+"SIMPLED20.ChatContextSelectMiss": "Select Missed Targets",
+"SIMPLED20.ChatFlavor": "Chat Message Flavor",
+
+"SIMPLED20.CHATMESSAGE": {
+  "Activities": "Activities",
+  "Deltas": {
+    "Recovery": "Recovery"
+  },
+  "TURN": {
+    "NoCombatant": "Combatant no longer exists!"
+  }
+},
+
+"SIMPLED20.CHECK": {
+  "Title": "Check",
+  "FIELDS": {
+    "check": {
+      "label": "Check Details",
+      "ability": {
+        "label": "Check Ability",
+        "hint": "Ability to use when making the check."
+      },
+      "associated": {
+        "label": "Associated Skills or Tools",
+        "hint": "Present ability checks using proficiency and bonuses with these skills or tools."
+      },
+      "dc": {
+        "label": "Difficulty Class",
+        "calculation": {
+          "label": "DC Calculation",
+          "hint": "Method or ability used to calculate the difficulty class."
+        },
+        "formula": {
+          "label": "DC Formula",
+          "hint": "Custom formula or flat value for defining the check DC."
+        }
+      }
+    }
+  },
+  "ThisTool": "This Tool"
+},
+
+"SIMPLED20.CheckBonus": "Check Bonus",
+
+"SIMPLED20.CLASS": {
+  "Multiclass": {
+    "Title": "Multiclassing"
+  },
+  "FIELDS": {
+    "hd": {
+      "label": "Hit Point Die",
+      "additional": {
+        "label": "Additional Hit Dice",
+        "hint": "Formula for hit dice that are available for this class beyond the normal amount."
+      },
+      "spent": {
+        "label": "Spent Hit Dice"
+      }
+    },
+    "levels": {
+      "label": "Class Levels"
+    },
+    "primaryAbility": {
+      "all": {
+        "label": "Require All",
+        "hint": "Require all primary abilities to meet the minimum in order to multi-class."
+      },
+      "value": {
+        "label": "Primary Ability",
+        "hint": "Abilities used most by this class. Used to determine multi-classing restrictions."
+      }
+    }
+  }
+},
+
+"SIMPLED20.ClassAdd": "Add Class",
+"SIMPLED20.ClassIdentifier": "Class Identifier",
+"SIMPLED20.ClassIdentifierHint": "This class's data will be accessible using <strong>@classes.{identifier}</strong> in roll formulas.",
+"SIMPLED20.ClassLevels": "Class Levels",
+"SIMPLED20.ClassMakeOriginal": "Original Class",
+"SIMPLED20.ClassMakeOriginalHint": "First class taken by character used to determine certain class traits when multiclassing.",
+"SIMPLED20.ClassName": "Class Name",
+"SIMPLED20.ClassOriginal": "Original Class",
+"SIMPLED20.ClassSaves": "Saving Throws",
+"SIMPLED20.Confirm": "Confirm",
+
+"SIMPLED20.COMBAT": {
+  "Group": {
+    "ActiveCount": "{current} of {combatants}",
+    "Title": "{name} Group"
+  }
+},
+
+"SIMPLED20.COMBATANT": {
+  "Counted": {
+    "one": "{number} combatant",
+    "other": "{number} combatants"
+  }
+},
+
+"SIMPLED20.CompendiumBrowser": {
+  "Title": "Compendium Browser",
+  "Action": {
+    "Open": "Open Compendium Browser"
+  },
+  "Column": {
+    "Icon": "Icon",
+    "Name": "Name",
+    "Results": "Results",
+    "Source": "Source"
+  },
+  "Filters": {
+    "Label": "Filters",
+    "HasDarkvision": "Has Darkvision",
+    "HasSpellcasting": "Has Spellcasting",
+    "SearchResults": "Search results"
+  },
+  "Selection": {
+    "Label": "Selected: {summary}",
+    "Select": "Select",
+    "Summary": {
+      "Max": "<span class=\"value\">{value}</span> of up to {max}",
+      "Min": "<span class=\"value\">{value}</span> of at least {min}",
+      "Range": "<span class=\"value\">{value}</span> of {min} to {max}",
+      "Single": "<span class=\"value\">{value}</span> of {max}"
+    },
+    "Warning": {
+      "Document": {
+        "one": "document",
+        "other": "documents"
+      },
+      "Max": "Must select at most {max} {document}, {value} selected.",
+      "Min": "Must select at least {min} {document}, {value} selected.",
+      "Range": "Must select between {min} and {max} documents, {value} selected.",
+      "Single": "Must select {max} {document}, {value} selected."
+    }
+  },
+  "Sources": {
+    "Name": "Compendium Browser Sources",
+    "Label": "Configure Sources",
+    "FilterPackages": "Filter Packages",
+    "Hint": "Configure which compendium packs have their content available in the compendium browser."
+  },
+  "Tabs": {
+    "Feat.other": "Feats",
+    "Item.other": "Items",
+    "Monster.other": "Monsters"
+  },
+  "Types": {
+    "Label": "Types"
+  },
+  "Locked": "Locked"
+},
+"SIMPLED20.ComponentMaterial": "Material",
+"SIMPLED20.ComponentMaterialAbbr": "M",
+"SIMPLED20.ComponentSomatic": "Somatic",
+"SIMPLED20.ComponentSomaticAbbr": "S",
+"SIMPLED20.ComponentVerbal": "Verbal",
+"SIMPLED20.ComponentVerbalAbbr": "V",
+"SIMPLED20.Components": "Components",
+"SIMPLED20.Container": "Container",
+"SIMPLED20.ContainerDeleteMessage": "This container will be permanently deleted and cannot be recovered and the {count} items contained within will be moved out.",
+"SIMPLED20.ContainerDeleteContents": "Also delete all items within the container.",
+"SIMPLED20.ContainerMaxDepth": "Containers cannot be nested more than {depth} levels deep.",
+"SIMPLED20.ContainerRecursiveError": "Containers cannot contain themselves.",
+"SIMPLED20.Contents": "Contents",
+"SIMPLED20.ContextMenuActionEdit": "Edit",
+"SIMPLED20.ContextMenuActionDuplicate": "Duplicate",
+"SIMPLED20.ContextMenuActionDelete": "Delete",
+"SIMPLED20.ContextMenuActionEquip": "Equip",
+"SIMPLED20.ContextMenuActionUnequip": "Unequip",
+"SIMPLED20.ContextMenuActionPrepare": "Prepare",
+"SIMPLED20.ContextMenuActionExpendCharge": "Uncharge",
+"SIMPLED20.ContextMenuActionCharge": "Charge",
+"SIMPLED20.ContextMenuActionUnprepare": "Unprepare",
+"SIMPLED20.ContextMenuActionAttune": "Attune",
+"SIMPLED20.ContextMenuActionUnattune": "Unattune",
+"SIMPLED20.ContextMenuActionEnable": "Enable",
+"SIMPLED20.ContextMenuActionDisable": "Disable",
+"SIMPLED20.ContextMenuActionView": "View",
+"SIMPLED20.Contiguous": "Contiguous",
+"SIMPLED20.ConBlinded": "Blinded",
+"SIMPLED20.ConCharmed": "Charmed",
+"SIMPLED20.ConDeafened": "Deafened",
+"SIMPLED20.ConDiseased": "Diseased",
+"SIMPLED20.CONDITIONS": {
+  "RiderConditions": {
+    "label": "Separate Status Conditions",
+    "hint": "When this Active Effect is applied, these additional status conditions will be applied separately."
+  }
+},
+"SIMPLED20.ConExhaustion": "Exhaustion",
+"SIMPLED20.ConFrightened": "Frightened",
+"SIMPLED20.ConGrappled": "Grappled",
+"SIMPLED20.ConImm": "Condition Immunities",
+"SIMPLED20.ConIncapacitated": "Incapacitated",
+"SIMPLED20.ConInvisible": "Invisible",
+"SIMPLED20.ConParalyzed": "Paralyzed",
+"SIMPLED20.ConPetrified": "Petrified",
+"SIMPLED20.ConPoisoned": "Poisoned",
+"SIMPLED20.ConProne": "Prone",
+"SIMPLED20.ConRestrained": "Restrained",
+"SIMPLED20.ConStunned": "Stunned",
+"SIMPLED20.ConUnconscious": "Unconscious",
+"SIMPLED20.Concentration": "Concentration",
+"SIMPLED20.ConcentrationAbbr": "C",
+"SIMPLED20.ConcentrationBreak": "Break Concentration",
+"SIMPLED20.ConcentrationBreakWarning": "Breaking concentration on an effect that is active on other creatures requires an active GM to be present.",
+"SIMPLED20.ConcentrationBonus": "Concentration Bonus",
+"SIMPLED20.ConcentrationDuration": "Concentration, up to {duration}",
+"SIMPLED20.ConcentratingOn": "You are maintaining concentration on the effects of the '{name}' {type}.",
+"SIMPLED20.ConcentratingEndChoice": "You are concentrating on effects from more than one source. Pick which effect to end.",
+"SIMPLED20.ConcentratingMissingItem": "The effect that is concentrated on and to be replaced does not exist.",
+"SIMPLED20.ConcentratingLimited": "You are not able to begin concentrating on an additional effect.",
+"SIMPLED20.ConcentrationLimit": "Concentration Limit",
+"SIMPLED20.ConcentratingEnd": "End Concentration",
+"SIMPLED20.ConcentratingItemless": "Concentration With No Source",
+"SIMPLED20.ConcentratingWarnLimit": "You cannot maintain concentration on more effects!",
+"SIMPLED20.ConcentratingWarnLimitOptional": "You may end concentration on one of your maintained effects to use this item.",
+"SIMPLED20.ConcentratingWarnLimitZero": "You are not able to maintain concentration on any effects!",
+"SIMPLED20.ConcentrationConfigurationHint": "Configure concentration modifiers and bonuses which apply to this creature.",
+"SIMPLED20.ConsumeTitle": "Resource Consumption",
+"SIMPLED20.ConsumeAmount": "Consumption Amount",
+"SIMPLED20.ConsumeHint": {
+  "Attribute": "Attribute to consume (e.g. currency.gp)",
+  "Item": "UUID of target in compendium"
+},
+"SIMPLED20.ConsumeTarget": "Consumption Target",
+"SIMPLED20.ConsumeType": "Consumption Category",
+"SIMPLED20.ConsumeAmmunition": "Ammunition",
+"SIMPLED20.ConsumeAttribute": "Attribute",
+"SIMPLED20.ConsumeHitDice": "Hit Dice",
+"SIMPLED20.ConsumeHitDiceLargest": "Largest Available",
+"SIMPLED20.ConsumeHitDiceLargestLong": "Largest Hit Dice Available",
+"SIMPLED20.ConsumeHitDiceSmallest": "Smallest Available",
+"SIMPLED20.ConsumeHitDiceSmallestLong": "Smallest Hit Dice Available",
+"SIMPLED20.ConsumeMaterial": "Material",
+"SIMPLED20.ConsumeCharges": "Item Uses",
+"SIMPLED20.ConsumeResource": "Consume Resource?",
+"SIMPLED20.ConsumeRecharge": "Consume Recharge?",
+"SIMPLED20.ConsumeScaling": "Resource Scaling",
+"SIMPLED20.ConsumeScalingLabel": "Use Resources",
+"SIMPLED20.ConsumeScalingTooltip": "If checked, consuming additional resources will increase the level the spell is cast at.",
+
+"SIMPLED20.CONSUMABLE": {
+  "FIELDS": {
+    "damage": {
+      "label": "Ammunition Damage",
+      "replace": {
+        "label": "Replace Weapon Damage",
+        "hint": "Replace base weapon damage with this damage rather than augmenting it."
+      }
+    },
+    "magicalBonus": {
+      "label": "Magical Bonus"
+    },
+    "properties": {
+      "label": "Consumable Properties"
+    },
+    "uses": {
+      "autoDestroy": {
+        "label": "Destroy on Empty",
+        "hint": "Reduce the item's quantity by 1 whenever all of its limited uses are expended."
+      }
+    }
+  },
+  "Category": {
+    "Poison": "Poison"
+  },
+  "Type": {
+    "Ammunition": {
+      "Label": "Ammunition",
+      "Arrow": "Arrow",
+      "Bolt": "Bolt",
+      "BulletFirearm": "Bullet, Firearm",
+      "BulletSling": "Bullet, Sling",
+      "EnergyCell": "Energy Cell",
+      "Needle": "Needle"
+    },
+    "Food": {
+      "Label": "Food"
+    },
+    "Poison": {
+      "Label": "Poison",
+      "Contact": "Contact",
+      "Ingested": "Ingested",
+      "Inhaled": "Inhaled",
+      "Injury": "Injury"
+    },
+    "Potion": {
+      "Label": "Potion"
+    },
+    "Rod": {
+      "Label": "Rod"
+    },
+    "Scroll": {
+      "Label": "Scroll"
+    },
+    "Trinket": {
+      "Label": "Trinket"
+    },
+    "Wand": {
+      "Label": "Wand"
+    }
+  }
+},
+
+"SIMPLED20.ConsumableUseWarnStart": "This consumable has",
+"SIMPLED20.ConsumableUseWarnEnd": "of the current unit",
+"SIMPLED20.ConsumableUnitWarn": "units remaining",
+"SIMPLED20.ConsumableLastChargeWarn": "This is the last charge of this unit and consuming it will also reduce the item's quantity by 1",
+"SIMPLED20.ConsumableWithoutCharges": "available units to use",
+
+"SIMPLED20.CONSUMPTION": {
+  "FIELDS": {
+    "consumption": {
+      "label": "Consumption",
+      "scaling": {
+        "abbr": "Scaling",
+        "label": "Consumption Scaling",
+        "allowed": {
+          "label": "Allow Scaling",
+          "hint": "Can an activity not on a spell be activated at higher levels?"
+        },
+        "max": {
+          "label": "Max Scaling",
+          "hint": "Maximum number of scaling levels for this item, including the base level."
+        }
+      },
+      "spellSlot": {
+        "label": "Consume Spell Slot",
+        "hint": "Should using this activity consume a slot for this spell?"
+      },
+      "targets": {
+        "label": "Consumption Targets",
+        "hint": "Targets of possible consumption when this activity is activated.",
+        "FIELDS": {
+          "type": {
+            "label": "Consumption Type",
+            "hint": "Type of consumption target."
+          },
+          "target": {
+            "label": "Consumption Target",
+            "hint": "Specific target to be consumed."
+          },
+          "value": {
+            "label": "Consumption Amount",
+            "hint": "Enter a negative value to restore rather than consume."
+          },
+          "scaling": {
+            "label": "Consumption Scaling",
+            "mode": {
+              "label": "Scaling Mode",
+              "hint": "How consumption should be scaled."
+            },
+            "formula": {
+              "label": "Scaling Formula",
+              "hint": "Custom scaling of consumption amount per level."
+            }
+          }
+        }
+      }
+    }
+  },
+  "Action": {
+    "ConsumeResource": "Consume Resource",
+    "Create": "Create Consumption Target",
+    "Delete": "Delete Consumption Target",
+    "RefundResource": "Refund Resource"
+  },
+  "Scaling": {
+    "Amount": "Amount",
+    "Automatic": "Automatic",
+    "None": "No Scaling",
+    "SlotLevel": "Slot Level"
+  },
+  "Target": {
+    "ThisItem": "This Item"
+  },
+  "Type": {
+    "Action": {
+      "Prompt": "Consume {type}?",
+      "PromptHint": "Spend {cost} ({available} available)."
+    },
+    "ActivityUses": {
+      "Label": "Activity Uses",
+      "PromptDecrease": "Consume Activity Use?",
+      "PromptIncrease": "Restore Activity Use?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {use} of this activity ({available} {availableUse} available).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {use} of this activity.",
+      "Warning": "uses on {item}'s activity {activity}"
+    },
+    "Attribute": {
+      "Label": "Attribute",
+      "PromptDecrease": "Consume Attribute?",
+      "PromptIncrease": "Restore Attribute?",
+      "PromptHintDecrease": "Decrease <code>{attribute}</code> by <strong>{cost}</strong> (currently {current}).",
+      "PromptHintIncrease": "Increase <code>{attribute}</code> by <strong>{cost}</strong> (currently {current}).",
+      "Warning": "{attribute} amount"
+    },
+    "HitDice": {
+      "Label": "Hit Dice",
+      "PromptDecrease": "Consume Hit Die?",
+      "PromptIncrease": "Restore Hit Die?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {denomination} {die} ({available} remaining).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {denomination} {die}.",
+      "Warning": "{denomination} hit dice"
+    },
+    "HitDie": {
+      "one": "hit die",
+      "other": "hit dice"
+    },
+    "ItemUses": {
+      "Label": "Item Uses",
+      "PromptDecrease": "Consume Item Use?",
+      "PromptIncrease": "Restore Item Use?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {use} of {item} ({available} {availableUse} available).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {use} of {item}.",
+      "Warning": "uses on {name}"
+    },
+    "Material": {
+      "Label": "Material",
+      "PromptDecrease": "Consume Material?",
+      "PromptIncrease": "Restore Material?",
+      "PromptHintDecrease": "Reduce quantity of {item} by <strong>{cost}</strong> ({quantity} remaining).",
+      "PromptHintIncrease": "Increase quantity of {item} by <strong>{cost}</strong>.",
+      "Warning": "of {name}"
+    },
+    "SpellSlot": {
+      "one": "{level} slot",
+      "other": "{level} slots"
+    },
+    "SpellSlots": {
+      "Label": "Spell Slots",
+      "PromptDecrease": "Consume Spell Slot?",
+      "PromptIncrease": "Restore Spell Slot?",
+      "PromptHintDecrease": "Spend <strong>{cost}</strong> {slot} ({available} remaining).",
+      "PromptHintIncrease": "Recover <strong>{cost}</strong> {slot}.",
+      "Warning": "{level} slots"
+    },
+    "Use": {
+      "one": "use",
+      "other": "uses"
+    }
+  },
+  "Warning": {
+    "MissingAttribute": "Attribute {attribute} configured to be consumed by {activity} activity on {item} could not be found.",
+    "MissingHitDice": "Actor does not have a class with a {denomination} hit die.",
+    "MissingItem": "Item configured to be consumed by {activity} activity on {item} could not be found.",
+    "MissingSpellSlot": "No {level} slots available.",
+    "None": "No {type} available to spend, {cost} required.",
+    "NotEnough": "Not enough {type} available to spend, {cost} required and only {available} available.",
+    "WillDestroy": "Consuming {item} will spend its final use and it will be destroyed."
+  }
+},
+
+"SIMPLED20.Consumed": "Consumed",
+"SIMPLED20.Copy": "Copy Text",
+"SIMPLED20.Copied": "Copied {value}",
+"SIMPLED20.Cover": "Cover",
+"SIMPLED20.CoverHalf": "Half",
+"SIMPLED20.CoverThreeQuarters": "Three Quarters",
+"SIMPLED20.CoverTotal": "Total",
+"SIMPLED20.Cost": "Cost",
+"SIMPLED20.CostGP": "Cost (GP)",
+"SIMPLED20.CreatureAberration": "Aberration",
+"SIMPLED20.CreatureAberrationPl": "Aberrations",
+"SIMPLED20.CreatureBeast": "Beast",
+"SIMPLED20.CreatureBeastPl": "Beasts",
+"SIMPLED20.CreatureCelestial": "Celestial",
+"SIMPLED20.CreatureCelestialPl": "Celestials",
+"SIMPLED20.CreatureConstruct": "Construct",
+"SIMPLED20.CreatureConstructPl": "Constructs",
+"SIMPLED20.CreatureDragon": "Dragon",
+"SIMPLED20.CreatureDragonPl": "Dragons",
+"SIMPLED20.CreatureElemental": "Elemental",
+"SIMPLED20.CreatureElementalPl": "Elementals",
+"SIMPLED20.CreatureFey": "Fey",
+"SIMPLED20.CreatureFeyPl": "Fey",
+"SIMPLED20.CreatureFiend": "Fiend",
+"SIMPLED20.CreatureFiendPl": "Fiends",
+"SIMPLED20.CreatureGiant": "Giant",
+"SIMPLED20.CreatureGiantPl": "Giants",
+"SIMPLED20.CreatureHumanoid": "Humanoid",
+"SIMPLED20.CreatureHumanoidPl": "Humanoids",
+"SIMPLED20.CreatureMonstrosity": "Monstrosity",
+"SIMPLED20.CreatureMonstrosityPl": "Monstrosities",
+"SIMPLED20.CreatureOoze": "Ooze",
+"SIMPLED20.CreatureOozePl": "Oozes",
+"SIMPLED20.CreaturePlant": "Plant",
+"SIMPLED20.CreaturePlantPl": "Plants",
+"SIMPLED20.CreatureType": "Creature Type",
+"SIMPLED20.CreatureTypeTitle": "Configure Creature Type",
+"SIMPLED20.CreatureSwarm": "Swarm",
+"SIMPLED20.CreatureSwarmSize": "Swarm Size",
+"SIMPLED20.CreatureSwarmPhrase": "Swarm of {size} {type}",
+"SIMPLED20.CreatureTag": "{size} {type}, {alignment}",
+"SIMPLED20.CreatureTypeConfig": "Configure Creature Type",
+"SIMPLED20.CreatureTypeSelectorCustom": "Custom Type",
+"SIMPLED20.CreatureTypeSelectorSubtype": "Subtype",
+"SIMPLED20.CreatureUndead": "Undead",
+"SIMPLED20.CreatureUndeadPl": "Undead",
+"SIMPLED20.Crewed": "Crewed",
+"SIMPLED20.Critical": "Critical",
+"SIMPLED20.CriticalHit": "Critical Hit",
+"SIMPLED20.PowerfulCritical": "Powerful Critical",
+"SIMPLED20.CRLabel": "CR {cr}",
+"SIMPLED20.Currency": "Currency",
+"SIMPLED20.CurrencyAbbrCP": "cp",
+"SIMPLED20.CurrencyAbbrEP": "ep",
+"SIMPLED20.CurrencyAbbrGP": "gp",
+"SIMPLED20.CurrencyAbbrPP": "pp",
+"SIMPLED20.CurrencyAbbrSP": "sp",
+"SIMPLED20.CurrencyCP": "Copper",
+"SIMPLED20.CurrencyEP": "Electrum",
+"SIMPLED20.CurrencyGP": "Gold",
+"SIMPLED20.CurrencyPP": "Platinum",
+"SIMPLED20.CurrencySP": "Silver",
+"SIMPLED20.CurrencyManager": {
+  "Title": "Manage Currency",
+  "Convert": {
+    "Label": "Convert",
+    "Action": "Convert All Currency",
+    "Hint": "Convert all carried currency to the highest possible denomination to reduce the amount of coinage carried by the character. Be wary, this action cannot be undone."
+  },
+  "Error": {
+    "InsufficientFunds": "Failed to deduct {amount}{denomination} from {name}. Insufficient funds."
+  },
+  "Transfer": {
+    "Label": "Transfer",
+    "Action": "Transfer Selected",
+    "All": "All",
+    "Half": "Half"
+  }
+},
+"SIMPLED20.Current": "Current",
+
+"SIMPLED20.DAMAGE": {
+  "Title": "Damage",
+  "FIELDS": {
+    "damage": {
+      "label": "Damage",
+      "critical": {
+        "allow": {
+          "label": "Allow Critical",
+          "hint": "Should the creature be able to roll critical damage?"
+        },
+        "bonus": {
+          "label": "Extra Critical Damage",
+          "hint": "Extra damage applied to the first damage part when a critical is rolled."
+        }
+      },
+      "parts": {
+        "label": "Damage Parts",
+        "hint": "Individual damage parts to include with the roll.",
+        "FIELDS": {
+          "bonus": {
+            "label": "Damage Bonus",
+            "hint": "Bonus added to the damage roll."
+          },
+          "custom": {
+            "label": "Custom Damage Formula",
+            "enabled": {
+              "label": "Enable Custom Formula",
+              "hint": "Use a custom formula rather than the default dice."
+            },
+            "formula": {
+              "label": "Damage Formula",
+              "hint": "Custom damage formula."
+            }
+          },
+          "denomination": {
+            "label": "Die Denomination",
+            "hint": "Denomination of the dice to roll."
+          },
+          "number": {
+            "label": "Die Number",
+            "hint": "Number of dice to roll."
+          },
+          "scaling": {
+            "label": "Damage Scaling",
+            "abbr": "Scaling",
+            "mode": {
+              "label": "Scaling Mode",
+              "abbr": "Mode",
+              "hint": "Method by which the scaling increase is calculated."
+            },
+            "number": {
+              "label": "Dice Scaling",
+              "abbr": "Dice",
+              "hint": "Number of dice to increase for each scaling step. Will be applied to the first die found in the damage formula if more than one is present."
+            },
+            "formula": {
+              "label": "Scaling Formula",
+              "hint": "Arbitrary scaling formula that will be multiplied for each scaling step and added to the original formula."
+            }
+          },
+          "types": {
+            "label": "Damage Types",
+            "hint": "Type of damage inflicted or multiple for the user to select from."
+          }
+        }
+      }
+    }
+  },
+  "Part": {
+    "Action": {
+      "Create": "Create Damage Part",
+      "Delete": "Delete Damage Part"
+    }
+  },
+  "Scaling": {
+    "Half": "Every Other Level",
+    "HalfCantrip": "Half Cantrip Scaling",
+    "None": "No Scaling",
+    "Whole": "Every Level",
+    "WholeCantrip": "Cantrip Scaling"
+  }
+},
+
+"SIMPLED20.DamImm": "Damage Immunities",
+"SIMPLED20.DamMod": "Damage Modification",
+"SIMPLED20.DamRes": "Damage Resistances",
+"SIMPLED20.DamVuln": "Damage Vulnerabilities",
+"SIMPLED20.Damage": "Damage",
+"SIMPLED20.DamageAcid": "Acid",
+"SIMPLED20.DamageAll": "All Damage",
+"SIMPLED20.DamageApplication": {
+  "Change": {
+    "Modification": "{type} Modification",
+    "Immunity": "{type} Immunity",
+    "Resistance": "{type} Resistance",
+    "Vulnerability": "{type} Vulnerability"
+  },
+  "Downgrading": "Downgrading {source} to Resistance",
+  "Ignoring": "Ignoring {source}"
+},
+"SIMPLED20.DamageBludgeoning": "Bludgeoning",
+"SIMPLED20.DamageCold": "Cold",
+"SIMPLED20.DamageFire": "Fire",
+"SIMPLED20.DamageForce": "Force",
+"SIMPLED20.DamageLightning": "Lightning",
+"SIMPLED20.DamageModification": {
+  "Label": "Damage Modification",
+  "Hint": "Formulas for amounts that will be added to typed damage applied to this actor. Negative values will reduce the damage taken.",
+  "BypassHint": "These weapon properties will bypass damage modification for physical damage."
+},
+"SIMPLED20.DamageNecrotic": "Necrotic",
+"SIMPLED20.DamagePiercing": "Piercing",
+"SIMPLED20.DamagePhysical": "Non-Magical Physical",
+"SIMPLED20.DamagePhysicalBypass": "Physical Bypasses",
+"SIMPLED20.DamagePhysicalBypassHint": "These weapon properties will bypass damage resistance for physical damage.",
+"SIMPLED20.DamagePhysicalBypasses": "{damageTypes} from attacks that are not {bypassTypes}",
+"SIMPLED20.DamagePhysicalBypassesShort": "Bypassed by {type} Sources",
+"SIMPLED20.DamagePoison": "Poison",
+"SIMPLED20.DamagePsychic": "Psychic",
+"SIMPLED20.DamageRadiant": "Radiant",
+"SIMPLED20.DamageRoll": "Damage Roll",
+"SIMPLED20.DamageSlashing": "Slashing",
+"SIMPLED20.DamageThreshold": "Damage Threshold",
+"SIMPLED20.DamageThunder": "Thunder",
+"SIMPLED20.DamageType": "Damage Type",
+"SIMPLED20.DamageTypes": "Damage Types",
+"SIMPLED20.Dawn": "Dawn",
+"SIMPLED20.Day": "Day",
+"SIMPLED20.DeathSave": "Death Saves",
+"SIMPLED20.DeathSaveBonus": "Death Save Bonus",
+"SIMPLED20.DeathSaveConfigure": "Configure Death Saves",
+"SIMPLED20.DeathSaveCriticalSuccess": "{name} critically succeeded on a death saving throw and has regained 1 Hit Point!",
+"SIMPLED20.DeathSaveHide": "Hide Death Saves",
+"SIMPLED20.DeathSaveShow": "Show Death Saves",
+"SIMPLED20.DeathSaveSuccess": "{name} has survived with 3 death save successes and is now stable!",
+"SIMPLED20.DeathSaveSuccessLabel": "Death Save Success",
+"SIMPLED20.DeathSaveSuccessLabelN.one": "1st death save success",
+"SIMPLED20.DeathSaveSuccessLabelN.two": "2nd death save success",
+"SIMPLED20.DeathSaveSuccessLabelN.few": "3rd death save success",
+"SIMPLED20.DeathSaveSuccesses": "Successes",
+"SIMPLED20.DeathSaveFailure": "{name} has died with 3 death save failures!",
+"SIMPLED20.DeathSaveFailureLabel": "Death Save Failure",
+"SIMPLED20.DeathSaveFailureLabelN.one": "1st death save failure",
+"SIMPLED20.DeathSaveFailureLabelN.two": "2nd death save failure",
+"SIMPLED20.DeathSaveFailureLabelN.few": "3rd death save failure",
+"SIMPLED20.DeathSaveFailures": "Failures",
+"SIMPLED20.DeathSaveRoll": "Roll a Death Saving Throw",
+"SIMPLED20.DeathSavingThrow": "Death Saving Throw",
+"SIMPLED20.DeathSaveUnnecessary": "You do not need to roll death saves because you have a positive number of hit points or have already reached 3 successes or failures.",
+"SIMPLED20.Default": "Default",
+"SIMPLED20.DefaultSpecific": "Default ({default})",
+"SIMPLED20.DefaultAbilityCheck": "Default Ability Check",
+"SIMPLED20.Denomination": "Denomination",
+"SIMPLED20.Description": "Description",
+"SIMPLED20.DescriptionChat": "Chat Description",
+"SIMPLED20.DescriptionEdit": "Edit {description}",
+"SIMPLED20.DescriptionSummary": "Summary Description",
+"SIMPLED20.DescriptionUnidentified": "Unidentified Description",
+"SIMPLED20.Details": "Details",
+"SIMPLED20.DetailsEdit": "Edit Details",
+"SIMPLED20.Die": "Die",
+"SIMPLED20.Dimensions": "Dimensions",
+"SIMPLED20.Disadvantage": "Disadvantage",
+"SIMPLED20.Discord": "Discord",
+"SIMPLED20.Disclaimer": "Disclaimer",
+"SIMPLED20.DisplayCard": "Display in Chat",
+"SIMPLED20.DistAny": "Any",
+"SIMPLED20.DistFt": "Feet",
+"SIMPLED20.DistFtAbbr": "ft",
+"SIMPLED20.DistKm": "Kilometers",
+"SIMPLED20.DistKmAbbr": "km",
+"SIMPLED20.DistM": "Meters",
+"SIMPLED20.DistMAbbr": "m",
+"SIMPLED20.DistMi": "Miles",
+"SIMPLED20.DistMiAbbr": "mi",
+"SIMPLED20.DistSelf": "Self",
+"SIMPLED20.DistTouch": "Touch",
+"SIMPLED20.DocumentUseWarn": "You lack permission to use an item on this document.",
+"SIMPLED20.DocumentViewWarn": "You lack permission to view this document.",
+
+"SIMPLED20.DURATION": {
+  "FIELDS": {
+    "duration": {
+      "label": "Duration",
+      "concentration": {
+        "label": "Concentration",
+        "hint": "Creature must maintain concentration while active."
+      },
+      "override": {
+        "label": "Override Duration",
+        "hint": "Use these duration values instead of the item's when using this activity."
+      },
+      "special": {
+        "label": "Special Duration",
+        "hint": "Description of any special duration details."
+      },
+      "units": {
+        "label": "Duration Units",
+        "hint": "Units used to measure duration."
+      },
+      "value": {
+        "label": "Duration Value",
+        "hint": "Value of the duration in the specified units, if applicable."
+      }
+    }
+  }
+},
+
+"SIMPLED20.Duration": "Duration",
+"SIMPLED20.DurationPermanent": "Permanent",
+"SIMPLED20.DurationTime": "Time",
+"SIMPLED20.DurationType": "Duration Type",
+"SIMPLED20.DurationUnits": "Duration Units",
+"SIMPLED20.DurationValue": "Duration Value",
+"SIMPLED20.Dusk": "Dusk",
+"SIMPLED20.Effect": "Effect",
+"SIMPLED20.Effects": "Effects",
+"SIMPLED20.EFFECT": {
+  "Action": {
+    "Create": "Create Effect",
+    "Delete": "Delete Effect",
+    "Dissociate": "Dissociate Effect"
+  },
+  "Empty": "No associated effects. Use the <i class=\"fas fa-plus\"></i> button above to create one, or select an existing effect from the drop-down.",
+  "Label": "Available Effects"
+},
+"SIMPLED20.EffectsApplyTokens": "Apply to selected tokens",
+"SIMPLED20.EffectApplyWarningConcentration": "Applying an effect that is being concentrated on by another character requires GM permissions.",
+"SIMPLED20.EffectApplyWarningOwnership": "Effects cannot be applied to tokens you are not the owner of.",
+"SIMPLED20.EffectsSearch": "Search effects",
+
+"SIMPLED20.ENCHANT": {
+  "Title": "Enchant",
+  "FIELDS": {
+    "effects": {
+      "FIELDS": {
+        "level": {
+          "label": "Level Limit",
+          "hint": "Range of levels required to use this enchantment.",
+          "max": {
+            "label": "Maximum Level"
+          },
+          "min": {
+            "label": "Minimum Level"
+          }
+        },
+        "riders": {
+          "label": "Attached",
+          "activity": {
+            "label": "Additional Activities",
+            "hint": "These additional activities will be added to the enchanted item when this enchantment is applied, and removed when the enchantment is removed."
+          },
+          "effect": {
+            "label": "Additional Effects",
+            "hint": "These additional effects will be added to the enchanted item when this enchantment is applied, and removed when the enchantment is removed."
+          },
+          "item": {
+            "label": "Additional Items",
+            "hint": "These additional items will be added to the creature when one of its items is enchanted, and will be removed if the enchantment is ever removed."
+          }
+        }
+      },
+      "level": {
+        "label": "Level Limit",
+        "hint": "Range of levels required to use this enchantment.",
+        "max": {
+          "label": "Maximum Level"
+        },
+        "min": {
+          "label": "Minimum Level"
+        }
+      },
+      "riders": {
+        "label": "Attached",
+        "activity": {
+          "label": "Additional Activities",
+          "hint": "These additional activities will be added to the enchanted item when this enchantment is applied, and removed when the enchantment is removed."
+        },
+        "effect": {
+          "label": "Additional Effects",
+          "hint": "These additional effects will be added to the enchanted item when this enchantment is applied, and removed when the enchantment is removed."
+        },
+        "item": {
+          "label": "Additional Items",
+          "hint": "These additional items will be added to the creature when one of its items is enchanted, and will be removed if the enchantment is ever removed."
+        }
+      }
+    },
+    "enchant": {
+      "label": "Enchantment Configuration",
+      "identifier": {
+        "label": "Class Identifier",
+        "hint": "Identifier used to determine whether the character level or a specific class level should be used for enchantment level limits."
+      }
+    },
+    "restrictions": {
+      "label": "Restrictions",
+      "hint": "Restrictions on the type of item to which this enchantment can be applied.",
+      "allowMagical": {
+        "label": "Allow Magical",
+        "hint": "Allow items that are already magical to be enchanted."
+      },
+      "categories": {
+        "label": "Valid Categories",
+        "hint": "Specific item categories to which this enchantment can be applied."
+      },
+      "properties": {
+        "label": "Valid Properties",
+        "hint": "Specific item properties which must be present for this enchantment to be applied."
+      },
+      "type": {
+        "label": "Item Type",
+        "hint": "Type of item to which this enchantment can be applied.",
+        "Any": "Any Enchantable Type"
+      }
+    }
+  },
+  "SECTIONS": {
+    "Enchanting": "Enchanting",
+    "Enchantments": "Enchantments",
+    "Restrictions": "Restrictions"
+  },
+  "DropArea": "Place item here to enchant it…",
+  "Enchanted": "{current} &sol; {max} enchanted",
+  "Enchantment": {
+    "Action": {
+      "Create": "Create Enchantment",
+      "Delete": "Delete Enchantment"
+    },
+    "Empty": "No associated enchantments. Use the <i class=\"fas fa-plus\"></i> button above to create one, or select an existing enchantment from the drop-down."
+  },
+  "Warning": {
+    "ConcentrationEnded": "Cannot apply this enchantment because concentration has ended.",
+    "MissingProperty": "Item must have one of these properties to be enchanted: {validProperties}.",
+    "NoMagicalItems": "Items that are already magical cannot be enchanted.",
+    "NoSubtype": "Only {allowedType} items can be enchanted by this enchantment, but this item doesn't have a sub-type.",
+    "WrongType": "{incorrectType} items cannot be enchanted by this enchantment, only {allowedType} items are allowed."
+  }
+},
+
+"SIMPLED20.ENCHANTMENT": {
+  "Action": {
+    "Apply": "Apply Enchantment",
+    "Disable": "Disable Enchantment",
+    "Edit": "Edit Enchantment",
+    "Enable": "Enable Enchantment",
+    "Remove": "Remove Enchantment"
+  },
+  "Category": {
+    "Active": "Active Enchantments",
+    "General": "Enchantments",
+    "Inactive": "Inactive Enchantments"
+  },
+  "FIELDS": {
+    "enchantment": {
+      "label": "Enchantment Configuration",
+      "items": {
+        "max": {
+          "label": "Item Limit",
+          "hint": "Formula for the maximum number of enchantments of this type that can be active at a time."
+        },
+        "period": {
+          "label": "Replacement Period",
+          "hint": "How frequently the enchantments of this type can be re-bound to different items."
+        }
+      }
+    }
+  },
+  "Items": {
+    "Entry": "{item} on <em>{actor}</em>"
+  },
+  "Label": "Enchantment",
+  "Period": {
+    "AtWill": "At Will",
+    "LongRest": "Long Rest",
+    "Never": "Never",
+    "ShortRest": "Short Rest"
+  },
+  "Warning": {
+    "NotOnActor": "Enchantments can only be added to items, not directly to actors.",
+    "Override": "This value is being modified by an Enchantment and cannot be edited. Disable the enchantment in the effects tab to edit it."
+  }
+},
+
+"SIMPLED20.Environment": "Environment",
+
+"SIMPLED20.EQUIPMENT": {
+  "Type": {
+    "Clothing": {
+      "Label": "Clothing"
+    },
+    "Ring": {
+      "Label": "Ring"
+    },
+    "Rod": {
+      "Label": "Rod"
+    },
+    "Trinket": {
+      "Label": "Trinket"
+    },
+    "Vehicle": {
+      "Label": "Vehicle Equipment"
+    },
+    "Wand": {
+      "Label": "Wand"
+    },
+    "Wondrous": {
+      "Label": "Wondrous Item"
+    }
+  }
+},
+
+"SIMPLED20.EquipmentBonus": "Magical Bonus",
+"SIMPLED20.EquipmentHeavy": "Heavy Armor",
+"SIMPLED20.EquipmentLight": "Light Armor",
+"SIMPLED20.EquipmentMedium": "Medium Armor",
+"SIMPLED20.EquipmentNatural": "Natural Armor",
+"SIMPLED20.EquipmentShield": "Shield",
+"SIMPLED20.EquipmentShieldProficiency": "Shields",
+"SIMPLED20.Equipped": "Equipped",
+"SIMPLED20.Exhaustion": "Exhaustion",
+"SIMPLED20.ExhaustionLevel": "Exhaustion Level {n}",
+
+"SIMPLED20.ExperiencePoints": {
+  "Abbreviation": "XP",
+  "Boons": {
+    "one": "{number} Boon",
+    "other": "{number} Boons"
+  },
+  "Current": "Current XP",
+  "Format": "{value} XP",
+  "Label": "Experience Points",
+  "Progress": "Progress to next Level",
+  "StatBlock": {
+    "Standard": "XP {value}",
+    "Lair": "XP {value}, or {lair} in lair"
+  },
+  "Value": "XP Value"
+},
+
+"SIMPLED20.Expertise": "Expertise",
+
+"SIMPLED20.FACILITY": {
+  "Action": {
+    "DeleteDefender": "Delete Defender",
+    "DeleteOccupant": "Delete Occupant",
+    "RemoveCraft": "Remove Craft"
+  },
+  "AvailableFacility": {
+    "basic": {
+      "build": "Build Facility",
+      "free": "Free Facility"
+    },
+    "special": {
+      "free": "Add Facility"
+    }
+  },
+  "Build": {
+    "Unbuilt": "Unbuilt"
+  },
+  "Costs": {
+    "Automatic": "Deduct Automatically",
+    "Days": "{days} days",
+    "Label": "Costs",
+    "Manual": "Mark as Paid",
+    "Paid": "paid",
+    "Unpaid": "unpaid"
+  },
+  "Craft": {
+    "BaseItem": {
+      "Label": "Purchase Base Item",
+      "Hint": "If checked, the base item will be purchased at full price instead of crafted."
+    },
+    "Hint": "The items that this facility is currently in the process of crafting or harvesting, if any."
+  },
+  "Description": "Description",
+  "FIELDS": {
+    "building": {
+      "built": {
+        "label": "Built",
+        "hint": "Basic facilities must be built first before they can be used."
+      }
+    },
+    "defenders": {
+      "max": {
+        "label": "Defenders"
+      }
+    },
+    "disabled": {
+      "hint": "Disabled facilities cannot be issued orders and are repaired at the beginning of the next turn.",
+      "label": "Disabled"
+    },
+    "enlargeable": {
+      "hint": "Certain special facilities may have their size categories increased for a cost.",
+      "label": "Can Be Enlarged"
+    },
+    "free": {
+      "hint": "Free facilities do not count towards your special facilities cap.",
+      "label": "Free Facility"
+    },
+    "hirelings": {
+      "max": {
+        "label": "Hirelings"
+      }
+    },
+    "level": {
+      "label": "Level Requirement"
+    },
+    "order": {
+      "label": "Order"
+    },
+    "progress": {
+      "max": {
+        "label": "Total"
+      },
+      "order": {
+        "label": "Executing"
+      },
+      "value": {
+        "label": "Current"
+      }
+    },
+    "size": {
+      "label": "Size"
+    },
+    "trade": {
+      "creatures": {
+        "max": {
+          "label": "Creature Capacity"
+        }
+      },
+      "profit": {
+        "label": "Profit Factor"
+      },
+      "stock": {
+        "stocked": {
+          "hint": "Appropriate for facilities that do not store a variable value of goods, but are instead considered either stocked or empty.",
+          "label": "Stocked"
+        },
+        "value": {
+          "label": "Value"
+        },
+        "max": {
+          "label": "Max"
+        }
+      }
+    },
+    "type": {
+      "subtype": {
+        "label": "Type"
+      },
+      "value": {
+        "label": "Category"
+      }
+    }
+  },
+  "Goods": "Goods",
+  "NoDefenders": "Bastion is undefended.",
+  "Occupants": "Occupants",
+  "Order": {
+    "Execute": "Execute Order",
+    "Issue": "Issue Order: {order}"
+  },
+  "Orders": {
+    "Label": "Orders",
+    "build": {
+      "inf": "Build",
+      "present": "Building"
+    },
+    "change": {
+      "inf": "Change",
+      "present": "Changing"
+    },
+    "craft": {
+      "inf": "Craft",
+      "present": "Crafting"
+    },
+    "empower": {
+      "inf": "Empower",
+      "present": "Empowering"
+    },
+    "enlarge": {
+      "inf": "Enlarge",
+      "present": "Enlarging"
+    },
+    "harvest": {
+      "inf": "Harvest",
+      "present": "Harvesting"
+    },
+    "maintain": {
+      "inf": "Maintain",
+      "present": "Maintaining"
+    },
+    "recruit": {
+      "inf": "Recruit",
+      "present": "Recruiting"
+    },
+    "repair": {
+      "inf": "Repair",
+      "present": "Repairing"
+    },
+    "research": {
+      "inf": "Research",
+      "present": "Researching"
+    },
+    "trade": {
+      "inf": "Trade",
+      "present": "Trading"
+    }
+  },
+  "Progress": "Progress",
+  "Properties": "Properties",
+  "Sizes": {
+    "cramped": "Cramped",
+    "roomy": "Roomy",
+    "vast": "Vast"
+  },
+  "Squares": "{squares} squares",
+  "Trade": {
+    "Buy": {
+      "Supplement": "Buy"
+    },
+    "Creatures": {
+      "Buy": "Drop animals that you wish to purchase into the slots above, and update the cost appropriately below."
+    },
+    "Price": {
+      "Label": "Base Price",
+      "Hint": "Select which stock to sell, and input the base price above."
+    },
+    "Sell": {
+      "Label": "Sell Stock",
+      "Supplement": "Sell"
+    },
+    "Stock": {
+      "Buy": "Buying",
+      "Sell": "Selling"
+    },
+    "Stocked": {
+      "Label": "Fully Stock",
+      "Hint": "Input the required cost to fully stock this facility below."
+    }
+  },
+  "Types": {
+    "Basic": {
+      "Label": {
+        "one": "Basic Facility",
+        "other": "Basic Facilities"
+      },
+      "Bedroom": "Bedroom",
+      "DiningRoom": "Dining Room",
+      "Parlor": "Parlor",
+      "Courtyard": "Courtyard",
+      "Kitchen": "Kitchen",
+      "Storage": "Storage"
+    },
+    "Special": {
+      "Label": {
+        "one": "Special Facility",
+        "other": "Special Facilities"
+      },
+      "ArcaneStudy": "Arcane Study",
+      "Armory": "Armory",
+      "Barrack": "Barrack",
+      "Garden": "Garden",
+      "Library": "Library",
+      "Sanctuary": "Sanctuary",
+      "Smithy": "Smithy",
+      "Storehouse": "Storehouse",
+      "Workshop": "Workshop",
+      "GamingHall": "Gaming Hall",
+      "Greenhouse": "Greenhouse",
+      "Laboratory": "Laboratory",
+      "Sacristy": "Sacristy",
+      "Scriptorium": "Scriptorium",
+      "Stable": "Stable",
+      "TeleportationCircle": "Teleportation Circle",
+      "Theater": "Theater",
+      "TrainingArea": "Training Area",
+      "TrophyRoom": "Trophy Room",
+      "Archive": "Archive",
+      "MeditationChamber": "Meditation Chamber",
+      "Menagerie": "Menagerie",
+      "Observatory": "Observatory",
+      "Pub": "Pub",
+      "Reliquary": "Reliquary",
+      "Demiplane": "Demiplane",
+      "Guildhall": "Guildhall",
+      "Sanctum": "Sanctum",
+      "WarRoom": "War Room"
+    }
+  },
+  "Use": {
+    "Description": "Issued the <strong>{order}</strong> order to their {link} {facilityType}."
+  }
+},
+
+"SIMPLED20.Favorite": "Favorite",
+"SIMPLED20.FavoriteDrop": "Drop Favorite",
+"SIMPLED20.FavoriteRemove": "Remove Favorite",
+"SIMPLED20.Favorites": "Favorites",
+"SIMPLED20.FeatureActionRecharge": "Action Recharge",
+
+"SIMPLED20.FEATURE": {
+  "FIELDS": {
+    "cover": {
+      "label": "Cover",
+      "hint": "Cover provided to crew by this vehicle feature."
+    },
+    "properties": {
+      "label": "Feature Properties"
+    },
+    "requirements": {
+      "label": "Requirements"
+    },
+    "type": {
+      "label": "Feature Type"
+    }
+  }
+},
+
+"SIMPLED20.Feature": {
+  "Background": "Background Feature",
+  "Class": {
+    "Label": "Class Feature",
+    "ArcaneShot": "Arcane Shot",
+    "ArtificerInfusion": "Artificer Infusion",
+    "ChannelDivinity": "Channel Divinity",
+    "DefensiveTactic": "Defensive Tactic",
+    "EldritchInvocation": "Eldritch Invocation",
+    "ElementalDiscipline": "Elemental Discipline",
+    "FightingStyle": "Fighting Style",
+    "HuntersPrey": "Hunter's Prey",
+    "Ki": "Ki Ability",
+    "Maneuver": "Maneuver",
+    "Metamagic": "Metamagic Option",
+    "Multiattack": "Multiattack",
+    "PactBoon": "Pact Boon",
+    "PsionicPower": "Psionic Power",
+    "Rune": "Rune",
+    "SuperiorHuntersDefense": "Superior Hunter's Defense"
+  },
+  "Feat": {
+    "Label": "Feat",
+    "EpicBoon": "Epic Boon Feat",
+    "FightingStyle": "Fighting Style Feat",
+    "General": "General Feat",
+    "Origin": "Origin Feat"
+  },
+  "Monster": "Monster Feature",
+  "Species": "Species Feature",
+  "SpeciesLegacy": "Race Feature",
+  "SupernaturalGift": {
+    "Label": "Supernatural Gift",
+    "Blessing": "Blessing",
+    "Charm": "Charm",
+    "EpicBoon": "Epic Boon"
+  },
+  "Vehicle": {
+    "Label": "Vehicle Feature"
+  }
+},
+"SIMPLED20.Focus": {
+  "Label": "Spellcasting Focus",
+  "Arcane": "Arcane Focus",
+  "Druidic": "Druidic Focus",
+  "Holy": "Holy Focus"
+},
+"SIMPLED20.Loot.Art": "Art Object",
+"SIMPLED20.Loot.Gear": "Adventuring Gear",
+"SIMPLED20.Loot.Gem": "Gemstone",
+"SIMPLED20.Loot.Junk": "Junk",
+"SIMPLED20.Loot.Material": "Material",
+"SIMPLED20.Loot.Resource": "Resource",
+"SIMPLED20.Loot.Treasure": "Treasure",
+"SIMPLED20.Flaws": "Flaws",
+"SIMPLED20.FormulaCannotContainDiceError": "{name} formula cannot contain dice expressions.",
+
+"SIMPLED20.FORWARD": {
+  "Title": "Forward",
+  "FIELDS": {
+    "activity": {
+      "label": "Triggered Activity"
+    }
+  },
+  "Warning": {
+    "NoActivity": "Linked activity must be configured before Forward activity can be used."
+  }
+},
+
+"SIMPLED20.EffectCreate": "Create Effect",
+"SIMPLED20.EffectToggle": "Toggle Effect",
+"SIMPLED20.EffectEdit": "Edit Effect",
+"SIMPLED20.EffectEnable": "Enable Effect",
+"SIMPLED20.EffectDelete": "Delete Effect",
+"SIMPLED20.EffectDisable": "Disable Effect",
+"SIMPLED20.EffectTemporary": "Temporary Effects",
+"SIMPLED20.EffectPassive": "Passive Effects",
+"SIMPLED20.EffectInactive": "Inactive Effects",
+"SIMPLED20.EffectNew": "New Effect",
+"SIMPLED20.EffectType": {
+  "Inactive": "Inactive",
+  "Passive": "Passive",
+  "Temporary": "Temporary",
+  "Unavailable": "Unavailable"
+},
+"SIMPLED20.EffectUnavailable": "Unavailable Effects",
+"SIMPLED20.EffectUnavailableInfo": "Source item must be equipped or attuned to activate these",
+"SIMPLED20.Encumbrance": "Encumbrance",
+"SIMPLED20.ItemRarityCommon": "common",
+"SIMPLED20.ItemRarityMundane": "mundane",
+"SIMPLED20.ItemRarityUncommon": "uncommon",
+"SIMPLED20.ItemRarityRare": "rare",
+"SIMPLED20.ItemRarityVeryRare": "very rare",
+"SIMPLED20.ItemRarityLegendary": "legendary",
+"SIMPLED20.ItemRarityArtifact": "artifact",
+"SIMPLED20.Eyes": "Eyes",
+"SIMPLED20.Faith": "Faith",
+"SIMPLED20.FeatureActive": "Active Abilities",
+"SIMPLED20.FeatureAdd": "Create Feature",
+"SIMPLED20.FeatureAttack": "Feature Attack",
+"SIMPLED20.FeaturePassive": "Passive Abilities",
+"SIMPLED20.FeatureRechargeOn": "Recharge On",
+"SIMPLED20.FeatureRechargeResult": "1d6 Result",
+"SIMPLED20.FeatureSearch": "Search features",
+"SIMPLED20.FeatureUsage": "Feature Usage",
+"SIMPLED20.Features": "Features",
+"SIMPLED20.FeaturesBackground": "Background Features",
+"SIMPLED20.FeaturesClass": "{class} Features",
+"SIMPLED20.FeaturesOther": "Other Features",
+"SIMPLED20.Feats": "Feats",
+"SIMPLED20.FeetAbbr": "ft.",
+"SIMPLED20.Filter": "Filter",
+"SIMPLED20.FilterClear": "Clear Filters",
+"SIMPLED20.FilterGroupCategory": "Group by Category",
+"SIMPLED20.FilterGroupOrigin": "Group by Origin",
+"SIMPLED20.FilterGroupAction": "Group by Action",
+"SIMPLED20.FilterNoSpells": "No spells found for this set of filters.",
+"SIMPLED20.NoSpellLevels": "This character has no spellcaster levels, but you may add spells manually.",
+
+"SIMPLED20.FLAGS": {
+  "EnhancedDualWielding": {
+    "Name": "Enhanced Dual Wielding",
+    "Hint": "Allow bonus action extra attacks using any melee weapon without the Two-Handed property."
+  }
+},
+
+"SIMPLED20.FlagsInstructions": "Configure character features and traits which fine-tune behaviors of the D&D Fifth Edition system.",
+"SIMPLED20.FlagsSave": "Update Special Traits",
+"SIMPLED20.FlagsTitle": "Configure Special Traits",
+"SIMPLED20.FlagsDiamondSoul": "Diamond Soul",
+"SIMPLED20.FlagsDiamondSoulHint": "Gain proficiency to all saving throws.",
+"SIMPLED20.FlagsPowerfulBuild": "Powerful Build",
+"SIMPLED20.FlagsPowerfulBuildHint": "Provides increased carrying capacity.",
+"SIMPLED20.FlagsElvenAccuracy": "Elven Accuracy",
+"SIMPLED20.FlagsElvenAccuracyHint": "Roll an extra d20 with advantage to Dex, Int, Wis, or Cha.",
+"SIMPLED20.FlagsHalflingLucky": "Halfling Lucky",
+"SIMPLED20.FlagsHalflingLuckyHint": "Reroll ones when rolling d20 checks.",
+"SIMPLED20.FlagsInitiativeAdv": "Advantage on Initiative",
+"SIMPLED20.FlagsInitiativeAdvHint": "Provided by feats or magical items.",
+"SIMPLED20.FlagsAlert": "Alert Feat",
+"SIMPLED20.FlagsAlertHint": "Proficient in Initiative rolls.",
+"SIMPLED20.FlagsAlertHintLegacy": "Provides +5 to Initiative.",
+"SIMPLED20.FlagsJOAT": "Jack of All Trades",
+"SIMPLED20.FlagsJOATHint": "Half-Proficiency to Ability Checks in which you are not already Proficient.",
+"SIMPLED20.FlagsObservant": "Observant Feat",
+"SIMPLED20.FlagsObservantHint": "Provides a +5 to passive Perception and Investigation.",
+"SIMPLED20.FlagsTavernBrawler": "Tavern Brawler Feat",
+"SIMPLED20.FlagsTavernBrawlerHint": "Proficient with improvised weapons.",
+"SIMPLED20.FlagsReliableTalent": "Reliable Talent",
+"SIMPLED20.FlagsReliableTalentHint": "Rogues Reliable Talent Feature.",
+"SIMPLED20.FlagsRemarkableAthlete": "Remarkable Athlete",
+"SIMPLED20.FlagsRemarkableAthleteHint": "Half-Proficiency (rounded-up) to physical Ability Checks and Initiative.",
+"SIMPLED20.FlagsWeaponCritThreshold": "Weapon Critical Hit Threshold",
+"SIMPLED20.FlagsWeaponCritThresholdHint": "An expanded critical hit threshold for weapon attacks.",
+"SIMPLED20.FlagsSpellCritThreshold": "Spell Critical Hit Threshold",
+"SIMPLED20.FlagsSpellCritThresholdHint": "An expanded critical hit threshold for spell attacks.",
+"SIMPLED20.FlagsMeleeCriticalDice": "Melee Critical Damage Dice",
+"SIMPLED20.FlagsMeleeCriticalDiceHint": "A number of additional damage dice added to melee weapon critical hits.",
+"SIMPLED20.Flat": "Flat",
+"SIMPLED20.Formula": "Formula",
+"SIMPLED20.FormulaMalformedError": "Problem preparing the {property} formula within {name}.",
+"SIMPLED20.FormulaMissingReferenceWarn": "The {property} formula within {name} has references to missing data: {references}",
+"SIMPLED20.Gear": "Gear",
+"SIMPLED20.Gender": "Gender",
+"SIMPLED20.GlobalBonus": "Global Bonus",
+"SIMPLED20.GrantedAbilities": "Granted Abilities",
+"SIMPLED20.GroupInventory": "Inventory",
+"SIMPLED20.GroupHP": "Aggregate Hit Points",
+"SIMPLED20.GroupSummary": "A group of {members}",
+"SIMPLED20.GroupSummaryEmpty": "Empty group",
+"SIMPLED20.GroupControls": "Controls",
+"SIMPLED20.Group": {
+  "Challenge": "Challenge",
+  "Member": {
+    "one": "Member",
+    "other": "Members"
+  },
+  "PlaceMembers": "Place Members",
+  "Primary": {
+    "Remove": "Remove as Primary Party",
+    "Set": "Set as Primary Party"
+  },
+  "Type": "Group Type",
+  "TypeEncounter": "Encounter",
+  "TypeGeneric": "Group",
+  "TypeParty": "Party",
+  "Vehicle": {
+    "one": "Vehicle",
+    "other": "Vehicles"
+  }
+},
+"SIMPLED20.Habitat": {
+  "Categories": {
+    "Any": "Any",
+    "Arctic": "Arctic",
+    "Coastal": "Coastal",
+    "Desert": "Desert",
+    "Forest": "Forest",
+    "Grassland": "Grassland",
+    "Hill": "Hill",
+    "Mountain": "Mountain",
+    "Planar": "Planar",
+    "Swamp": "Swamp",
+    "Underdark": "Underdark",
+    "Underwater": "Underwater",
+    "Urban": "Urban"
+  },
+  "Configuration": {
+    "Custom": "Custom",
+    "Label": "Habitat",
+    "Legend": "Categories",
+    "Subtype": "{type} Subtype",
+    "Title": "Configure Habitat"
+  },
+  "Subtype": "{type} ({subtype})"
+},
+"SIMPLED20.Hair": "Hair",
+"SIMPLED20.HalfProficient": "Half Proficient",
+
+"SIMPLED20.HEAL": {
+  "Title": "Heal",
+  "FIELDS": {
+    "healing": {
+      "label": "Healing",
+      "bonus": {
+        "label": "Healing Bonus",
+        "hint": "Bonus added to the healing roll."
+      },
+      "custom": {
+        "label": "Custom Healing Formula",
+        "enabled": {
+          "label": "Enable Custom Formula",
+          "hint": "Should the custom formula be used rather than the default dice."
+        },
+        "formula": {
+          "label": "Healing Formula",
+          "hint": "Custom healing formula."
+        }
+      },
+      "denomination": {
+        "label": "Die Denomination",
+        "hint": "Denomination of the dice to roll."
+      },
+      "number": {
+        "label": "Die Number",
+        "hint": "Number of dice to roll."
+      },
+      "scaling": {
+        "label": "Healing Scaling",
+        "mode": {
+          "label": "Scaling Mode",
+          "hint": "Method by which the scaling increase is calculated."
+        },
+        "number": {
+          "label": "Dice Scaling",
+          "hint": "Number of dice to increase for each scaling step. Will be applied to the first die found in the healing formula if more than one is present."
+        },
+        "formula": {
+          "label": "Scaling Formula",
+          "hint": "Arbitrary scaling formula that will be multiplied for each scaling step and added to the original formula."
+        }
+      },
+      "types": {
+        "label": "Healing Types",
+        "hint": "Type of healing inflicted or multiple for the user to select from."
+      }
+    }
+  }
+},
+
+"SIMPLED20.Healing": "Healing",
+"SIMPLED20.HealingRoll": "Healing Roll",
+"SIMPLED20.HealingTemp": "Temporary Hit Points",
+"SIMPLED20.Height": "Height",
+
+"SIMPLED20.HITPOINTS": {
+  "Counted": {
+    "one": "{number} hit point",
+    "other": "{number} hit points"
+  }
+},
+
+"SIMPLED20.HitPoints": "Hit Points",
+"SIMPLED20.HitPointsBonusLevel": "Per Level Bonus",
+"SIMPLED20.HitPointsBonusOverall": "Overall Bonus",
+"SIMPLED20.HitPointsConfig": "Configure Hit Points",
+"SIMPLED20.HitPointsCurrent": "Current Hit Points",
+"SIMPLED20.HitPointsMax": "Maximum Hit Points",
+"SIMPLED20.HitPointsMin": "Minimum Hit Points",
+"SIMPLED20.HitPointsOverride": "Maximum Override",
+"SIMPLED20.HitPointsOverrideHint": "Override automatically calculated hit points, ignoring any HP from classes, bonuses, and ability modifier.",
+"SIMPLED20.HitPointsTemp": "Temporary Hit Points",
+"SIMPLED20.HitPointsTempShort": "Temporary HP",
+"SIMPLED20.HitPointsTempMax": "Temporary Maximum",
+"SIMPLED20.HitPointsTempMaxHint": "Temporary change to the maximum HP.",
+"SIMPLED20.HitPointsTempMaxShort": "Temp Max HP",
+"SIMPLED20.HP": "HP",
+"SIMPLED20.HPFormula": "Health Formula",
+"SIMPLED20.HPFormulaError": "The provided hit point formula could not be evaluated.",
+"SIMPLED20.HPFormulaRollMessage": "Roll Hit Point Formula",
+
+"SIMPLED20.HITDICE": {
+  "Action": {
+    "Decrease": "Decrease",
+    "Increase": "Increase"
+  },
+  "Available": "{number} available",
+  "Config": "Adjust Hit Dice",
+  "Counted": {
+    "one": "{number} hit die",
+    "other": "{number} hit dice"
+  }
+},
+
+"SIMPLED20.HitDie": "Hit Die",
+"SIMPLED20.HitDice": "Hit Dice",
+"SIMPLED20.HitDiceConfig": "Adjust Hit Dice",
+"SIMPLED20.HitDiceConfigHint": "Adjust remaining hit dice levels for each class.",
+"SIMPLED20.HitDiceMax": "Maximum Hit Dice",
+"SIMPLED20.HitDiceRemaining": "Remaining Hit Dice",
+"SIMPLED20.HitDiceRoll": "Roll Hit Dice",
+"SIMPLED20.HitDiceWarn": "{name} has no available {formula} Hit Dice remaining!",
+"SIMPLED20.HitDiceNPCWarn": "{name} has no available Hit Dice remaining!",
+"SIMPLED20.Ideals": "Ideals",
+"SIMPLED20.Identified": "Identified",
+"SIMPLED20.Identifier": "Identifier",
+"SIMPLED20.IdentifierError": "An identifier can only contain letters (a-z), numbers (0-9), dashes (-), and underscores (_).",
+"SIMPLED20.Identify": "Identify",
+"SIMPLED20.Immunities": "Immunities",
+"SIMPLED20.Initiative": "Initiative",
+"SIMPLED20.InitiativeAbbr": "Init",
+"SIMPLED20.InitiativeBonus": "Initiative Bonus",
+"SIMPLED20.InitiativeRoll": "Initiative Roll",
+"SIMPLED20.InitiativeConfig": "Configure Initiative",
+"SIMPLED20.InitiativeConfigHint": "Configure initiative modifiers and bonuses which apply to this Actor.",
+"SIMPLED20.Inspiration": "Inspiration",
+"SIMPLED20.Inventory": "Inventory",
+"SIMPLED20.InventorySearch": "Search inventory",
+"SIMPLED20.Issues": "Issues",
+"SIMPLED20.ItemActionType": "Action Type",
+"SIMPLED20.ItemActivation": "Activation",
+"SIMPLED20.ItemActivationCondition": "Activation Condition",
+"SIMPLED20.ItemActivationCost": "Activation Cost",
+"SIMPLED20.ItemActivationType": "Activation Type",
+"SIMPLED20.ItemAmmoProperties": "Ammunition Properties",
+"SIMPLED20.ItemAttackBonus": "Attack Roll Bonus",
+"SIMPLED20.ItemAttackFlat": "Flat Bonus",
+"SIMPLED20.ItemAttackFlatHint": "If checked, don't add proficiency, ability modifier, or any other bonuses to attack roll except what is included here.",
+"SIMPLED20.ItemBackgroundDetails": "Background Details",
+"SIMPLED20.ItemClassDetails": "Class Details",
+"SIMPLED20.ItemConsumableActivation": "Consumable Activation",
+"SIMPLED20.ItemConsumableUsage": "Consumable Usage",
+"SIMPLED20.ItemConsumableDetails": "Consumable Details",
+"SIMPLED20.ItemConsumableProperties": "Consumable Properties",
+"SIMPLED20.ItemConsumableStatus": "Consumable Status",
+"SIMPLED20.ItemConsumableSubtype": "{category} Type",
+"SIMPLED20.ItemConsumableType": "Consumable Type",
+"SIMPLED20.ItemCreate": "Create Item",
+"SIMPLED20.ItemCritThreshold": "Critical Hit Threshold",
+"SIMPLED20.ItemCritExtraDamage": "Extra Critical Hit Damage",
+"SIMPLED20.ItemDelete": "Delete Item",
+"SIMPLED20.ItemEdit": "Edit Item",
+"SIMPLED20.ItemEquipmentAction": "Equipment Action",
+"SIMPLED20.ItemEquipmentBase": "Base Equipment",
+"SIMPLED20.ItemEquipmentDetails": "Equipment Details",
+"SIMPLED20.ItemEquipmentDexMod": "Max. Dexterity Modifier",
+"SIMPLED20.ItemEquipmentDexModAbbr": "Max Dex",
+"SIMPLED20.ItemEquipmentProperties": "Equipment Properties",
+"SIMPLED20.ItemEquipmentStatus": "Equipment Status",
+"SIMPLED20.ItemEquipmentStealthDisav": "Imposes Stealth Disadvantage",
+"SIMPLED20.ItemEquipmentType": "Equipment Type",
+"SIMPLED20.ItemEquipmentUsage": "Equipment Usage",
+"SIMPLED20.ItemFacilityDetails": "Facility Details",
+"SIMPLED20.ItemFeatureDetails": "Feature Details",
+"SIMPLED20.ItemFeatureProperties": "Feature Properties",
+"SIMPLED20.ItemFeatureSubtype": "{category} Type",
+"SIMPLED20.ItemFeatureType": "Feature Type",
+"SIMPLED20.ItemLootDetails": "Loot Details",
+"SIMPLED20.ItemLootProperties": "Loot Properties",
+"SIMPLED20.ItemLootSubtype": "{category} Type",
+"SIMPLED20.ItemLootType": "Loot Type",
+"SIMPLED20.ItemName": "Item Name",
+"SIMPLED20.ItemNew": "New {type}",
+"SIMPLED20.Item": {
+  "Category": {
+    "Label": "Category",
+    "Physical": "Physical"
+  },
+  "Property": {
+    "Adamantine": "Adamantine",
+    "Ammunition": "Ammunition",
+    "Concentration": "Concentration",
+    "Finesse": "Finesse",
+    "Firearm": "Firearm",
+    "Focus": "Focus",
+    "Heavy": "Heavy",
+    "Light": "Light",
+    "Loading": "Loading",
+    "Material": "Material",
+    "Magical": "Magical",
+    "Reach": "Reach",
+    "Reload": "Reload",
+    "Returning": "Returning",
+    "Ritual": "Ritual",
+    "Silvered": "Silvered",
+    "Somatic": "Somatic",
+    "Special": "Special",
+    "StealthDisadvantage": "Stealth Disadvantage",
+    "Thrown": "Thrown",
+    "Trait": "Passive Trait",
+    "TwoHanded": "Two-Handed",
+    "Versatile": "Versatile",
+    "Verbal": "Verbal",
+    "WeightlessContents": "Weightless Contents"
+  }
+},
+"SIMPLED20.ItemRechargeCheck": "{name} recharge check - {result}",
+"SIMPLED20.ItemRechargeFailure": "failure!",
+"SIMPLED20.ItemRechargeSuccess": "success!",
+"SIMPLED20.ItemRecoveryRoll": "{name} recovers {count} charges",
+"SIMPLED20.ItemLossRoll": "{name} loses {count} charges",
+"SIMPLED20.ItemRecoveryRollMax": "{name} recovers all charges",
+"SIMPLED20.ItemRecoveryFormulaWarning": "Unable to recover uses for {name}. Invalid recovery formula '{formula}' ({uuid}).",
+"SIMPLED20.ItemRequiredStr": "Required Strength",
+"SIMPLED20.Items": "Items",
+"SIMPLED20.ItemSiegeProperties": "Siege Properties",
+"SIMPLED20.ItemSpeciesDetails": "Species Details",
+"SIMPLED20.ItemSpeciesDetailsLegacy": "Race Details",
+"SIMPLED20.ItemSubclassDetails": "Subclass Details",
+"SIMPLED20.ItemToolBase": "Base Tool",
+"SIMPLED20.ItemToolBonus": "Tool Bonus",
+"SIMPLED20.ItemToolDetails": "Tool Details",
+"SIMPLED20.ItemToolProficiency": "Tool Proficiency",
+"SIMPLED20.ItemToolProperties": "Tool Properties",
+"SIMPLED20.ItemToolStatus": "Tool Status",
+"SIMPLED20.ItemToolType": "Tool Type",
+"SIMPLED20.ItemToolUsage": "Tool Usage",
+"SIMPLED20.ItemVehicleProperties": "Vehicle Properties",
+"SIMPLED20.ItemView": "View Item",
+"SIMPLED20.ItemWeaponAttack": "Weapon Attack",
+"SIMPLED20.ItemWeaponBase": "Base Weapon",
+"SIMPLED20.ItemWeaponDetails": "Weapon Details",
+"SIMPLED20.ItemWeaponProperties": "Weapon Properties",
+"SIMPLED20.ItemWeaponStatus": "Weapon Status",
+"SIMPLED20.ItemWeaponType": "Weapon Type",
+"SIMPLED20.ItemWeaponUsage": "Weapon Usage",
+"SIMPLED20.JackOfAllTrades": "Jack of all Trades",
+
+"SIMPLED20.LAIR": {
+  "Label": "Lair",
+  "Action": {
+    "Label": "Lair Action",
+    "Initiative": "Lair Action Initiative Count",
+    "Uses": "Uses Lair Action"
+  },
+  "HasLair": "Has Lair",
+  "Inside": "Inside Lair"
+},
+
+"SIMPLED20.Language": {
+  "All": "All Languages",
+  "Label": "Language",
+  "Category": {
+    "Exotic": "Exotic Languages",
+    "Rare": "Rare Languages",
+    "Standard": "Standard Languages"
+  },
+  "Communication": {
+    "Label": "Ranged Communication",
+    "Telepathy": "Telepathy"
+  },
+  "Language": {
+    "Aarakocra": "Aarakocra",
+    "Abyssal": "Abyssal",
+    "Aquan": "Aquan",
+    "Auran": "Auran",
+    "Celestial": "Celestial",
+    "Common": "Common",
+    "CommonSign": "Common Sign Language",
+    "DeepSpeech": "Deep Speech",
+    "Draconic": "Draconic",
+    "Druidic": "Druidic",
+    "Dwarvish": "Dwarvish",
+    "Elvish": "Elvish",
+    "Giant": "Giant",
+    "Gith": "Gith",
+    "Gnoll": "Gnoll",
+    "Gnomish": "Gnomish",
+    "Goblin": "Goblin",
+    "Halfling": "Halfling",
+    "Ignan": "Ignan",
+    "Infernal": "Infernal",
+    "Orc": "Orc",
+    "Primordial": "Primordial",
+    "Sylvan": "Sylvan",
+    "Terran": "Terran",
+    "ThievesCant": "Thieves' Cant",
+    "Undercommon": "Undercommon"
+  }
+},
+"SIMPLED20.Languages": "Languages",
+
+"SIMPLED20.LegendaryAction": {
+  "Description": "Legendary Action Uses: {uses}.",
+  "DescriptionLegacy": "The {name} can take {usesNamed}, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The {name} regains spent legendary actions at the start of its turn.",
+  "Label": "Legendary Action",
+  "LairUses": "{normal} ({lair} in Lair)",
+  "Max": "Maximum Legendary Actions",
+  "Ordinal": {
+    "one": "{n}st Legendary Action",
+    "two": "{n}nd Legendary Action",
+    "few": "{n}rd Legendary Action",
+    "other": "{n}th Legendary Action"
+  },
+  "Remaining": "Remaining Legendary Actions"
+},
+
+"SIMPLED20.LegendaryResistance": {
+  "Action": {
+    "Resist": "Legendary Resistance"
+  },
+  "Label": "Legendary Resistance",
+  "Max": "Maximum Legendary Resistances",
+  "Ordinal": {
+    "one": "{n}st Legendary Resistance",
+    "two": "{n}nd Legendary Resistance",
+    "few": "{n}rd Legendary Resistance",
+    "other": "{n}th Legendary Resistance"
+  },
+  "Remaining": "Remaining Legendary Resistances",
+  "Resisted": "Used Legendary Resistance"
+},
+
+"SIMPLED20.Level": "Level",
+"SIMPLED20.LevelPl": "Levels",
+"SIMPLED20.LevelActionDecrease": "Level Down",
+"SIMPLED20.LevelActionIncrease": "Level Up",
+"SIMPLED20.LevelCount": "{ordinal} Level",
+"SIMPLED20.LevelLimit": {
+  "Label": "Level Limit",
+  "Max": "Maximum Level",
+  "Min": "Minimum Level"
+},
+"SIMPLED20.LevelNumber": "Level {level}",
+"SIMPLED20.LevelScaling": "Level Scaling",
+"SIMPLED20.LimitedUses": "Limited Uses",
+"SIMPLED20.LimitedUsesAvailable": "Remaining Uses",
+"SIMPLED20.LimitedUsesMax": "Maximum Uses",
+"SIMPLED20.LimitedUsesPer": "Use Recovery Mode",
+"SIMPLED20.LimitedUsesPrompt": "Uses Prompt",
+"SIMPLED20.LimitedUsesPromptTooltip": "If unchecked, the prompt to consume an available use will be suppressed.",
+"SIMPLED20.Long": "Long",
+"SIMPLED20.Loyalty": "Loyalty",
+"SIMPLED20.MagicalBonus": "Magical Bonus",
+"SIMPLED20.Materials": "Materials",
+"SIMPLED20.Max": "Max",
+"SIMPLED20.MaxCharacterLevelExceededWarn": "Character cannot be advanced past level {max}.",
+"SIMPLED20.MaxClassLevelExceededWarn": "Class cannot be advanced past level {max}.",
+"SIMPLED20.MaxClassLevelMinimumWarn": "Class must have at least one level.",
+"SIMPLED20.Maximum": "Maximum",
+"SIMPLED20.Minimum": "Minimum",
+"SIMPLED20.Modifier": "Modifier",
+"SIMPLED20.ModuleArtConfigH": "Configure which module-provided art should be used.",
+"SIMPLED20.ModuleArtConfigL": "Configure Art",
+"SIMPLED20.ModuleArtConfigN": "Module-provided Art",
+"SIMPLED20.ModuleArtConfigPortraits": "Portraits",
+"SIMPLED20.ModuleArtConfigTokens": "Tokens",
+"SIMPLED20.ModuleArtPriorityDecrease": "Decrease Priority",
+"SIMPLED20.ModuleArtPriorityHint": "Use the arrows to adjust the priority of the art sources. When a single Actor has art provided from multiple sources, the one with the highest priority will be used.",
+"SIMPLED20.ModuleArtPriorityIncrease": "Increase Priority",
+"SIMPLED20.Multiple": "Multiple",
+"SIMPLED20.Multiplier": "Multiplier",
+"SIMPLED20.MythicActionLabel": "Mythic Action",
+"SIMPLED20.Name": "Character Name",
+"SIMPLED20.NameUnidentified": "Unidentified Name",
+"SIMPLED20.NoCharges": "No Charges",
+"SIMPLED20.None": "None",
+"SIMPLED20.NoneActionLabel": "None",
+"SIMPLED20.Normal": "Normal",
+"SIMPLED20.NotProficient": "Not Proficient",
+"SIMPLED20.Notes": "Notes",
+
+"SIMPLED20.NPC": {
+  "Label": "NPC",
+  "FIELDS": {
+    "traits": {
+      "important": {
+        "hint": "Important NPCs track death saves, hit dice, and loyalty (if enabled). Any NPC with class levels is considered important regardless of this setting.",
+        "label": "Important NPC"
+      }
+    }
+  },
+  "SECTIONS": {
+    "Actions": "Actions",
+    "BonusActions": "Bonus Actions",
+    "LegendaryActions": "Legendary Actions",
+    "Reactions": "Reactions",
+    "Traits": "Traits"
+  }
+},
+
+"SIMPLED20.NUMBER": {
+  "1": "one",
+  "2": "two",
+  "3": "three",
+  "4": "four",
+  "5": "five",
+  "6": "six",
+  "7": "seven",
+  "8": "eight",
+  "9": "nine"
+},
+
+"SIMPLED20.Number": "Number",
+"SIMPLED20.OtherFormula": "Other Formula",
+
+"SIMPLED20.ORDINAL": {
+  "one": "{number}st",
+  "two": "{number}nd",
+  "few": "{number}rd",
+  "other": "{number}th"
+},
+
+"SIMPLED20.PactMagic": "Pact Magic",
+"SIMPLED20.Passive": "Passive",
+"SIMPLED20.PassivePerception": "Passive Perception",
+"SIMPLED20.Period": "Period",
+"SIMPLED20.PersonalityTraits": "Personality Traits",
+"SIMPLED20.Polymorph": "Polymorph",
+"SIMPLED20.PolymorphAcceptSettings": "Custom Settings",
+"SIMPLED20.PolymorphAddTemp": "Add the target's HP as temporary HP",
+"SIMPLED20.PolymorphCustomTransformation": "Custom Transformation",
+"SIMPLED20.PolymorphEffectTransformation": "Effect Transformation",
+"SIMPLED20.PolymorphKeepAE": "Keep all effects (overrides other effect retention options).",
+"SIMPLED20.PolymorphKeepBackgroundAE": "Keep effects that originate from your background?",
+"SIMPLED20.PolymorphKeepBio": "Keep biography",
+"SIMPLED20.PolymorphKeepClass": "Keep proficiency bonus (leaves class items in sheet)",
+"SIMPLED20.PolymorphKeepClassAE": "Keep effects that originate from your class or subclass?",
+"SIMPLED20.PolymorphKeepEquipmentAE": "Keep effects that originate from your equipment?",
+"SIMPLED20.PolymorphKeepFeats": "Keep features",
+"SIMPLED20.PolymorphKeepFeatureAE": "Keep effects that originate from your features?",
+"SIMPLED20.PolymorphKeepHP": "Keep HP & HD",
+"SIMPLED20.PolymorphKeepItems": "Keep equipment",
+"SIMPLED20.PolymorphKeepMental": "Keep mental ability scores (Int, Wis, Cha)",
+"SIMPLED20.PolymorphKeepOriginAE": "Keep effects that originate from this actor (i.e. effects not attached to features, items, spells)",
+"SIMPLED20.PolymorphKeepOtherOriginAE": "Keep effects that originate from a different actor?",
+"SIMPLED20.PolymorphKeepPhysical": "Keep physical ability scores (Str, Dex, Con)",
+"SIMPLED20.PolymorphKeepSaves": "Keep saving throw proficiencies",
+"SIMPLED20.PolymorphKeepSelf": "Keep self (just change image and size i.e. for spells like Disguise Self)",
+"SIMPLED20.PolymorphKeepSkills": "Keep skill proficiencies",
+"SIMPLED20.PolymorphKeepSpellAE": "Keep effects that originate from your spells?",
+"SIMPLED20.PolymorphKeepSpells": "Keep spells",
+"SIMPLED20.PolymorphKeepType": "Keep creature type",
+"SIMPLED20.PolymorphKeepVision": "Keep vision (character and token)",
+"SIMPLED20.PolymorphMergeSaves": "Merge saving throw proficiencies (take the highest)",
+"SIMPLED20.PolymorphMergeSkills": "Merge skill proficiencies (take the highest)",
+"SIMPLED20.PolymorphPromptTitle": "Transforming Actor",
+"SIMPLED20.PolymorphRestoreTransformation": "Restore Transformation",
+"SIMPLED20.PolymorphRevertNoOriginalActorWarn": "No original actor was found with reference '{reference}'",
+"SIMPLED20.PolymorphRevertWarn": "You do not have permission to revert this Actor's polymorphed state.",
+"SIMPLED20.PolymorphSelf": "Appearance Only",
+"SIMPLED20.PolymorphTmpClass": "Temporary Class",
+"SIMPLED20.PolymorphTokens": "Transform all linked tokens?",
+"SIMPLED20.PolymorphWarn": "You are not allowed to polymorph this actor!",
+"SIMPLED20.PolymorphWildShape": "Wild Shape",
+"SIMPLED20.Portrait": "Portrait",
+"SIMPLED20.Prepared": "Prepared",
+"SIMPLED20.Prerequisites": {
+  "Header": "Feature Prerequisites",
+  "FIELDS": {
+    "prerequisites": {
+      "label": "Prerequisites",
+      "level": {
+        "label": "Required Level",
+        "hint": "Character or class level required to select this feature when levelling up."
+      },
+      "repeatable": {
+        "hint": "This feature can be chosen more than once.",
+        "label": "Repeatable"
+      }
+    }
+  }
+},
+"SIMPLED20.Price": "Price",
+"SIMPLED20.Proficiency": "Proficiency",
+"SIMPLED20.ProficiencyBonus": "Proficiency Bonus",
+"SIMPLED20.ProficiencyBonusAbbr": "PB",
+"SIMPLED20.ProficiencyConfigurationHint": "Configure proficiency and bonuses.",
+"SIMPLED20.ProficiencyConfigureTitle": "Configure {label}",
+"SIMPLED20.ProficiencyLevel": "Proficiency Level",
+"SIMPLED20.ProficiencyOther": "Other",
+"SIMPLED20.Proficient": "Proficient",
+"SIMPLED20.Properties": "Properties",
+"SIMPLED20.PropertyBase": "Base",
+"SIMPLED20.PropertyTotal": "Total",
+"SIMPLED20.Public": "Public",
+"SIMPLED20.Quantity": "Quantity",
+"SIMPLED20.QuantityAbbr": "Qty",
+"SIMPLED20.QuantityFormula": "Quantity Formula",
+"SIMPLED20.QuantityRoll": "Roll Quantities",
+"SIMPLED20.RacialTraits": "Species Traits",
+"SIMPLED20.RacialTraitsLegacy": "Racial Traits",
+
+"SIMPLED20.RANGE": {
+  "FIELDS": {
+    "range": {
+      "label": "Range",
+      "long": {
+        "label": "Long Range",
+        "hint": "Far attack range of the weapon, if present on the weapon."
+      },
+      "override": {
+        "label": "Override Range",
+        "hint": "Use these range values instead of the item's when using this activity."
+      },
+      "reach": {
+        "label": "Reach"
+      },
+      "special": {
+        "label": "Special Range",
+        "hint": "Description of any special range details."
+      },
+      "units": {
+        "label": "Range Units",
+        "hint": "Units used to measure range."
+      },
+      "value": {
+        "label": "Range Value",
+        "hint": "Value of the range in the specified units, if applicable."
+      }
+    }
+  },
+  "Formatted": {
+    "Range": "range {range}",
+    "Reach": "reach {reach}"
+  }
+},
+
+"SIMPLED20.Range": "Range",
+"SIMPLED20.RangeDistance": "Distance",
+"SIMPLED20.RangeLong": "Long Range",
+"SIMPLED20.RangeNormal": "Normal Range",
+"SIMPLED20.RangeUnits": "Range Type or Units",
+"SIMPLED20.Rarity": "Rarity",
+"SIMPLED20.Reaction": "Reaction",
+"SIMPLED20.ReactionAbbr": "R",
+"SIMPLED20.ReactionPl": "Reactions",
+"SIMPLED20.Recharge": "Recharge",
+"SIMPLED20.RechargeLong": "Recharge after a Long Rest",
+"SIMPLED20.RechargeShort": "Recharge after a Short or Long Rest",
+"SIMPLED20.Recovery": "Recovery",
+"SIMPLED20.RecoveryFormula": "Recovery Formula",
+"SIMPLED20.RequiredMaterials": "Required Materials",
+"SIMPLED20.Requirements": "Requirements",
+"SIMPLED20.Resistances": "Resistances",
+"SIMPLED20.Resources": "Resources",
+"SIMPLED20.ResourceLabel": "Label",
+"SIMPLED20.ResourceMax": "Resource Maximum",
+"SIMPLED20.ResourceValue": "Resource Value",
+"SIMPLED20.ResourcePrimary": "Resource 1",
+"SIMPLED20.ResourceSecondary": "Resource 2",
+"SIMPLED20.ResourceTertiary": "Resource 3",
+
+"SIMPLED20.REST": {
+  "Configuration": "Rest Configuration",
+  "HitDice": {
+    "AutoSpend": {
+      "Hint": "Automatically spend hit dice until they run out or health is full.",
+      "Label": "Auto Spend HD"
+    },
+    "None": "No Hit Dice remaining to roll during this rest.",
+    "Select": "Select Dice to Roll"
+  },
+  "Label": "Rest",
+  "Long": {
+    "Abbreviation": "LR",
+    "Hint": {
+      "Group": "On a long rest group members will recover hit points, hit dice, class resources, limited use item charges, and spell slots.",
+      "GroupLegacy": "On a long rest group members will recover hit points, half of their maximum hit dice, class resources, limited use item charges, and spell slots.",
+      "Normal": "On a long rest you will recover hit points, hit dice, class resources, limited use item charges, and spell slots.",
+      "NormalLegacy": "On a long rest you will recover hit points, half your maximum hit dice, class resources, limited use item charges, and spell slots."
+    },
+    "Label": "Long Rest",
+    "LabelShort": "L. Rest",
+    "Recovery": "Recovers after Long Rest",
+    "Result": {
+      "Full": "{name} takes a long rest and recovers {health} and {dice}.",
+      "HitDice": "{name} takes a long rest and recovers {dice}.",
+      "HitPoints": "{name} takes a long rest and recovers {health}.",
+      "Short": "{name} takes a long rest."
+    }
+  },
+  "NewDay": {
+    "Hint": "Recover limited use abilities which recharge at dusk, dawn, or on a new day.",
+    "Label": "New Day"
+  },
+  "Short": {
+    "Abbreviation": "SR",
+    "Hint": {
+      "Group": "On a short rest group members can spend Hit Dice and will recover item uses.",
+      "Normal": "On a short rest you may spend remaining Hit Dice and recover item uses."
+    },
+    "Label": "Short Rest",
+    "LabelShort": "S. Rest",
+    "Recovery": "Recovers after Short Rest",
+    "Result": {
+      "Full": "{name} takes a short rest spending {dice} to recover {health}.",
+      "Short": "{name} takes a short rest."
+    }
+  }
+},
+
+"SIMPLED20.Ritual": "Ritual",
+"SIMPLED20.RitualAbbr": "R",
+
+"SIMPLED20.ROLL": {
+  "Range": {
+    "Label": "Roll Range",
+    "Maximum": "Maximum Roll",
+    "Minimum": "Minimum Roll"
+  },
+  "Section": "{label} Rolls",
+  "Status": "Status"
+},
+
+"SIMPLED20.Roll": "Roll",
+"SIMPLED20.RollConfiguration": {
+  "Title": "Configure Roll",
+  "Configuration": "Configuration",
+  "Rolls": "Rolls"
+},
+"SIMPLED20.RollExample": "e.g. 1d4",
+"SIMPLED20.RollMode": "Roll Mode",
+"SIMPLED20.RollSituationalBonus": "Situational Bonus?",
+"SIMPLED20.Rule": {
+  "Tooltip": "Tooltip",
+  "Type": {
+    "Label": "Rule Type",
+    "Condition": "Condition",
+    "Rule": "Rule"
+  }
+},
+"SIMPLED20.Movement": "Movement",
+"SIMPLED20.MovementConfig": "Configure Movement Speed",
+"SIMPLED20.MovementConfigHint": "Configure movement speed and special movement attributes.",
+"SIMPLED20.MovementWalk": "Walk",
+"SIMPLED20.MovementBurrow": "Burrow",
+"SIMPLED20.MovementClimb": "Climb",
+"SIMPLED20.MovementHover": "Hover",
+"SIMPLED20.MovementFly": "Fly",
+"SIMPLED20.MovementSwim": "Swim",
+"SIMPLED20.MovementLand": "Land",
+"SIMPLED20.MovementWater": "Water",
+"SIMPLED20.MovementAir": "Air",
+"SIMPLED20.MovementSpeeds": "Movement Speeds",
+"SIMPLED20.MovementUnits": "Units",
+
+"SIMPLED20.SAVE": {
+  "Title": {
+    "one": "Save",
+    "other": "Saves"
+  },
+  "FIELDS": {
+    "damage": {
+      "label": "Save Damage",
+      "onSave": {
+        "label": "Damage on Save",
+        "hint": "How much damage should be applied on a successful save?",
+        "Full": "Full Damage",
+        "Half": "Half Damage",
+        "None": "No Damage"
+      },
+      "parts": {
+        "label": "Damage Parts",
+        "hint": "Individual damage parts to include with the roll."
+      }
+    },
+    "effects": {
+      "onSave": {
+        "label": "Always Apply",
+        "hint": "This effect will always be applied, even if the target succeeds on its saving throw."
+      }
+    },
+    "save": {
+      "label": "Save Details",
+      "ability": {
+        "label": "Challenge Abilities",
+        "hint": "Abilities that may be rolled to attempt to save."
+      },
+      "dc": {
+        "label": "Difficulty Class",
+        "calculation": {
+          "label": "DC Calculation",
+          "hint": "Method or ability used to calculate the difficulty class."
+        },
+        "formula": {
+          "label": "DC Formula",
+          "hint": "Custom formula or flat value for defining the save DC."
+        },
+        "CustomFormula": "Custom Formula",
+        "DefaultFormula": "8 + @mod + @prof"
+      }
+    }
+  },
+  "OnSave": "On Save"
+},
+
+"SIMPLED20.SaveBonus": "Saving Throw Bonus",
+"SIMPLED20.SaveGlobalBonusHint": "This bonus applies to all saving throws made by this actor.",
+"SIMPLED20.Scroll": {
+  "CreateFrom": "Create Scroll from {spell}",
+  "CreateScroll": "Create Scroll",
+  "Details": "Scroll Details",
+  "Explanation": {
+    "Label": "Explanation",
+    "Hint": "Amount of the rules on using spell scrolls to include in the created scroll.",
+    "Complete": "Complete",
+    "Reference": "Reference"
+  },
+  "RequiresConcentration": "Requires Concentration",
+  "SaveDC": "Save DC",
+  "Values": "Spell Values"
+},
+"SIMPLED20.Senses": "Senses",
+"SIMPLED20.SensesConfig": "Configure Senses",
+"SIMPLED20.SensesConfigHint": "Configure any special sensory perception abilities that this actor possesses.",
+"SIMPLED20.SenseDarkvision": "Darkvision",
+"SIMPLED20.SenseBlindsight": "Blindsight",
+"SIMPLED20.SenseTremorsense": "Tremorsense",
+"SIMPLED20.SenseTruesight": "Truesight",
+"SIMPLED20.SenseUnits": "Units",
+"SIMPLED20.SenseSpecial": "Special Senses",
+"SIMPLED20.Shape": "Shape",
+"SIMPLED20.SheetClassCharacter": "Default SimpleD20 Character Sheet",
+"SIMPLED20.SheetClassCharacterLegacy": "Legacy SimpleD20 Character Sheet",
+"SIMPLED20.SheetClassClassSummary": "Default SimpleD20 Class Summary Sheet",
+"SIMPLED20.SheetClassContainer": "Default SimpleD20 Container Sheet",
+"SIMPLED20.SheetClassContainerLegacy": "Legacy SimpleD20 Container Sheet",
+"SIMPLED20.SheetClassGroup": "Default SimpleD20 Group Sheet",
+"SIMPLED20.SheetClassItem": "Default SimpleD20 Item Sheet",
+"SIMPLED20.SheetClassItemLegacy": "Legacy SimpleD20 Item Sheet",
+"SIMPLED20.SheetClassJournalEntry": "Default SimpleD20 Journal Entry Sheet",
+"SIMPLED20.SheetClassMapLocation": "Default SimpleD20 Map Location Sheet",
+"SIMPLED20.SheetClassNPC": "Default SimpleD20 NPC Sheet",
+"SIMPLED20.SheetClassNPCLegacy": "Legacy SimpleD20 NPC Sheet",
+"SIMPLED20.SheetClassRule": "Default SimpleD20 Rule Sheet",
+"SIMPLED20.SheetClassSpellList": "Default SimpleD20 Spell List Sheet",
+"SIMPLED20.SheetClassToken": "Default SimpleD20 Token Sheet",
+"SIMPLED20.SheetClassVehicle": "Default SimpleD20 Vehicle Sheet",
+"SIMPLED20.SheetModeEdit": "Edit",
+"SIMPLED20.SheetModePlay": "Play",
+"SIMPLED20.SavingThrow": "Saving Throw",
+"SIMPLED20.SavingThrowDC": "DC {dc} {ability} Saving Throw",
+"SIMPLED20.SavingThrowRoll": "Roll {ability} Saving Throw",
+"SIMPLED20.SavingThrowShort": "Save",
+"SIMPLED20.SaveDC": "DC {dc} {ability}",
+"SIMPLED20.SavePromptTitle": "{ability} Saving Throw",
+"SIMPLED20.ScalingFormula": "Scaling Formula",
+"SIMPLED20.ScalingMode": "Scaling Mode",
+"SIMPLED20.ScalingValue": "Scaling Value",
+"SIMPLED20.School": "School",
+"SIMPLED20.SchoolAbj": "Abjuration",
+"SIMPLED20.SchoolCon": "Conjuration",
+"SIMPLED20.SchoolDiv": "Divination",
+"SIMPLED20.SchoolEnc": "Enchantment",
+"SIMPLED20.SchoolEvo": "Evocation",
+"SIMPLED20.SchoolIll": "Illusion",
+"SIMPLED20.SchoolNec": "Necromancy",
+"SIMPLED20.SchoolTrs": "Transmutation",
+"SIMPLED20.Size": "Size",
+"SIMPLED20.SizeGargantuan": "Gargantuan",
+"SIMPLED20.SizeGargantuanAbbr": "Gt",
+"SIMPLED20.SizeHuge": "Huge",
+"SIMPLED20.SizeHugeAbbr": "Hg",
+"SIMPLED20.SizeLarge": "Large",
+"SIMPLED20.SizeLargeAbbr": "Lg",
+"SIMPLED20.SizeMedium": "Medium",
+"SIMPLED20.SizeMediumAbbr": "Md",
+"SIMPLED20.SizeSmall": "Small",
+"SIMPLED20.SizeSmallAbbr": "Sm",
+"SIMPLED20.SizeTiny": "Tiny",
+"SIMPLED20.SizeTinyAbbr": "Tn",
+
+"SIMPLED20.SKILL": {
+  "SECTIONS": {
+    "Details": "{label} Details",
+    "Bonuses": {
+      "Label": "{label} Bonuses",
+      "Hint": "These bonuses apply to passive scores & checks made with {label}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks made with any skill."
+    }
+  }
+},
+
+"SIMPLED20.Skill": "Skill",
+"SIMPLED20.Skills": "Skills",
+"SIMPLED20.SkillAcr": "Acrobatics",
+"SIMPLED20.SkillAni": "Animal Handling",
+"SIMPLED20.SkillArc": "Arcana",
+"SIMPLED20.SkillAth": "Athletics",
+"SIMPLED20.SkillDec": "Deception",
+"SIMPLED20.SkillHis": "History",
+"SIMPLED20.SkillIns": "Insight",
+"SIMPLED20.SkillInv": "Investigation",
+"SIMPLED20.SkillItm": "Intimidation",
+"SIMPLED20.SkillMed": "Medicine",
+"SIMPLED20.SkillNat": "Nature",
+"SIMPLED20.SkillPer": "Persuasion",
+"SIMPLED20.SkillPrc": "Perception",
+"SIMPLED20.SkillPrf": "Performance",
+"SIMPLED20.SkillRel": "Religion",
+"SIMPLED20.SkillSlt": "Sleight of Hand",
+"SIMPLED20.SkillSte": "Stealth",
+"SIMPLED20.SkillSur": "Survival",
+"SIMPLED20.SkillPromptTitle": "{ability} ({skill}) Check",
+"SIMPLED20.SkillConfigureTitle": "Configure {skill}",
+"SIMPLED20.SkillConfigure": "Configure Skill",
+"SIMPLED20.SkillsConfig": "Configure Skills",
+"SIMPLED20.SkillBonuses": "Skill Bonuses",
+"SIMPLED20.SkillBonusCheck": "Check Bonus",
+"SIMPLED20.SkillBonusPassive": "Passive Bonus",
+"SIMPLED20.SkillConfigurationHint": "Configure skill proficiency and bonuses.",
+"SIMPLED20.SkillGlobalBonusCheckHint": "This bonus applies to all skill checks made by this actor.",
+"SIMPLED20.SkillModifierHint": "{skill} Modifier",
+"SIMPLED20.SkillPassiveHint": "Passive {skill}",
+"SIMPLED20.SkillPassiveSpecificHint": "Passive {ability} ({skill})",
+"SIMPLED20.SkillPassiveScore": "Passive {skill} Score",
+"SIMPLED20.SkillPassives": "Skill Passives",
+"SIMPLED20.Skin": "Skin",
+"SIMPLED20.Skip": "Skip",
+
+"SIMPLED20.SOURCE": {
+  "FIELDS": {
+    "source": {
+      "label": "Source",
+      "book": {
+        "label": "Book"
+      },
+      "custom": {
+        "label": "Custom Label"
+      },
+      "license": {
+        "label": "License"
+      },
+      "page": {
+        "label": "Page/Section"
+      },
+      "revision": {
+        "label": "Revision"
+      },
+      "rules": {
+        "label": "Rules Version"
+      },
+      "uuid": {
+        "label": "Original Source"
+      }
+    }
+  },
+  "Action": {
+    "Configure": "Configure Source"
+  },
+  "Display": {
+    "Full": "{book} {page}",
+    "Page": "pg. {page}"
+  }
+},
+
+"SIMPLED20.Special": "Special",
+"SIMPLED20.SpecialHint": "Special values separated by semi-colons.",
+"SIMPLED20.SpecialTraits": "Special Traits",
+"SIMPLED20.Species": {
+  "Label": "Species",
+  "Add": "Add Species",
+  "AddLegacy": "Add Race",
+  "Features": "Species Features",
+  "FeaturesLegacy": "Race Features",
+  "Name": "Species Name"
+},
+"SIMPLED20.Speed": "Speed",
+"SIMPLED20.SpeedSpecial": "Special Movement",
+"SIMPLED20.SpellAbility": "Spellcasting Ability",
+"SIMPLED20.SpellAbilitySet": "Set as Primary Spellcasting Ability",
+"SIMPLED20.SpellAdd": "Add Spell",
+"SIMPLED20.SpellCantrip": "Cantrip",
+"SIMPLED20.SpellCastConsume": "Consume Spell Slot?",
+"SIMPLED20.SpellCastNoSlots": "You have no available {level} spell slots with which to cast {name}",
+"SIMPLED20.SpellCastNoSlotsLeft": "You have no available spell slots with which to cast {name}!",
+"SIMPLED20.SpellCastTime": "Casting Time",
+"SIMPLED20.SpellCastUpcast": "Cast at Level",
+"SIMPLED20.SpellcasterLevel": "Spellcaster Level",
+"SIMPLED20.SpellCastingHeader": "Spell Casting",
+"SIMPLED20.Spellcasting": "Spellcasting",
+"SIMPLED20.SpellcastingClass": "{class} Spellcasting",
+"SIMPLED20.SpellComponent": "Spell Component",
+"SIMPLED20.SpellComponents": "Spell Components",
+"SIMPLED20.SpellCreate": "Create Spell",
+"SIMPLED20.SpellDC": "Spell DC",
+"SIMPLED20.SpellDetails": "Spell Details",
+"SIMPLED20.SpellEffects": "Spell Effects",
+"SIMPLED20.SpellHeader": {
+  "Formula": "Formula",
+  "Range": "Range",
+  "Roll": "Roll",
+  "School": "School",
+  "Target": "Target",
+  "Time": "Time"
+},
+"SIMPLED20.SpellLevel": "Spell Level",
+"SIMPLED20.SpellLevels": "Spell Levels",
+"SIMPLED20.SpellLevel0": "Cantrip",
+"SIMPLED20.SpellLevel1": "1st Level",
+"SIMPLED20.SpellLevel2": "2nd Level",
+"SIMPLED20.SpellLevel3": "3rd Level",
+"SIMPLED20.SpellLevel4": "4th Level",
+"SIMPLED20.SpellLevel5": "5th Level",
+"SIMPLED20.SpellLevel6": "6th Level",
+"SIMPLED20.SpellLevel7": "7th Level",
+"SIMPLED20.SpellLevel8": "8th Level",
+"SIMPLED20.SpellLevel9": "9th Level",
+"SIMPLED20.SpellLevelSlot": "{level} ({n} Slots)",
+"SIMPLED20.SpellLevelPact": "Pact Slot [Level {level}] ({n} Slots)",
+"SIMPLED20.SpellMaterials": "Spellcasting Materials",
+"SIMPLED20.SpellMaterialsConsumed": "Consume Materials",
+"SIMPLED20.SpellMaterialsCost": "Material Cost",
+"SIMPLED20.SpellMaterialsDescription": "Material Description",
+"SIMPLED20.SpellMaterialsSupply": "Material Supply",
+"SIMPLED20.SpellName": "Spell Name",
+"SIMPLED20.SpellNone": "None",
+"SIMPLED20.SpellPrepAtWill": "At-Will",
+"SIMPLED20.SpellPrepInnate": "Innate Spellcasting",
+"SIMPLED20.SpellPrepRitual": "Ritual Only",
+"SIMPLED20.SpellPrepPrepared": "Prepared",
+"SIMPLED20.SpellPrepAlways": "Always Prepared",
+"SIMPLED20.SpellPreparation": {
+  "Label": "Spell Preparation",
+  "Formula": "Preparation Formula",
+  "Mode": "Spell Preparation Mode"
+},
+"SIMPLED20.SpellSourceClass": "Source Class",
+"SIMPLED20.SpellPrepared": "Prepared",
+"SIMPLED20.SpellProgArt": "Artificer",
+"SIMPLED20.SpellProgAvailable": "Available slots",
+"SIMPLED20.SpellProgFull": "Full Caster",
+"SIMPLED20.SpellProgHalf": "Half Caster",
+"SIMPLED20.SpellProgLeveled": "Leveled Magic",
+"SIMPLED20.SpellProgOverride": "Override slots",
+"SIMPLED20.SpellProgPact": "Pact Magic",
+"SIMPLED20.SpellProgThird": "Third Caster",
+"SIMPLED20.SpellProgression": "Spell Progression",
+"SIMPLED20.SpellsSearch": "Search spells",
+"SIMPLED20.SpellSchool": "Spell School",
+"SIMPLED20.SpellScroll": "Spell Scroll",
+"SIMPLED20.SpellSlotExpended": "Expended Spell Slot",
+"SIMPLED20.SpellSlotN.one": "{n}st spell slot",
+"SIMPLED20.SpellSlotN.two": "{n}nd spell slot",
+"SIMPLED20.SpellSlotN.few": "{n}rd spell slot",
+"SIMPLED20.SpellSlotN.other": "{n}th spell slot",
+"SIMPLED20.SpellSlotTemporary": "Temporary Spell Slot",
+"SIMPLED20.SpellSlotsN.one": "{n}st Level Slots",
+"SIMPLED20.SpellSlotsN.two": "{n}nd Level Slots",
+"SIMPLED20.SpellSlotsN.few": "{n}rd Level Slots",
+"SIMPLED20.SpellSlotsN.other": "{n}th Level Slots",
+"SIMPLED20.SpellSlotsPact": "Pact Slots",
+"SIMPLED20.SpellSlotsConfig": "Configure Spell Slots",
+"SIMPLED20.SpellTag": "Spell Tag",
+"SIMPLED20.SpellTarget": "Spell Target",
+"SIMPLED20.SpellUnprepared": "Unprepared",
+"SIMPLED20.SpellUsage": "Spell Usage",
+"SIMPLED20.Spellbook": "Spellbook",
+"SIMPLED20.Spent": "Spent",
+"SIMPLED20.StartingEquipment": {
+  "Title": "Starting Equipment",
+  "Action": {
+    "AddEntry": "Add Entry",
+    "Configure": "Configure Starting Equipment",
+    "RemoveEntry": "Remove Entry"
+  },
+  "Choice": {
+    "Armor": "Choose Armor",
+    "Focus": "Choose Spellcasting Focus",
+    "Tool": "Choose Tool",
+    "Weapon": "Choose Weapon"
+  },
+  "DropHint": "Drop item here to link",
+  "IfProficient": "If Proficient",
+  "Operator": {
+    "AND": "All of…",
+    "OR": "One of…"
+  },
+  "RequireProficiency": "Require Proficiency",
+  "SpecificItem": "Specific Item",
+  "Warning": {
+    "Depth": "Only three levels of depth allowed in starting equipment.",
+    "ItemTypeInvalid": "{type} items cannot be added to starting equipment."
+  },
+  "Wealth": {
+    "Label": "Starting Wealth",
+    "Hint": "Formula in GP that can be used in place of starting equipment."
+  }
+},
+"SIMPLED20.SubclassAdd": "Add Subclass",
+"SIMPLED20.SubclassIdentifierHint": "This identifier should match the identifier on the parent class to ensure they are properly linked.",
+"SIMPLED20.SubclassAssignmentError": "{class} already has a subclass. Remove the existing '{subclass}' subclass before adding a new one.",
+"SIMPLED20.SubclassDuplicateError": "A subclass with the identifier {identifier} already exists on this actor.",
+"SIMPLED20.SubclassMismatchWarn": "{name} subclass has no matching class with identifier '{class}'.",
+"SIMPLED20.SubclassName": "Subclass Name",
+"SIMPLED20.Subtype": "Subtype",
+
+"SIMPLED20.SUMMON": {
+  "Title": "Summon",
+  "FIELDS": {
+    "bonuses": {
+      "ac": {
+        "label": "Bonus Armor Class",
+        "hint": "Bonus to the Armor Class set on the summoned creature added to what is specified in their statblock."
+      },
+      "attackDamage": {
+        "label": "Bonus Attack Damage",
+        "hint": "Additional damage done by the creature's attacks."
+      },
+      "hd": {
+        "label": "Bonus Hit Dice",
+        "hint": "Additional hit dice added to the creature on top of what is derived from the HP formula in their statblock. Can only be used when summoning NPC actors."
+      },
+      "healing": {
+        "label": "Bonus Healing",
+        "hint": "Additional healing provided by healing abilities."
+      },
+      "hp": {
+        "label": "Bonus Hit Points",
+        "hint": "Additional hit points added to the creature on top of what is specified in their statblock."
+      },
+      "saveDamage": {
+        "label": "Bonus Save Damage",
+        "hint": "Additional damage done by the creature's abilities that require saving throws."
+      }
+    },
+    "creatureSizes": {
+      "label": "Creature Sizes",
+      "hint": "Summoned creature and token will be changed to this size. If more than one size is selected, then the player will be able to choose from these sizes when summoning."
+    },
+    "creatureTypes": {
+      "label": "Creature Types",
+      "hint": "Summoned creature will be changed to this type. If more than one type is selected, then the player will be able to choose from these types when summoning."
+    },
+    "match": {
+      "ability": {
+        "label": "Match Ability",
+        "hint": "Specific ability to use when when matching attacks and save DCs."
+      },
+      "attacks": {
+        "label": "Match Attacks",
+        "hint": "Modify to hit values on the summoned creature's attacks to match that of the summoner."
+      },
+      "proficiency": {
+        "label": "Match Proficiency",
+        "hint": "Modify the summoned creature's proficiency to match that of the summoner."
+      },
+      "saves": {
+        "label": "Match Saves",
+        "hint": "Modify saving throw DCs on the summoned creature's abilities to match that of the summoner."
+      }
+    },
+    "profiles": {
+      "count": {
+        "label": "Count"
+      },
+      "cr": {
+        "label": "Challenge Rating",
+        "abbr": "CR",
+        "hint": "Maximum CR of the summoned creature."
+      },
+      "FIELDS": {
+        "count": {
+          "label": "Count"
+        },
+        "cr": {
+          "label": "Challenge Rating",
+          "abbr": "CR",
+          "hint": "Maximum CR of the summoned creature."
+        },
+        "level": {
+          "label": "Level Limit",
+          "hint": "Range of levels required to use this profile.",
+          "max": {
+            "label": "Maximum Level"
+          },
+          "min": {
+            "label": "Minimum Level"
+          }
+        },
+        "name": {
+          "label": "Display Name",
+          "hint": "Name of the profile displayed in the usage dialog."
+        },
+        "types": {
+          "label": "Creature Types",
+          "hint": "List of creature types from which the summoned creature can be selected."
+        },
+        "uuid": {
+          "label": "Linked Creature"
+        }
+      },
+      "label": "Summons Profiles",
+      "level": {
+        "label": "Level Limit",
+        "hint": "Range of levels required to use this profile.",
+        "max": {
+          "label": "Maximum Level"
+        },
+        "min": {
+          "label": "Minimum Level"
+        }
+      },
+      "name": {
+        "label": "Display Name",
+        "hint": "Name of the profile displayed in the usage dialog."
+      },
+      "types": {
+        "label": "Creature Types",
+        "hint": "List of creature types from which the summoned creature can be selected."
+      },
+      "uuid": {
+        "label": "Linked Creature"
+      }
+    },
+    "summon": {
+      "label": "Summoning Details",
+      "identifier": {
+        "label": "Class Identifier",
+        "hint": "Identifier used to determine whether the character level or a specific class level should be used for profile level limits."
+      },
+      "mode": {
+        "label": "Mode",
+        "hint": "Sets how the creatures that are to be summoned are specified.",
+        "CR": "By Challenge Rating & Type",
+        "Direct": "By Direct Link"
+      },
+      "prompt": {
+        "label": "Summon Prompt",
+        "hint": "Should the player be prompted to place the summons? Players will still be able to summon from the chat card if prompt is disabled."
+      }
+    }
+  },
+  "SECTIONS": {
+    "Changes": "Changes",
+    "Profiles": "Profiles",
+    "Summoning": "Summoning"
+  },
+  "Action": {
+    "Place": "Place Summons",
+    "Summon": "Summon",
+    "View": "View Summon"
+  },
+  "CreatureChanges": {
+    "Label": "Creature Changes",
+    "Hint": "Changes that will be made to the creature being summoned. Any @ references used in the following formulas will be based on the summoner's stats. Summoned creatures' stats can be referenced using @summon (e.g. @summon.attributes.hd.max to reference the creature's hit dice count)."
+  },
+  "ItemChanges": {
+    "Label": "Item Changes",
+    "Hint": "Changes made to items on the summoned creature."
+  },
+  "Profile": {
+    "Label": "Summons Profile",
+    "Action": {
+      "Create": "Create Profile",
+      "Delete": "Delete Profile"
+    },
+    "ChallengeRatingLabel": "Challenge Rating of {cr} or lower",
+    "DropHint": "Drop creature here",
+    "Empty": "Click the <i class=\"fas fa-plus\"></i> button above to create a profile.",
+    "EmptyDrop": "Click the <i class=\"fas fa-plus\"></i> button above to create a profile or drop a creature to summon here."
+  },
+  "Warning": {
+    "CreateActor": "You must have 'Create New Actors' permission in order to summon directly from a compendium.",
+    "CRV11": "Summoning based on creature challenge rating only works in Foundry V12 or higher.",
+    "NoActor": "Actor cannot be found with UUID '{uuid}' to summon.",
+    "NoOwnership": "You must have ownership of '{actor}' in order to summon it.",
+    "NoProfile": "Cannot find summoning profile {profileId} on '{item}'.",
+    "Wildcard": "You must have 'Use File Browser' permissions to summon creatures with wildcard artwork."
+  }
+},
+
+"SIMPLED20.Summoning": {
+  "Label": "Summoning"
+},
+"SIMPLED20.Supply": "Supply",
+"SIMPLED20.Suppressed": "Suppressed",
+
+"SIMPLED20.TARGET": {
+  "Action": {
+    "PlaceTemplate": "Place Measured Template"
+  },
+  "Count": {
+    "Any": "Any",
+    "Every": "Every"
+  },
+  "FIELDS": {
+    "target": {
+      "label": "Targeting",
+      "affects": {
+        "label": "Affected Targets",
+        "choice": {
+          "label": "Choose Targets",
+          "hint": "When targeting an area, can the user choose who it affects?"
+        },
+        "count": {
+          "label": "Target Count",
+          "hint": "Number of individual targets that can be affected."
+        },
+        "special": {
+          "label": "Special Targeting",
+          "hint": "Description of any special targeting details."
+        },
+        "type": {
+          "label": "Target Type",
+          "hint": "Type of targets that can be affected (e.g. creatures, objects, spaces)."
+        }
+      },
+      "override": {
+        "label": "Override Target",
+        "hint": "Use these target values instead of the item's when using this activity."
+      },
+      "prompt": {
+        "label": "Measured Template Prompt",
+        "hint": "Should the player be prompted to place a measured template? Players will still be able to place templates from the chat card if prompt is disabled."
+      },
+      "template": {
+        "label": "Area of Effect",
+        "contiguous": {
+          "label": "Contiguous Areas",
+          "hint": "Must all created areas be connected to one another?"
+        },
+        "count": {
+          "label": "Area Count",
+          "hint": "Number of distinct areas that can be targeted."
+        },
+        "height": {
+          "label": "Area Height",
+          "hint": "Height of a cylinder affected if applicable."
+        },
+        "size": {
+          "label": "Area Size",
+          "hint": "Size of the area of effect on its primary axis."
+        },
+        "type": {
+          "label": "Area Type",
+          "hint": "Type of area of effect targeted."
+        },
+        "units": {
+          "label": "Area Units",
+          "hint": "Units used to measure the area of effect sizes."
+        },
+        "width": {
+          "label": "Area Width",
+          "hint": "Width of a line affected if applicable."
+        }
+      }
+    }
+  },
+  "Formatted": "{count} {type}",
+  "Type": {
+    "Ally": {
+      "Label": "Ally",
+      "Counted": {
+        "any": "any allies",
+        "every": "every ally",
+        "one": "{number} ally",
+        "other": "{number} allies"
+      }
+    },
+    "Any": {
+      "Label": "Any"
+    },
+    "Circle": {
+      "Label": "Circle",
+      "Counted": {
+        "one": "{number} circle",
+        "other": "{number} circles"
+      }
+    },
+    "Cone": {
+      "Label": "Cone",
+      "Counted": {
+        "one": "{number} cone",
+        "other": "{number} cones"
+      }
+    },
+    "Creature": {
+      "Label": "Creature",
+      "Counted": {
+        "any": "any creatures",
+        "every": "every creature",
+        "one": "{number} creature",
+        "other": "{number} creatures"
+      }
+    },
+    "CreatureOrObject": {
+      "Label": "Creature or Object",
+      "Counted": {
+        "any": "any creatures or objects",
+        "every": "every creature or object",
+        "one": "{number} creature or object",
+        "other": "{number} creatures or objects"
+      }
+    },
+    "Cube": {
+      "Label": "Cube",
+      "Counted": {
+        "one": "{number} cube",
+        "other": "{number} cubes"
+      }
+    },
+    "Cylinder": {
+      "Label": "Cylinder",
+      "Counted": {
+        "one": "{number} cylinder",
+        "other": "{number} cylinders"
+      }
+    },
+    "Emanation": {
+      "Label": "Emanation",
+      "Counted": {
+        "one": "{number} emanation",
+        "other": "{number} emanations"
+      }
+    },
+    "Enemy": {
+      "Label": "Enemy",
+      "Counted": {
+        "any": "any enemies",
+        "every": "every enemy",
+        "one": "{number} enemy",
+        "other": "{number} enemies"
+      }
+    },
+    "Line": {
+      "Label": "Line",
+      "Counted": {
+        "one": "{number} line",
+        "other": "{number} lines"
+      }
+    },
+    "Object": {
+      "Label": "Object",
+      "Counted": {
+        "any": "any objects",
+        "every": "every object",
+        "one": "{number} object",
+        "other": "{number} objects"
+      }
+    },
+    "Radius": {
+      "Label": "Radius",
+      "Counted": {
+        "one": "{number} radius",
+        "other": "{number} radii"
+      }
+    },
+    "Self": {
+      "Label": "Self"
+    },
+    "Sphere": {
+      "Label": "Sphere",
+      "Counted": {
+        "one": "{number} sphere",
+        "other": "{number} spheres"
+      }
+    },
+    "Space": {
+      "Label": "Space",
+      "Counted": {
+        "any": "any spaces",
+        "every": "every space",
+        "one": "{number} space",
+        "other": "{number} spaces"
+      }
+    },
+    "Square": {
+      "Label": "Square",
+      "Counted": {
+        "one": "{number} square",
+        "other": "{number} squares"
+      }
+    },
+    "Target": {
+      "Label": "Target",
+      "Counted": {
+        "any": "any targets",
+        "every": "every target",
+        "one": "{number} target",
+        "other": "{number} targets"
+      }
+    },
+    "Wall": {
+      "Label": "Wall",
+      "Counted": {
+        "one": "{number} wall",
+        "other": "{number} walls"
+      }
+    },
+    "WillingCreature": {
+      "Label": "Willing Creature",
+      "Counted": {
+        "any": "any willing creatures",
+        "every": "every willing creature",
+        "one": "{number} willing creature",
+        "other": "{number} willing creatures"
+      }
+    }
+  },
+  "Warning": {
+    "PlaceTemplate": "Failed to place measured template."
+  }
+},
+
+"SIMPLED20.Target": "Target",
+"SIMPLED20.TargetPl": "Targets",
+"SIMPLED20.TargetType": "Target Type",
+"SIMPLED20.TargetTypeArea": "Area",
+"SIMPLED20.TargetTypeIndividual": "Individual",
+"SIMPLED20.TargetUnits": "Area of Effect Units",
+"SIMPLED20.TargetValue": "Target Length or Count",
+"SIMPLED20.TargetWidth": "Line Width",
+"SIMPLED20.TemplatePrompt": "Template Prompt",
+"SIMPLED20.TemplatePromptTooltip": "If unchecked, the prompt for placing a Measured Template will be suppressed.",
+"SIMPLED20.Temp": "Temp",
+"SIMPLED20.Threshold": "Threshold",
+"SIMPLED20.TimeDay": "Days",
+"SIMPLED20.TimeDayAbbr": "d",
+"SIMPLED20.TimeDisp": "Until Dispelled",
+"SIMPLED20.TimeDispTrig": "Until Dispelled or Triggered",
+"SIMPLED20.TimeHour": "Hours",
+"SIMPLED20.TimeHourAbbr": "h",
+"SIMPLED20.TimeInst": "Instantaneous",
+"SIMPLED20.TimeMinute": "Minutes",
+"SIMPLED20.TimeMinuteAbbr": "m",
+"SIMPLED20.TimeMonth": "Months",
+"SIMPLED20.TimePerm": "Permanent",
+"SIMPLED20.TimeRound": "Rounds",
+"SIMPLED20.TimeTurn": "Turns",
+"SIMPLED20.TimeYear": "Years",
+"SIMPLED20.TMP": "TMP",
+"SIMPLED20.ToHit": "To Hit",
+"SIMPLED20.Tokens": {
+  "NoneSelected": "No Tokens Selected",
+  "NoneTargeted": "No Tokens Targeted",
+  "Selected": "Selected",
+  "Targeted": "Targeted"
+},
+"SIMPLED20.TokenRings": {
+  "BackgroundColor": "Background Color",
+  "Effects": {
+    "Label": "Effects",
+    "BackgroundWave": "Background Wave",
+    "RingGradient": "Ring Gradient",
+    "RingPulse": "Ring Pulse"
+  },
+  "Enabled": "Use Dynamic Ring",
+  "RingColor": "Ring Color",
+  "ScaleCorrection": "Scale Correction",
+  "Subject": {
+    "Label": "Subject Path",
+    "Hint": "Explicitly specify a path for the artwork placed over the dynamic token ring. If not provided, the subject image will be set to the normal token artwork."
+  },
+  "Title": "Dynamic Ring"
+},
+"SIMPLED20.ToggleDescription": "Toggle Description",
+
+"SIMPLED20.TOOL": {
+  "SECTIONS": {
+    "Details": "{label} Details",
+    "Bonuses": {
+      "Label": "{label} Bonuses",
+      "Hint": "These bonuses apply to checks made with {label}."
+    },
+    "Global": {
+      "Label": "Global Bonuses",
+      "Hint": "These bonuses apply to checks made with any tool."
+    }
+  }
+},
+
+"SIMPLED20.ToolArtisans": "Artisan's Tools",
+"SIMPLED20.ToolBonuses": "Tool Bonuses",
+"SIMPLED20.ToolCheck": "Tool Check",
+"SIMPLED20.ToolConfigure": "Configure Tool Proficiency",
+"SIMPLED20.ToolDisguiseKit": "Disguise Kit",
+"SIMPLED20.ToolForgeryKit": "Forgery Kit",
+"SIMPLED20.ToolGamingSet": "Gaming Set",
+"SIMPLED20.ToolHerbalismKit": "Herbalism Kit",
+"SIMPLED20.ToolMusicalInstrument": "Musical Instrument",
+"SIMPLED20.ToolNavigators": "Navigator's Tools",
+"SIMPLED20.ToolPoisonersKit": "Poisoner's Kit",
+"SIMPLED20.ToolPromptTitle": "{tool} Check",
+"SIMPLED20.ToolThieves": "Thieves' Tools",
+"SIMPLED20.ToolVehicle": "Vehicles",
+"SIMPLED20.TraitAll": "All {category}",
+"SIMPLED20.TraitArmorPlural.one": "Armor Training",
+"SIMPLED20.TraitArmorPlural.other": "Armor Training",
+"SIMPLED20.TraitArmorProf": "Armor Training",
+"SIMPLED20.TraitArmorLegacyPlural.one": "Armor Proficiency",
+"SIMPLED20.TraitArmorLegacyPlural.other": "Armor Proficiencies",
+"SIMPLED20.TraitArmorLegacyProf": "Armor Proficiencies",
+"SIMPLED20.TraitCIPlural.one": "Condition Immunity",
+"SIMPLED20.TraitCIPlural.other": "Condition Immunities",
+"SIMPLED20.TraitConfig": "Configure {trait}",
+"SIMPLED20.TraitConfigChooseAnyCounted": "any {count} {type}",
+"SIMPLED20.TraitConfigChooseAnyUncounted": "any {type}",
+"SIMPLED20.TraitConfigChooseList": "{count} from {list}",
+"SIMPLED20.TraitConfigChooseOther": "{count} other {type}",
+"SIMPLED20.TraitConfigChooseWrapper": "Choose {choices}",
+"SIMPLED20.TraitDIPlural.one": "Damage Immunity",
+"SIMPLED20.TraitDIPlural.other": "Damage Immunities",
+"SIMPLED20.TraitDMPlural.one": "Damage Modification",
+"SIMPLED20.TraitDMPlural.other": "Damage Modifications",
+"SIMPLED20.TraitDRPlural.one": "Damage Resistance",
+"SIMPLED20.TraitDRPlural.other": "Damage Resistances",
+"SIMPLED20.TraitDVPlural.one": "Damage Vulnerability",
+"SIMPLED20.TraitDVPlural.other": "Damage Vulnerabilities",
+"SIMPLED20.TraitGenericPlural.one": "Trait",
+"SIMPLED20.TraitGenericPlural.other": "Traits",
+"SIMPLED20.TraitLanguagesPlural.one": "Language",
+"SIMPLED20.TraitLanguagesPlural.other": "Languages",
+"SIMPLED20.TraitSave": "Update",
+"SIMPLED20.TraitSavesPlural.one": "Saving Throw Proficiency",
+"SIMPLED20.TraitSavesPlural.other": "Saving Throw Proficiencies",
+"SIMPLED20.TraitSelectorSpecial": "Special (Split with Semi-Colon)",
+"SIMPLED20.TraitSkillsPlural.one": "Skill Proficiency",
+"SIMPLED20.TraitSkillsPlural.other": "Skill Proficiencies",
+"SIMPLED20.TraitToolPlural.one": "Tool Proficiency",
+"SIMPLED20.TraitToolPlural.other": "Tool Proficiencies",
+"SIMPLED20.TraitToolProf": "Tool Proficiencies",
+"SIMPLED20.TraitWeaponPlural.one": "Weapon Proficiency",
+"SIMPLED20.TraitWeaponPlural.other": "Weapon Proficiencies",
+"SIMPLED20.TraitWeaponProf": "Weapon Proficiencies",
+"SIMPLED20.Traits": "Traits",
+"SIMPLED20.TraitsChosen": "Chosen Traits",
+"SIMPLED20.Treasure": {
+  "Categories": {
+    "Any": "Any",
+    "Arcana": "Arcana",
+    "Armaments": "Armaments",
+    "Implements": "Implements",
+    "Individual": "Individual",
+    "None": "None",
+    "Relics": "Relics"
+  },
+  "Configuration": {
+    "Label": "Treasure",
+    "Title": "Configure Treasure"
+  }
+},
+"SIMPLED20.Trigger": "Trigger",
+"SIMPLED20.Type": "Type",
+"SIMPLED20.Uncrewed": "Uncrewed",
+"SIMPLED20.Unequipped": "Not Equipped",
+"SIMPLED20.Unidentified.DefaultName": "Unidentified {name}",
+"SIMPLED20.Unidentified.Notice": "You must identify this item to learn its details.",
+"SIMPLED20.Unidentified.Title": "Unidentified",
+"SIMPLED20.Unidentified.Value": "???",
+"SIMPLED20.Unit": "Unit",
+
+"SIMPLED20.UNITS": {
+  "DISTANCE": {
+    "Label": "Distance Units",
+    "Foot": {
+      "Label": "Feet",
+      "Abbreviation": "ft"
+    },
+    "Kilometer": {
+      "Label": "Kilometers",
+      "Abbreviation": "km"
+    },
+    "Meter": {
+      "Label": "Meters",
+      "Abbreviation": "m"
+    },
+    "Mile": {
+      "Label": "Miles",
+      "Abbreviation": "mi"
+    }
+  },
+  "TIME": {
+    "Day": {
+      "Label": "Day"
+    },
+    "Hour": {
+      "Label": "Hour"
+    },
+    "Minute": {
+      "Label": "Minute"
+    },
+    "Month": {
+      "Label": "Month"
+    },
+    "Round": {
+      "Label": "Round",
+      "Counted": {
+        "narrow": "{number}r",
+        "one": "{number} round",
+        "other": "{number} rounds"
+      }
+    },
+    "Second": {
+      "Label": "Second"
+    },
+    "Turn": {
+      "Label": "Turn",
+      "Abbreviation": "t",
+      "Counted": {
+        "narrow": "{number}t",
+        "one": "{number} turn",
+        "other": "{number} turns"
+      }
+    },
+    "Week": {
+      "Label": "Week"
+    },
+    "Year": {
+      "Label": "Year"
+    }
+  },
+  "VOLUME": {
+    "Label": "Volume Units",
+    "CubicFoot": {
+      "Label": "Cubic Feet",
+      "Abbreviation": "ft³",
+      "Counted": {
+        "narrow": {
+          "one": "{number}ft³",
+          "other": "{number}ft³"
+        },
+        "short": {
+          "one": "{number} cu ft",
+          "other": "{number} cu ft"
+        },
+        "long": {
+          "one": "{number} cubic foot",
+          "other": "{number} cubic feet"
+        }
+      }
+    },
+    "Liter": {
+      "Label": "Liters",
+      "Abbreviation": "L"
+    }
+  },
+  "WEIGHT": {
+    "Label": "Weight Units",
+    "Kilogram": {
+      "Label": "Kilogram",
+      "Abbreviation": "kg"
+    },
+    "Megagram": {
+      "Label": "Tonnes",
+      "Abbreviation": "t",
+      "Counted": {
+        "narrow": {
+          "one": "{number}t",
+          "other": "{number}t"
+        },
+        "short": {
+          "one": "{number} t",
+          "other": "{number} t"
+        },
+        "long": {
+          "one": "{number} tonne",
+          "other": "{number} tonnes"
+        }
+      }
+    },
+    "Pound": {
+      "Label": "Pounds",
+      "Abbreviation": "lb"
+    },
+    "Ton": {
+      "Label": "Tons",
+      "Abbreviation": "tn",
+      "Counted": {
+        "narrow": {
+          "one": "{number}tn",
+          "other": "{number}tn"
+        },
+        "short": {
+          "one": "{number} tn",
+          "other": "{number} tn"
+        },
+        "long": {
+          "one": "{number} ton",
+          "other": "{number} tons"
+        }
+      }
+    }
+  }
+},
+
+"SIMPLED20.Unknown": "Unknown",
+"SIMPLED20.Unlimited": "Unlimited",
+
+"SIMPLED20.USAGE": {
+  "SECTION": {
+    "Consumption": "Consumption",
+    "Creation": "Creation",
+    "Scaling": "Scaling"
+  }
+},
+
+"SIMPLED20.Usage": "Usage",
+"SIMPLED20.Use": "Use",
+"SIMPLED20.UseItem": "Use {item}",
+"SIMPLED20.Uses": "Uses",
+"SIMPLED20.UsesAvailable": "Available Uses",
+"SIMPLED20.UsesMax": "Maximum Uses",
+"SIMPLED20.UsesPeriod": "Recovery Period",
+"SIMPLED20.UsesPeriods": {
+  "Charges": "Charges",
+  "ChargesAbbreviation": "Charges"
+},
+
+"SIMPLED20.USES": {
+  "FIELDS": {
+    "uses": {
+      "label": "Uses",
+      "max": {
+        "label": "Maximum Uses",
+        "hint": "Formula for the maximum number of uses."
+      },
+      "recovery": {
+        "label": "Use Recovery",
+        "hint": "Recovery profiles for this activity's uses.",
+        "FIELDS": {
+          "period": {
+            "label": "Recovery Period",
+            "hint": "Time when this recovery will occur."
+          },
+          "type": {
+            "label": "Recovery Type",
+            "hint": "How uses are recovered."
+          },
+          "formula": {
+            "label": "Recovery Formula",
+            "hint": "Formula used to determine how many uses are recovered."
+          }
+        }
+      },
+      "spent": {
+        "label": "Spent Uses",
+        "hint": "Number of uses that have been spent."
+      }
+    }
+  },
+  "Recovery": {
+    "Action": {
+      "Create": "Create Recovery Profile",
+      "Delete": "Delete Recovery Profile"
+    },
+    "Combat": "Combat",
+    "Never": "Never",
+    "Period": {
+      "Dawn": {
+        "Label": "Dawn"
+      },
+      "Day": {
+        "Label": "Day"
+      },
+      "Dusk": {
+        "Label": "Dusk"
+      },
+      "Initiative": {
+        "Label": "Initiative"
+      },
+      "LongRest": {
+        "Label": "Long Rest",
+        "Abbreviation": "LR"
+      },
+      "ShortRest": {
+        "Label": "Short Rest",
+        "Abbreviation": "SR"
+      },
+      "Turn": {
+        "Label": "Each Turn"
+      },
+      "TurnEnd": {
+        "Label": "End of Turn",
+        "Abbreviation": "Turn End"
+      },
+      "TurnStart": {
+        "Label": "Start of Turn",
+        "Abbreviation": "Turn Start"
+      }
+    },
+    "Recharge": {
+      "Label": "Recharge",
+      "Range": "Recharge {range}"
+    },
+    "Special": "Special",
+    "Time": "Time",
+    "Type": {
+      "Formula": "Custom Formula",
+      "LoseAll": "Lose All Uses",
+      "RecoverAll": "Recover All Uses"
+    }
+  }
+},
+
+"SIMPLED20.UTILITY": {
+  "Title": "Use",
+  "FIELDS": {
+    "roll": {
+      "label": "Roll",
+      "formula": {
+        "label": "Roll Formula",
+        "hint": "Formula for an arbitrary roll."
+      },
+      "name": {
+        "label": "Roll Label",
+        "hint": "Display name for the rolling button."
+      },
+      "prompt": {
+        "label": "Roll Prompt",
+        "hint": "Should the roll configuration dialog be displayed when rolling?"
+      },
+      "visible": {
+        "label": "Visible to All",
+        "hint": "Should the rolling button be visible to all players?"
+      }
+    }
+  }
+},
+
+"SIMPLED20.Value": "Value",
+
+"SIMPLED20.VEHICLE": {
+  "MOUNTABLE": {
+    "FIELDS": {
+      "cover": {
+        "label": "Cover",
+        "hint": "Cover provided to crew operating this equipment."
+      },
+      "crewed": {
+        "label": "Crewed"
+      },
+      "hp": {
+        "label": "Hit Points",
+        "conditions": {
+          "label": "Health Conditions"
+        },
+        "dt": {
+          "label": "Damage Threshold"
+        },
+        "max": {
+          "label": "Max HP"
+        },
+        "value": {
+          "label": "Current HP"
+        }
+      },
+      "speed": {
+        "conditions": {
+          "label": "Speed Conditions"
+        },
+        "value": {
+          "label": "Speed"
+        }
+      }
+    }
+  }
+},
+
+"SIMPLED20.Vehicle": "Vehicle",
+"SIMPLED20.VehicleActions": "Actions",
+"SIMPLED20.VehicleActionsHint": "Actions taken with full crew complement",
+"SIMPLED20.VehicleActionMax": "Maximum Actions",
+"SIMPLED20.VehicleActionStations": "Action Stations",
+"SIMPLED20.VehicleActionThresholds": "Action Thresholds",
+"SIMPLED20.VehicleActionThresholdsFull": "Full Crew Complement",
+"SIMPLED20.VehicleActionThresholdsMid": "Partial Crew Complement",
+"SIMPLED20.VehicleActionThresholdsMin": "Minimum Crew Complement",
+"SIMPLED20.VehicleCargo": "Cargo",
+"SIMPLED20.VehicleCargoCapacity": "Cargo Capacity",
+"SIMPLED20.VehicleCargoCrew": "Cargo & Crew",
+"SIMPLED20.VehicleCreatureCapacity": "Creature Capacity",
+"SIMPLED20.VehicleCrew": "Crew",
+"SIMPLED20.VehicleCrewPassengers": "Crew & Passengers",
+"SIMPLED20.VehicleCrewed": "Crewed",
+"SIMPLED20.VehicleCrewAction": "Crew Action",
+"SIMPLED20.VehicleEquipment": "Vehicle Equipment",
+"SIMPLED20.VehicleMishap": "Mishap",
+"SIMPLED20.VehicleMishapThreshold": "Mishap Threshold",
+"SIMPLED20.VehiclePassengers": "Passengers",
+"SIMPLED20.VehiclePassengerName": "Passenger Name or Type",
+"SIMPLED20.VehiclePassengerQuantity": "Passenger Quantity",
+"SIMPLED20.VehicleType": "Vehicle Type",
+"SIMPLED20.VehicleTypeAir": "Air Vehicle",
+"SIMPLED20.VehicleTypeLand": "Land Vehicle",
+"SIMPLED20.VehicleTypeSpace": "Space Vehicle",
+"SIMPLED20.VehicleTypeWater": "Water Vehicle",
+"SIMPLED20.VehicleUncrewed": "Uncrewed",
+"SIMPLED20.Versatile": "Versatile",
+"SIMPLED20.VersatileDamage": "Versatile Damage",
+"SIMPLED20.VsDC": "vs DC.",
+"SIMPLED20.Vulnerabilities": "Vulnerabilities",
+"SIMPLED20.WarnBadACFormula": "The provided AC formula \"{formula}\" could not be evaluated.",
+"SIMPLED20.WarnCantAddMultipleAdvancements": "It is not currently possible to add multiple items with advancements to an actor at the same time. Please add them individually.",
+"SIMPLED20.WarnMultipleArmor": "More than one suit of armor equipped, AC calculation may be incorrect.",
+"SIMPLED20.WarnMultipleShields": "More than one shield equipped, AC calculation may be incorrect.",
+
+"SIMPLED20.WEAPON": {
+  "FIELDS": {
+    "ammunition": {
+      "type": {
+        "label": "Ammunition Type"
+      }
+    },
+    "armor": {
+      "value": {
+        "label": "Armor Class"
+      }
+    },
+    "damage": {
+      "hint": "Intrinsic damage dice from the weapon. Ability modifier and additional damage parts will be provided automatically when attacking."
+    },
+    "mastery": {
+      "label": "Mastery",
+      "hint": "Special weapon ability unlocked for characters who have Weapon Mastery or a related feature."
+    }
+  },
+  "Mastery": {
+    "Label": "Weapon Mastery",
+    "Flavor": "Mastery",
+    "Cleave": "Cleave",
+    "Graze": "Graze",
+    "Nick": "Nick",
+    "Push": "Push",
+    "Sap": "Sap",
+    "Slow": "Slow",
+    "Topple": "Topple",
+    "Vex": "Vex"
+  }
+},
+
+"SIMPLED20.WeaponCategory": "{category} Weapon",
+"SIMPLED20.WeaponImprov": "Improvised",
+"SIMPLED20.WeaponMartialM": "Martial Melee",
+"SIMPLED20.WeaponMartialProficiency": "Martial",
+"SIMPLED20.WeaponMartialR": "Martial Ranged",
+"SIMPLED20.WeaponNatural": "Natural",
+"SIMPLED20.WeaponSiege": "Siege Weapon",
+"SIMPLED20.WeaponSimpleM": "Simple Melee",
+"SIMPLED20.WeaponSimpleProficiency": "Simple",
+"SIMPLED20.WeaponSimpleR": "Simple Ranged",
+"SIMPLED20.Weight": "Weight",
+"SIMPLED20.WhisperedTo": "Whispered to",
+"SIMPLED20.Wiki": "Wiki",
+"SIMPLED20.available": "available",
+"SIMPLED20.description": "A system for playing the fifth edition of the worlds most popular roleplaying game in the Foundry Virtual Tabletop environment.",
+"SIMPLED20.of": "of",
+"SIMPLED20.per": "per",
+"SIMPLED20.spell": "spell",
+
+"EDITOR.SIMPLED20.Inline": {
+  "ApplyStatus": "Apply Status to Selected Tokens",
+  "AttackExtended": "<em>{type}</em>: {parts}",
+  "AttackLong": "{formula} to hit",
+  "AttackShort": "{formula}",
+  "AwardEach": "{award} each",
+  "CheckShort": "{check}",
+  "CheckLong": "{check} check",
+  "DamageExtended": "<em>Hit:</em> {damage} damage",
+  "DamageDouble": "{first} plus {second}",
+  "DamageShort": "{formula} {type}",
+  "DamageLong": "{average} ({formula}) {type}",
+  "DC": "DC {dc} {check}",
+  "DCPassiveShort": "DC {dc} passive {check}",
+  "DCPassiveLong": "passive {check} score of {dc} or higher",
+  "NoActorWarning": "No selected or assigned actor could be found to execute this roll.",
+  "PassiveShort": "passive {check}",
+  "PassiveLong": "passive {check} score",
+  "RequestRoll": "Request Roll",
+  "RollRequest": "Roll Request",
+  "SaveShort": "{save}",
+  "SaveLong": "{save} saving throw",
+  "SpecificCheck": "{ability} ({type})",
+  "Warning": {
+    "NoActivityOnItem": "{item} on {actor} does not have an Activity with name {activity}.",
+    "NoActor": "No selected or assigned actor could be found to execute this roll.",
+    "NoItemOnActor": "{actor} does not have an Item with name {item}."
+  }
+},
+
+"EFFECT.SIMPLED20": {
+  "StatusBleeding": "Bleeding",
+  "StatusBloodied": "Bloodied",
+  "StatusBurning": "Burning",
+  "StatusBurrowing": "Burrowing",
+  "StatusConcentrating": "Concentrating",
+  "StatusCursed": "Cursed",
+  "StatusDead": "Dead",
+  "StatusDehydration": "Dehydration",
+  "StatusDodging": "Dodging",
+  "StatusEncumbered": "Encumbered",
+  "StatusEthereal": "Ethereal",
+  "StatusExceedingCarryingCapacity": "Exceeding Carrying Capacity",
+  "StatusFalling": "Falling",
+  "StatusFlying": "Flying",
+  "StatusHalfCover": "Half Cover",
+  "StatusHeavilyEncumbered": "Heavily Encumbered",
+  "StatusHiding": "Hiding",
+  "StatusHovering": "Hovering",
+  "StatusMalnutrition": "Malnutrition",
+  "StatusMarked": "Marked",
+  "StatusSilenced": "Silenced",
+  "StatusSleeping": "Sleeping",
+  "StatusStable": "Stable",
+  "StatusSuffocation": "Suffocation",
+  "StatusSurprised": "Surprised",
+  "StatusThreeQuartersCover": "Three-Quarters Cover",
+  "StatusTotalCover": "Total Cover",
+  "StatusTransformed": "Transformed"
+},
+
+"TYPES.JournalEntryPage.class": "Class Summary",
+"TYPES.JournalEntryPage.map": "Map Location",
+"TYPES.JournalEntryPage.rule": "Rule",
+"TYPES.JournalEntryPage.spells": "Spell List",
+"TYPES.JournalEntryPage.subclass": "Subclass Summary",
+"JOURNALENTRYPAGE.SIMPLED20": {
+  "Class": {
+    "FIELDS": {
+      "description": {
+        "additionalEquipment": {
+          "label": "Additional Equipment Description",
+          "hint": "Additional descriptive text displayed beneath the starting equipment section."
+        },
+        "additionalHitPoints": {
+          "label": "Additional Hit Points Description",
+          "hint": "Additional descriptive text displayed beneath the auto-generated hit points section."
+        },
+        "additionalTraits": {
+          "label": "Additional Proficiencies Description",
+          "hint": "Additional descriptive text displayed beneath list of proficiencies granted by this class."
+        },
+        "subclass": {
+          "label": "Subclass Introduction",
+          "hint": "Introduction that will be displayed before this class's subclasses."
+        },
+        "value": {
+          "label": "Introduction",
+          "hint": "Primary description of the class that will appear first."
+        }
+      },
+      "item": {
+        "label": "Selected Class"
+      },
+      "style": {
+        "label": "Style",
+        "hint": "Force the page style to use modern or legacy formatting, rather than what is specified by the class."
+      },
+      "subclassHeader": {
+        "label": "Subclass Header"
+      },
+      "subclassItems": {
+        "label": "Subclasses"
+      }
+    },
+    "EquipmentHeader": "Equipment",
+    "EquipmentDescription": "You start with the following equipment, in addition to the equipment granted by your background:",
+    "Features": {
+      "DescriptionLegacy": "As a {lowercaseName}, you gain the following class features, which are summarized in the {name} table.",
+      "DescriptionModern": "As a {name}, you gain the following class features when you reach the specified {name} levels. These features are listed in the {name} Features table.",
+      "Header": "Class Features",
+      "Name": "Level {level}: {name}"
+    },
+    "HitPoints": {
+      "Header": "Hit Points",
+      "HitDiceLegacy": "<strong>Hit Dice:</strong> {dice} per {class} level",
+      "HitDiceModern": "{dice} per {class} level",
+      "Level1": "<strong>Hit Points at 1st Level:</strong> {max} + your Constitution modifier",
+      "LevelX": "<strong>Hit Points at Higher Levels:</strong> {dice} (or {average}) + your Constitution modifier per {class} level after 1st"
+    },
+    "ItemHint": "Drop a class here",
+    "NoValidClass": "No valid class selected, press the edit button to add a class.",
+    "OptionalFeaturesCaption": "Optional Class Features",
+    "OptionalFeaturesDescription": "The following section contains options {class} features. These features are not granted automatically, and you can choose one, some, or all of them at your DM's discretion.",
+    "SpellSlotLevel": "Slot Level",
+    "SpellSlots": "Spell Slots",
+    "SpellSlotsPerSpellLevel": "—Spell Slots per Spell Level—",
+    "Style": {
+      "Inferred": "Inferred from Source",
+      "Legacy": "Legacy",
+      "Modern": "Modern"
+    },
+    "SubclassHint": "Drop subclasses here",
+    "TableCaption": "The {class}",
+    "TableOptionalCaption": "Optional {class} Features",
+    "Traits": {
+      "Caption": "Core {class} Traits",
+      "Header": "Proficiencies"
+    }
+  },
+  "EditDescription": "Edit",
+  "TableTOC": "Table: {caption}",
+  "SpellList": {
+    "DropHint": "Drop spells or folders of spells here to add to the list",
+    "Grouping": {
+      "Label": "Grouping Mode",
+      "Hint": "Controls how the spells will be grouped by default in the spell list.",
+      "Alphabetical": "By First Letter",
+      "Level": "By Level",
+      "None": "No Grouping",
+      "School": "By School"
+    },
+    "IdentifierHint": "Identifier should match that defined on the associated document, if applicable. For example, when creating a spell list for the Wizard class, the identifier should be 'wizard'.",
+    "Type": {
+      "Label": "Spell List Type",
+      "Other": "Uncategorized"
+    },
+    "UnlinkedSpells": {
+      "Label": "Unlinked Spells",
+      "Add": "Add Unlinked Spell",
+      "Configuration": "Spell Configuration",
+      "Edit": "Edit Unlinked Spell"
+    }
+  },
+  "Subclass": {
+    "FIELDS": {
+      "description": {
+        "value": {
+          "label": "Introduction",
+          "hint": "Description of the subclass that will appear before any listed features."
+        }
+      },
+      "item": {
+        "label": "Selected Subclass"
+      },
+      "style": {
+        "label": "Style",
+        "hint": "Force the page style to use modern or legacy formatting, rather than what is specified by the subclass."
+      }
+    },
+    "ItemHint": "Drop a subclass here",
+    "NoValidSubclass": "No valid subclass selected, press the edit button to add a subclass."
+  }
+},
+
+"KEYBINDINGS.SIMPLED20.DragCopy": "Force Copy when Dragging Document",
+"KEYBINDINGS.SIMPLED20.DragMove": "Force Move when Dragging Document",
+"KEYBINDINGS.SIMPLED20.SkipDialogNormal": "Skip Dialog",
+"KEYBINDINGS.SIMPLED20.SkipDialogAdvantage": "Skip Dialog (roll with Advantage/Critical)",
+"KEYBINDINGS.SIMPLED20.SkipDialogDisadvantage": "Skip Dialog (roll with Disadvantage/Non-Critical)",
+
+"MACRO.SimpleD20MissingTargetWarn": "Your controlled actor '{actor}' does not have an {type} with name '{name}'.",
+"MACRO.SimpleD20MultipleTargetsWarn": "Your controlled actor '{actor}' has more than one {type} with name '{name}'. The first match will be chosen.",
+"MACRO.SimpleD20NoActorSelected": "No selected or assigned actor could be found to target with macro.",
+"MACRO.SimpleD20UnownedWarn": "You can only create macro buttons for owned Items",
+
+"MIGRATION.SimpleD20Begin": "Applying D&D SimpleD20 System Migration for version {version}. Please be patient and do not close your game or shut down your server.",
+"MIGRATION.SimpleD20Complete": "D&D SimpleD20 System Migration to version {version} completed!",
+"MIGRATION.SimpleD20VersionTooOldWarning": "Your D&D SimpleD20 system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur.",
+
+"SETTINGS.SimpleD20AllowPolymorphingL": "Allow players to polymorph their own actors.",
+"SETTINGS.SimpleD20AllowPolymorphingN": "Allow Polymorphing",
+"SETTINGS.SimpleD20AutoCollapseCardL": "Automatically collapse Item Card descriptions in the Chat Log",
+"SETTINGS.SimpleD20AutoCollapseCardN": "Collapse Item Cards in Chat",
+"SETTINGS.SimpleD20AutoSpellTemplateL": "When a spell is cast, defaults to begin the process to create the corresponding Measured Template if any (requires TRUSTED or higher player role)",
+"SETTINGS.SimpleD20AutoSpellTemplateN": "Always place Spell Template",
+"SETTINGS.SimpleD20NoAdvancementsN": "Disable level-up automation",
+"SETTINGS.SimpleD20NoAdvancementsL": "Do not prompt for level-up or character creation choices.",
+"SETTINGS.SimpleD20NoConcentrationN": "Disable concentration tracking",
+"SETTINGS.SimpleD20NoConcentrationL": "Disable the system's automated tracking of concentration.",
+"SETTINGS.SimpleD20GridAlignedSquareTemplatesL": "When square templates are created as the result of casting a spell or using an item, they will be locked to the grid alignment and unable to be rotated.",
+"SETTINGS.SimpleD20GridAlignedSquareTemplatesN": "Grid-Aligned Square Templates",
+"SETTINGS.SIMPLED20": {
+  "ALLOWSUMMONING": {
+    "Name": "Allow Summoning",
+    "Hint": "Allow players to use summoning abilities to summon actors. Players must also have the Create Token core permission for this to work."
+  },
+  "BLOODIED": {
+    "Name": "Bloodied Status",
+    "Hint": "Configure whether the bloodied status is tracked automatically and its visibility.",
+    "All": "Display for Allies & Enemies",
+    "Player": "Only Display for Allies",
+    "None": "Never Display"
+  },
+  "COLLAPSETRAYS": {
+    "Name": "Collapse Trays in Chat",
+    "Hint": "Automatically collapse damage, hit, and effect trays that appear in chat cards.",
+    "Always": "Collapse All",
+    "Older": "Collapse Older Trays",
+    "Never": "Expand All"
+  },
+  "COMBAT": {
+    "Hint": "Various configuration options that affect combat.",
+    "Label": "Configure Combat",
+    "Name": "Combat",
+    "DexTiebreaker": {
+      "Name": "Dexterity Tiebreaker",
+      "Hint": "Append the raw Dexterity ability score to break ties in Initiative."
+    },
+    "InitiativeScore": {
+      "Name": "Initiative Score",
+      "Hint": "Use a creature's initiative score (10 + bonus) rather than rolling for initiative.",
+      "All": "Use Score for Everyone",
+      "None": "Always Roll for Initiative",
+      "NPCs": "Use Score for GM NPCs"
+    }
+  },
+  "CRITICAL": {
+    "Name": "Critical Damage",
+    "MaxDice": {
+      "Name": "Maximize Dice",
+      "Hint": "Make critical hits more deadly by maximizing the values of base damage dice."
+    },
+    "MultiplyModifiers": {
+      "Name": "Multiply Modifiers",
+      "Hint": "Make critical hits more deadly by multiplying non-dice modifiers in addition to rolled dice."
+    }
+  },
+  "DEFAULTSKILLS": {
+    "Name": "Default Skills",
+    "Hint": "The default skills that appear on NPC sheets regardless of level of proficiency."
+  },
+  "General": "General",
+  "LOYALTY": {
+    "Hint": "Enable optional Loyalty tracking.",
+    "Name": "Loyalty Score"
+  },
+  "METRIC": {
+    "LengthUnits": {
+      "Name": "Use Metric Length Units",
+      "Hint": "Defaults to using meters instead of feet for movement and senses."
+    },
+    "VolumeUnits": {
+      "Name": "Use Metric Volume Units",
+      "Hint": "Defaults to using liters instead of cubic feet for container capacity."
+    },
+    "WeightUnits": {
+      "Name": "Use Metric Weight Units",
+      "Hint": "Replaces all reference to lbs with kgs and updates the encumbrance calculations to use metric weight units."
+    }
+  },
+  "NPCS": {
+    "Name": "NPCs",
+    "AutoRecharge": {
+      "Name": "Recharge Abilities",
+      "Hint": "Roll to recharge NPC abilities automatically at the start of the NPC's turn.",
+      "No": "Do not recharge automatically",
+      "Silent": "Recharge without creating chat card",
+      "Yes": "Recharge and display chat card"
+    },
+    "AutoRollNPCHP": {
+      "Name": "Hit Points",
+      "Hint": "Configure whether to roll for NPC max HP whenever a new token is created.",
+      "No": "Do not roll",
+      "Silent": "Roll without creating chat card",
+      "Yes": "Roll and create chat card"
+    }
+  },
+  "THEME": {
+    "Name": "Theme",
+    "Hint": "Theme that will apply to the UI and all sheets by default. Automatic will be determined by your browser or operating system settings."
+  },
+  "RULESVERSION": {
+    "Name": "Rules Version",
+    "Hint": "Change handling of various rules between the 2024 and 2014 rule sets.",
+    "Legacy": "Legacy Rules (2014)",
+    "Modern": "Modern Rules (2024)"
+  },
+  "VARIANT": {
+    "Hint": "Enable and configure rules variations offered by the system.",
+    "Label": "Configure Variant Rules",
+    "Name": "Variant Rules",
+    "AllowFeats": {
+      "Hint": "Allow players to choose a feat rather than taking an ability score improvement during class advancement when using the Legacy rules.",
+      "Name": "Allow Feats"
+    },
+    "CurrencyWeight": {
+      "Hint": "Carried currency affects character encumbrance.",
+      "Name": "Track Currency Weight"
+    },
+    "Encumbrance": {
+      "Hint": "Enable automatic tracking of encumbrance and the application of status effects for characters carrying too much.",
+      "Name": "Encumbrance Tracking",
+      "None": "None",
+      "Normal": "Normal (max carrying capacity)",
+      "Variant": "Variant (encumbered & heavily encumbered)"
+    },
+    "HonorScore": {
+      "Hint": "Enable the use of the optional Honor ability score.",
+      "Name": "Honor Ability Score"
+    },
+    "LevelingMode": {
+      "Hint": "Determine how the players gain new levels.",
+      "Name": "Leveling Mode",
+      "NoXP": "Level Advancement without XP",
+      "XP": "Experience Points",
+      "XPBoons": "Experience Points with Epic Boons"
+    },
+    "ProficiencyModifier": {
+      "Bonus": "PHB: Bonus (+2, +3, +4, +5, +6)",
+      "Dice": "DMG: Dice (1d4, 1d6, 1d8, 1d10, 1d12)",
+      "Hint": "Configure proficiency modifier to use a fixed bonus or a dice roll.",
+      "Name": "Proficiency Variant"
+    },
+    "Rest": {
+      "Epic": "Epic Heroism (LR: 1 hour, SR: 1 min)",
+      "Gritty": "Gritty Realism (LR: 7 days, SR: 8 hours)",
+      "Hint": "Configure which rest variant should be used for games within this system.",
+      "Name": "Rest Variant",
+      "Normal": "Player's Handbook (LR: 8 hours, SR: 1 hour)"
+    },
+    "SanityScore": {
+      "Hint": "Enable the use of the optional Sanity ability score.",
+      "Name": "Sanity Ability Score"
+    }
+  },
+  "VISIBILITY": {
+    "Hint": "Various configuration options that affect player visibility of certain information that the DM may wish to keep secret.",
+    "Label": "Configure Visibility",
+    "Name": "Visibility",
+    "Attack": {
+      "Name": "Attack Result Visibility",
+      "Hint": "Control visibility of attack roll results in chat cards for players.",
+      "All": "Show results & target ACs",
+      "HideAC": "Show only results",
+      "None": "Hide all"
+    },
+    "Challenge": {
+      "All": "Show all",
+      "Hint": "Control what roll DCs are visible to the players and whether successes/failures are highlighted.",
+      "Name": "Challenge Visibility",
+      "None": "Hide all",
+      "Player": "Show only from other players"
+    },
+    "ItemDescriptions": {
+      "Hint": "Hide the descriptions of NPC items from players when posted to chat by the DM. Will only hide the descriptions for items without a Chat Description set.",
+      "Name": "Conceal NPC Descriptions"
+    }
+  }
+},
+
+"SHEETS.SIMPLED20": {
+  "THEME": {
+    "Label": "Theme",
+    "Automatic": "Automatic",
+    "Dark": "Dark Mode",
+    "Light": "Light Mode"
+  }
+},
+
+"SOURCE.BOOK.SRD": "System Reference Document 5.1",
+"SIDEBAR.SortModePriority": "Sort by priority"
+}
