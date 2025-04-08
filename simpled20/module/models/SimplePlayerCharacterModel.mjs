@@ -1,6 +1,6 @@
-import SimpleBaseActorDataModel from "./base-actor.mjs";
+import SimpleBaseActorModel from "./SimpleBaseActorModel.mjs";
 
-export default class SimplePlayerCharacterDataModel extends SimpleBaseActorDataModel {
+export default class SimplePlayerCharacterModel extends SimpleBaseActorModel {
     static defineSchema() {
         const fields = foundry.data.fields;
         return {
@@ -15,11 +15,5 @@ export default class SimplePlayerCharacterDataModel extends SimpleBaseActorDataM
             level: new fields.NumberField({ required: true, integer: true, min: 0, initial: 0, max: 30 })
         };
     }
-    prepareDerivedData() {
-        super.prepareDerivedData();
 
-        // Clamp health within the appropriate range.
-        const { hitpoints } = this.system;
-        hitpoints.value = Math.clamp(hitpoints.value, hitpoints.min, hitpoints.max);
-    }
 }

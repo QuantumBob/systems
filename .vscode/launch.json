@@ -15,7 +15,12 @@
             "webRoot": "${workspaceFolder}",
             "runtimeArgs": [
             "--auto-open-devtools-for-tabs"
-        ]
+            ],
+            "sourceMaps": true,
+            "resolveSourceMapLocations": [
+                "${workspaceFolder}/**",
+                "!**/node_modules/**"
+            ],
         }
     ]
 }

@@ -1,8 +1,8 @@
-import SimpleBaseItemDataModel from "./base-item.mjs";
+import SimpleBaseItemModel from "./SimpleBaseItemModel.mjs";
 
 const fields = foundry.data.fields;
 
-export default class SimpleSpellDataModel extends SimpleBaseItemDataModel {
+export default class SimpleSpellModel extends SimpleBaseItemModel {
   static defineSchema() {
     return {
       ...super.defineSchema(),

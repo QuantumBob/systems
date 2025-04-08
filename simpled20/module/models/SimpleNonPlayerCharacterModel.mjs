@@ -1,8 +1,8 @@
-import SimpleBaseActorDataModel from "./base-actor.mjs";
+import SimpleBaseActorModel from "./SimpleBaseActorModel.mjs";
 
 const fields = foundry.data.fields;
 
-export default class SimpleNonPlayerCharacterDataModel extends SimpleBaseActorDataModel {
+export default class SimpleNonPlayerCharacterModel extends SimpleBaseActorModel {
     static defineSchema(){
         return {
             ...super.defineSchema()

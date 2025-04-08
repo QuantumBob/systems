@@ -2,18 +2,22 @@ export class SimpleActorSheet extends ActorSheet {
 
     //* @override */
     static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["sheet", "actor"],
-      template: "systems/simpled20/templates/actor/character-sheet.hbs",
-      width: 600,
-      height: 600,
-      tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
-    });
+        
+        return foundry.utils.mergeObject(super.defaultOptions, {
+            classes: ["simpled20"],
+            width: 600,
+            height: 600,
+            tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
+        });
   }
 
   /** @override */
   get template() {
-    return `systems/simpled20/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+    let name;
+    if (this.actor.type == "Player Character")
+        name = "pc";
+    // return `systems/simpled20/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+    return `systems/simpled20/templates/actor/actor-${name}-sheet.hbs`;
   }
 
   /** @override */
@@ -32,14 +36,14 @@ export class SimpleActorSheet extends ActorSheet {
         context.flags = actorData.flags;
 
         // Prepare character data and items.
-        if (actorData.type == 'hero') {
-            this._prepareItems(context);
-            this._prepareCharacterData(context);
+        if (actorData.type == 'Player Character') {
+            // this._prepareItems(context);
+            // this._prepareCharacterData(context);
         }
 
         // Prepare NPC data and items.
-        if (actorData.type == 'npc') {
-            this._prepareItems(context);
+        if (actorData.type == 'NonPlayer Character') {
+            // this._prepareItems(context);
         }
 
         // Add roll data for TinyMCE editors.

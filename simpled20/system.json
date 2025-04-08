@@ -25,98 +25,12 @@
     ],
     "documentTypes": {
         "Actor": {
-            "Player Character": {
-                "htmlFields": [
-                  "biography.history",
-                  "biography.married",
-                  "description.looks"
-              ]
-            },
-            "NonPlayer Character": { 
-              "htmlFields": [
-                "biography.history",
-                "biography.married",
-                "description.looks"
-              ]
-            }      
+            "Player Character": {},
+            "NonPlayer Character": {}      
         },
         "Item": {
             "weapon": {},
             "spell": {}
         }
-    },
-    "packs":[
-        {
-      "name": "classes",
-      "label": "Classes",
-      "system": "simpled20",
-      "path": "packs/classes",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "basic-abilities",
-      "label": "Basic Abilities",
-      "system": "simpled20",
-      "path": "packs/basic-abilities",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "wizard-spells",
-      "label": "Wizard Spells",
-      "system": "simpled20",
-      "path": "packs/wizard-spells",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "equipment-armor",
-      "label": "Equipment (Armor)",
-      "system": "simpled20",
-      "path": "packs/equipment-armor",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "equipment-gear",
-      "label": "Equipment (Gear)",
-      "system": "simpled20",
-      "path": "packs/equipment-gear",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "label": "Monsters - 01 Cavern Dwellers",
-      "type": "Actor",
-      "name": "monsters-01-cavern-dwellers",
-      "path": "packs/monsters-01-cavern-dwellers",
-      "system": "simpled20",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
     }
-    ]
 }

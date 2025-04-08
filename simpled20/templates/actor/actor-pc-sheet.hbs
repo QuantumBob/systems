@@ -9,11 +9,11 @@
             <div class="resources grid grid-2col">{{!-- resources here --}}</div>
             <div class="abilities grid grid-3col">{{!-- abilities here --}}</div>
             <div class="resource flex-group-center">
-                <label for="system.health.value" class="resource-label">Health</label>
+                <label for="system.hitpoints.value" class="resource-label">Health</label>
                 <div class="resource-content flexrow flex-center flex-between">
-                    <input type="text" name="system.hitpoints.value" value="{{system.hitpoints.value}}" data-dtype="Number"/>
+                    <input id="system.hitpoints.value" type="text" name="system.resources.hitpoints.value" value="{{system.resources.hitpoints.value}}" data-dtype="Number"/>
                     <span> / </span>
-                    <input type="text" name="system.hitpoints.max" value="{{system.hitpoints.max}}" data-dtype="Number"/>
+                    <input type="text" name="system.resources.hitpoints.max" value="{{system.resources.hitpoints.max}}" data-dtype="Number"/>
                 </div>
             </div>
         </div>

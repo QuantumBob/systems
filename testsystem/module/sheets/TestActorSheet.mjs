@@ -2,12 +2,13 @@ export class TestActorSheet extends ActorSheet {
 
     //* @override */
     static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      classes: ["sheet", "actor"],
-      width: 600,
-      height: 600,
-      tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
-    });
+
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        classes: ["testsystem"],
+        width: 600,
+        height: 600,
+        tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
+      });
   }
 
   /** @override */
@@ -32,7 +33,7 @@ export class TestActorSheet extends ActorSheet {
 
         // Prepare character data and items.
         if (actorData.type == 'character') {
-            this._prepareCharacterData(context);
+            // this._prepareCharacterData(context);
         }
 
         // Add roll data for TinyMCE editors.
@@ -57,8 +58,8 @@ export class TestActorSheet extends ActorSheet {
      */
     _prepareCharacterData(context) {
         // Handle translation for ability scores.
-        // for (let [k, v] of Object.entries(context.system.abilities)) {
-        //     v.label = game.i18n.localize(CONFIG.BOILERPLATE.abilities[k]) ?? k;
-        // }
+        for (let [k, v] of Object.entries(context.system.abilities)) {
+            v.label = game.i18n.localize(CONFIG.BOILERPLATE.abilities[k]) ?? k;
+        }
     }
 }

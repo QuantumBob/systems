@@ -1,5 +1,5 @@
 
-export class SystemActor extends Actor {
+export class SimpleActor extends Actor {
     async applyDamage(damage) {
         // Always take a minimum of 1 damage, and round to the nearest integer.
         damage = Math.round(Math.max(1, damage));
@@ -15,6 +15,10 @@ export class SystemActor extends Actor {
     }
 
     prepareDerivedData() {
-        console.log("in prepareDerivedData")
+        super.prepareDerivedData();
+
+        // Clamp health within the appropriate range.
+        const { hitpoints } = this.system.resources;
+        hitpoints.value = Math.clamp(hitpoints.value, hitpoints.min, hitpoints.max);
     }
 }

@@ -1,6 +1,6 @@
 const fields = foundry.data.fields;
 
-export default class SimpleBaseDataModel extends foundry.abstract.TypeDataModel {
+export default class SimpleBaseModel extends foundry.abstract.TypeDataModel {
   /**
    * Convert the schema to a plain object.
    * 
@@ -13,6 +13,10 @@ export default class SimpleBaseDataModel extends foundry.abstract.TypeDataModel 
   toPlainObject() {
     return {...this};
   }
+  // static defineSchema() {
+  //   return {...this};
+  // }
+  
 }
 
 

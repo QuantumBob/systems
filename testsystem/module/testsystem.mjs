@@ -1,5 +1,5 @@
-import { TestActor } from "./documents/TestActor.mjs";
-import { TestCharacterDataModel } from "./data/TestCharacterDataModel.mjs";
+import { TestActor } from "./documents/TestActorDoc.mjs";
+import { TestCharacterModel } from "./models/TestCharacterModel.mjs"
 import { TestActorSheet } from "./sheets/TestActorSheet.mjs";
 
 Hooks.on("init", () => {
@@ -9,7 +9,7 @@ Hooks.on("init", () => {
 
     // config System Data Models
     Object.assign(CONFIG.Actor.dataModels, {
-        character: TestCharacterDataModel
+        character: TestCharacterModel
     })
 
     CONFIG.Actor.trackableAttributes = {
@@ -26,11 +26,11 @@ Hooks.on("init", () => {
     });
 });
 
-Hooks.on("ready", async () => {
-    let actor = await TestActor.create({
-        name: "Cool Test Actor",
-        type: "character",
-        img: ""
-        });
-    console.log(actor); // The created actor data structure
-});
+// Hooks.on("ready", async () => {
+    // let actor = await TestActor.create({
+    //     name: "Cool Test Actor",
+    //     type: "character",
+    //     img: ""
+    //     });
+    // console.log(actor); // The created actor data structure
+// });

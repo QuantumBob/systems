@@ -1,3 +1,4 @@
 {
-    "TEST.SheetClassCharacter": "Default SimpleD20 Character Sheet"
+    "TEST.SheetClassCharacter": "Default Test Item Sheet",
+    "TEST.SheetClassItem": "Default Test Character Sheet"
 }
